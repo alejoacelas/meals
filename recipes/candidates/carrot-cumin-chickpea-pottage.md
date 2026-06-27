@@ -1,12 +1,12 @@
 ## Carrot, Cumin & Chickpea Pottage
-**Nutrition** 🟢 · **Effort** 🟡 (active ~12m · 1 session · ~35m total) · **Availability** 🟢 · **Taste** 🟡
+**Nutrition** 🟢 · **Effort** 🟡 (active ~14m · 1 session · ~35m total) · **Availability** 🟢 · **Taste** 🟡
 **Equipment:** one pot / knife
 **Serves:** 1–2
 
 | | |
 |---|---|
 | **Core ingredients** | carrot, canned chickpeas, onion, garlic, ground cumin, chilli flakes, extra-virgin olive oil, lemon, salt, black pepper |
-| **Time** | active ~12m · ~35m total · 1 session |
+| **Time** | active ~14m · ~35m total · 1 session |
 | **Steps** | soften onion in oil → toast garlic, cumin, chilli → add carrot, chickpeas and water, simmer soft → mash velvety against the pot → finish with lemon, olive oil, black pepper |
 
 A tomato-free, naturally sweet bowl: carrots and chickpeas simmered soft, then hand-mashed to a velvety pottage — no blender, no fuss. Comfort food that happens to be a fibre-and-protein hit.

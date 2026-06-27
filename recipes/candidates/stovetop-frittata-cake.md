@@ -1,12 +1,12 @@
 ## Stovetop Frittata Cake (onion, pepper & spinach)
-**Nutrition** 🟢 · **Effort** 🟢 (active ~15m · 1 session · ~35m total) · **Availability** 🟢 · **Taste** 🟡
+**Nutrition** 🟢 · **Effort** 🟢 (active ~15m · 1 session · ~40m total) · **Availability** 🟢 · **Taste** 🟡
 **Equipment:** one pan + lid, a plate (for the flip), knife
 **Serves:** 1–2 per sitting (makes 4–6 wedges)
 
 | | |
 |---|---|
 | **Core ingredients** | eggs, onion, bell pepper, spinach, garlic, extra-virgin olive oil, fine sea salt, black pepper, chilli flakes |
-| **Time** | active ~15m · ~35m total · 1 session |
+| **Time** | active ~15m · ~40m total · 1 session |
 | **Steps** | soften onion + pepper, then garlic + spinach → pour seasoned beaten eggs over, cover, cook low until almost set → flip onto a plate and back into the pan, finish 2–3 min → cool, cut into wedges |
 
 A thick egg cake set slowly under a lid and flipped on a plate — no oven needed — then cut into wedges you eat warm now and cold from the fridge all week. One session buys you the cleanest make-ahead protein in the catalog.

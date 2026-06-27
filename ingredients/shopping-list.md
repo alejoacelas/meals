@@ -33,6 +33,7 @@ quantities — tune to appetite. Grows as more categories get promoted.
 - Tinned mackerel — 3 tins
 - Chickpeas — 4–5 tins
 - Red split lentils — 1 bag (500 g)
+- Hummus — 1–2 tubs
 
 ## Cupboard
 - Pasta, fusilli/penne — 2 × 500 g
@@ -45,6 +46,20 @@ quantities — tune to appetite. Grows as more categories get promoted.
 - Wholemeal / seeded sliced bread — 1 loaf
 - Wholemeal wraps — 1 pack
 - Wholemeal pita — 1 pack
+
+## Nuts & seeds
+- Peanut butter — 1 jar
+- Almonds — 1 bag
+- Pumpkin seeds — 1 bag
+- Ground flaxseed — 1 bag
+- Chia seeds — 1 bag
+
+## Condiments & umami
+- Soy sauce (reduced-salt) — 1 bottle
+- Tomato purée — 1 tube/jar
+- Stock / bouillon paste — 1 tub
+- Miso — 1 tub
+- Fish sauce — 1 bottle
 
 ## Spices — a starter rack (proven but not yet reviewed)
 Buy the set once; it lasts ages. How to use them: `notes/using-spices.md`.

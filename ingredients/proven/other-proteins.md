@@ -13,6 +13,7 @@ and on going from package to plate with little or no cooking.
 | 3 | Tinned sardines | Nutritional powerhouse with no cooking; only the strong flavour holds it off the top. | 🟢 on toast, salad, pasta, mashed | 🟢 open tin, no cook | 🟢 | 🟢 omega-3, vit D, calcium (bones), B12, selenium |
 | 4 | Tinned mackerel | Sardine-level oily-fish nutrition, slightly milder, sold everywhere. | 🟡 on toast, salad, fishcakes | 🟢 open tin, no cook | 🟢 | 🟢 omega-3, vit D, B12, selenium |
 | 5 | Firm tofu | Versatile plant protein; pick a calcium-set brand and it just needs a quick fry. | 🟢 stir-fry, curry, scramble, soup | 🟡 pat dry, pan-fry 6–8 min | 🟢 | 🟢 plant protein, calcium (if calcium-set), iron, manganese |
+| 6 | Hummus | The ready chickpea-and-tahini dip — no-cook plant protein and healthy fat; spreads on the proven bread or scoops with raw veg. | 🟢 dip, spread, sandwich, bowl | 🟢 spoon from tub, no cook | 🟢 | 🟢 plant protein, fibre, iron, healthy fats |
 
 **Notes:**
 - Rotate the oily fish (sardines, mackerel) for omega-3 and bone-in calcium.

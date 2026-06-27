@@ -17,8 +17,11 @@ workflow's recommendation, still pending my review of `../candidates/`.
 - **Vegetables** — spinach, kale, tomato, mushroom, bell pepper, broccoli, carrot, cabbage, pak choi · `vegetables.md`
 - **Fruits** — banana, avocado, frozen mixed berries, orange, apple, strawberries, grapes · `fruits.md`
 - **Legumes** — canned chickpeas, red split lentils · `legumes-and-beans.md`
-- **Proteins** — eggs, Greek yoghurt, tinned sardines, tinned mackerel, firm tofu · `other-proteins.md`
+- **Proteins** — eggs, Greek yoghurt, tinned sardines, tinned mackerel, firm tofu, hummus · `other-proteins.md`
 - **Bread & wraps** — wholemeal/seeded bread, wholemeal wraps, wholemeal pita · `bread-and-wraps.md`
+- **Nuts & seeds** — peanut butter, almonds, pumpkin seeds · `nuts-and-seeds.md`
+- **Condiments & umami** — soy sauce, tomato purée, stock paste, miso, fish sauce · `condiments-and-umami.md`
+- **Nutrition add-ons** — ground flaxseed, chia · `nutrition-powerhouses.md`
 
 **Still to review:** plain salt. Spices are in as a set, unreviewed.
 

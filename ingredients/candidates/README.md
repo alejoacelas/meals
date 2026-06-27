@@ -6,11 +6,11 @@ The go-tos for each decided category live in `../proven/`.
 **Decided so far:** oils & fats · aromatics · grains & starches (pasta + rolled
 oats) · vegetables (all but courgette) · fruits (most) · legumes (chickpeas + red
 lentils) · other proteins (eggs, Greek yoghurt, sardines, mackerel, tofu) · acids
-(lemon + red wine vinegar) · bread & wraps (top 3). Spices were moved to proven as a
-set, **unreviewed**.
+(lemon + red wine vinegar) · bread & wraps (top 3) · nuts & seeds (peanut butter,
+almonds, pumpkin seeds) · hummus · condiments & umami (top 5) · nutrition
+powerhouses (flax + chia). Spices were moved to proven as a set, **unreviewed**.
 
-**Still to review:** condiments & umami, nuts & seeds, and nutrition powerhouses —
-fresh candidate tables, nothing promoted yet. (Plus plain salt.)
+**Still to review:** just plain salt — every other category has been reviewed.
 
 ## Tables
 `vegetables.md` · `fruits.md` · `legumes-and-beans.md` · `other-proteins.md` ·

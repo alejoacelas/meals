@@ -1,12 +1,12 @@
 ## Cumin Pepper, Carrot & Chickpea Stir-fry
-**Nutrition** 🟢 · **Effort** 🟡 (active ~13m · 1 session · ~18m total) · **Availability** 🟢 · **Taste** 🟢
+**Nutrition** 🟢 · **Effort** 🟡 (active ~14m · 1 session · ~20m total) · **Availability** 🟢 · **Taste** 🟢
 **Equipment:** one pan / knife
 **Serves:** 1–2
 
 | | |
 |---|---|
 | **Core ingredients** | bell pepper, carrot, canned chickpeas, garlic, onion, ground cumin, chilli flakes, rapeseed oil, red wine vinegar, fine sea salt, black pepper |
-| **Time** | active ~13m · ~18m total · 1 session |
+| **Time** | active ~14m · ~20m total · 1 session |
 | **Steps** | dry-fry chickpeas crisp → blister peppers and carrots hard in oil → add onion, garlic, cumin, chilli → return chickpeas, splash of vinegar, salt, pepper |
 
 A Xinjiang-leaning stir-fry: peppers and carrots blistered hard, crisp-edged chickpeas, and a heavy hand of cumin and chilli. Vegan, fast, and a real protein-and-fibre hit.
