@@ -29,9 +29,13 @@ built from the `meals` snapshot — *Salt Fat Acid Heat* turned into software.
    who knows the name sees the same kitchen — that's the sharing model, on purpose.
 
 6. **Basket → shopping list.** Add a recipe's ingredients to the basket in one
-   tap; check off what you already have. Seed the basket from two presets: the
-   **Core kit** (the minimal best-per-category list) or the **Full list** (a week
-   for two).
+   tap; check off what you already have. Every item shows which recipe(s) it's
+   for, overlapping ingredients merge into one line, and each recipe carries a
+   **batch** count (×N) that annotates how much to buy. Seed the basket from two
+   presets: the **Core kit** (minimal best-per-category) or the **Full list** (a
+   week for two). The **Empty** action sits at the top, not buried at the bottom.
+   *Amounts are the recipe's own ("2–3 handfuls"); batches multiply intent, not
+   parsed quantities — true scaling would need structured amounts in the catalog.*
 
 7. **Two depths, never more.** Where there's a "more/less," it's always the same
    two: **Core** (minimal, best-scoring) and **Full**. Recipes have a ⭐ **Best**
@@ -48,7 +52,11 @@ built from the `meals` snapshot — *Salt Fat Acid Heat* turned into software.
 - **Three places only:** Recipes · Ingredients · Basket. Saved recipes and the
   ⭐ Best / meal-time filters live *inside* Recipes, not as extra tabs.
 - **Filters are light:** meal time (All · Breakfast · Mains) and ⭐ Best, plus
-  search. Diet is global, not a per-list filter.
+  search. Diet is global, not a per-list filter. The recipe-card score dots have
+  a one-line legend so they read on landing.
+- **Ingredients in a few groups:** six buckets, not fourteen, with a sticky chip
+  bar at the top to jump straight to one — see everything without scrolling.
+- **Light theme**, tuned so bars, cards and page are clearly distinct.
 - **Name chip** sits top-corner everywhere; tap it to change name or diet.
 
 ## How the data flows

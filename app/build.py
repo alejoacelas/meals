@@ -133,6 +133,26 @@ CATEGORY_ORDER = [
     "condiments-and-umami", "spices-and-dried-herbs", "seasoning",
 ]
 
+# Coarse groups for the Ingredients view — fewer, scannable buckets. The fine
+# category is kept on each ingredient (basket aisle, page tag); these just group
+# the list. Order within a group follows CATEGORY_ORDER above.
+GROUP_OF = {
+    "vegetables": "veg",
+    "fruits": "fruit",
+    "legumes-and-beans": "protein", "other-proteins": "protein",
+    "grains-and-starches": "grains", "bread-and-wraps": "grains",
+    "nuts-and-seeds": "nuts", "nutrition-powerhouses": "nuts",
+    "oils-and-fats": "pantry", "acids": "pantry", "aromatics": "pantry",
+    "condiments-and-umami": "pantry", "spices-and-dried-herbs": "pantry",
+    "seasoning": "pantry",
+}
+GROUP_ORDER = ["veg", "fruit", "protein", "grains", "nuts", "pantry"]
+GROUP_LABELS = {
+    "veg": "Vegetables", "fruit": "Fruit", "protein": "Proteins & beans",
+    "grains": "Grains & bread", "nuts": "Nuts & seeds",
+    "pantry": "Oils, acids & seasoning",
+}
+
 
 def slugify(name):
     s = name.lower()
@@ -563,12 +583,12 @@ def main():
         return (ci, 0 if ing["core"] else 1, ing["name"].lower())
     ing_list = sorted(ingredients.values(), key=ing_sort_key)
 
-    categories = []
-    for cat in CATEGORY_ORDER:
-        items = [i["slug"] for i in ing_list if i["category"] == cat]
+    # coarse groups for the ingredients view (ing_list is already in fine order)
+    groups = []
+    for g in GROUP_ORDER:
+        items = [i["slug"] for i in ing_list if GROUP_OF.get(i["category"]) == g]
         if items:
-            categories.append({"slug": cat, "label": CATEGORY_LABELS.get(cat, cat),
-                               "description": cat_desc.get(cat, ""), "items": items})
+            groups.append({"slug": g, "label": GROUP_LABELS[g], "items": items})
 
     # snapshot manifest
     sources = []
@@ -585,7 +605,8 @@ def main():
         },
         "recipes": recipes,
         "ingredients": ing_list,
-        "categories": categories,
+        "groups": groups,
+        "categoryLabels": CATEGORY_LABELS,
         "coreKit": [i["slug"] for i in ing_list if i["core"]],
         "shoppingList": parse_shopping_list(),
         "spiceNotes": parse_spice_notes(),

@@ -9,12 +9,13 @@
   // ---- lookups ----
   const recBySlug = Object.fromEntries(D.recipes.map(r => [r.slug, r]));
   const ingBySlug = Object.fromEntries(D.ingredients.map(i => [i.slug, i]));
-  const catLabel = Object.fromEntries(D.categories.map(c => [c.slug, c.label]));
-  catLabel["seasoning"] = catLabel["seasoning"] || "Seasoning";
+  const catLabel = Object.assign({ seasoning: "Seasoning" }, D.categoryLabels || {});
   const ANIMAL_WORDS = ["egg", "yoghurt", "yogurt", "sardine", "mackerel", "fish sauce", "honey", "greek"];
 
   // ---- state ----
-  let S = { username: "", diet: null, saved: [], basket: {} };
+  // basket: { id: {label, aisle, have, sources:[ "recipe:<slug>" | "manual" | "core" | "full" ]} }
+  // cart:   { recipeSlug: {batches} }  — recipes you've added, for attribution + batch counts
+  let S = { username: "", diet: null, saved: [], basket: {}, cart: {} };
   let filters = { meal: "all", best: false, saved: false, q: "" };
   let remoteTimer = null;
 
@@ -29,9 +30,12 @@
     S.diet = p.diet || S.diet;
     S.saved = Array.isArray(p.saved) ? p.saved : [];
     S.basket = (p.basket && typeof p.basket === "object") ? p.basket : {};
+    S.cart = (p.cart && typeof p.cart === "object") ? p.cart : {};
+    // migrate older baskets that predate source tracking
+    Object.values(S.basket).forEach(it => { if (!Array.isArray(it.sources)) it.sources = ["manual"]; });
   }
   function persist() {
-    const p = { diet: S.diet, saved: S.saved, basket: S.basket, updatedAt: Date.now() };
+    const p = { diet: S.diet, saved: S.saved, basket: S.basket, cart: S.cart, updatedAt: Date.now() };
     try {
       localStorage.setItem(keyFor(S.username), JSON.stringify(p));
       localStorage.setItem("meals:last", JSON.stringify({ username: S.username, diet: S.diet }));
@@ -140,6 +144,13 @@
         </div>
       </div>
       <p class="result-count">${list.length} recipe${list.length === 1 ? "" : "s"}${isVegan() ? " · vegan" : ""}</p>
+      <div class="legend">
+        <span>The dots:</span>
+        <span class="lg"><span class="dot great"></span>nutrition</span>
+        <span class="lg"><span class="dot ok"></span>effort</span>
+        <span class="lg"><span class="dot weak"></span>taste</span>
+        <span class="sep">green great · amber ok · red weak</span>
+      </div>
       <div class="cards">${list.map(recipeCard).join("") || emptyState("🍃", "No recipes match. Loosen a filter.")}</div>`;
     view.innerHTML = html;
     const rq = $("#rq");
@@ -156,7 +167,7 @@
     if (!r) return notFound();
     setTitle(""); setBack(true); setTab("recipes");
     const adaptable = isVegan() && statusOf(r) === "adaptable" && r.veganVariant;
-    const inBasket = recipeInBasket(r);
+    const inBasket = recipeInCart(r.slug);
     const chips = r.uses.map(s => {
       const i = ingBySlug[s]; if (!i || !ingredientAllowed(i)) return "";
       return `<a class="ing-chip" href="#/ingredient/${i.slug}">${esc(i.name)} <span class="x">›</span></a>`;
@@ -208,14 +219,18 @@
 
   function viewIngredients() {
     setTitle("Ingredients"); setBack(false); setTab("ingredients");
-    let html = `<h1 class="large-title">Ingredients</h1>
-      <p class="result-count">The proven kit${isVegan() ? " · vegan" : ""} — tap any to see where it's used.</p>`;
-    D.categories.forEach(c => {
-      const items = c.items.map(s => ingBySlug[s]).filter(i => i && ingredientAllowed(i));
-      if (!items.length) return;
-      html += `<div class="section-title">${esc(c.label)}</div>`;
-      if (c.description) html += `<p class="cat-desc">${esc(capitalize(c.description))}</p>`;
-      html += `<div class="ing-list">` + items.map(i => {
+    const groups = (D.groups || []).map(g => ({
+      slug: g.slug, label: g.label,
+      list: g.items.map(s => ingBySlug[s]).filter(i => i && ingredientAllowed(i)),
+    })).filter(g => g.list.length);
+    let html = `<h1 class="large-title">Ingredients</h1>`;
+    html += `<div class="jump-bar">` + groups.map(g =>
+      `<button class="jump-chip" data-action="jump" data-group="${g.slug}">${esc(g.label)}<span class="jc-count">${g.list.length}</span></button>`
+    ).join("") + `</div>`;
+    html += `<p class="result-count">The proven kit${isVegan() ? " · vegan" : ""} — tap any for tips, swaps and where it's used.</p>`;
+    groups.forEach(g => {
+      html += `<div class="section-title" id="grp-${g.slug}">${esc(g.label)}</div>`;
+      html += `<div class="ing-list">` + g.list.map(i => {
         const n = (i.usedIn || []).filter(rs => recipeAllowed(recBySlug[rs])).length;
         return `<a class="ing-item" href="#/ingredient/${i.slug}">
           <span class="name">${esc(i.name)}${i.core ? ` <span class="tag">core</span>` : ""}</span>
@@ -255,65 +270,113 @@
     const items = Object.entries(S.basket).map(([id, v]) => ({ id, ...v }));
     const need = items.filter(i => !i.have);
     const have = items.filter(i => i.have);
-    const groups = {};
-    need.forEach(i => { (groups[i.aisle] = groups[i.aisle] || []).push(i); });
-    const aisleOrder = D.shoppingList.map(g => g.title).concat(Object.values(catLabel));
-    const sortedAisles = Object.keys(groups).sort((a, b) => idx(aisleOrder, a) - idx(aisleOrder, b));
+    const cartRecipes = Object.keys(S.cart).map(s => recBySlug[s]).filter(Boolean);
 
-    let html = `<h1 class="large-title">Basket</h1>
+    let html = `<div class="basket-head"><h1 class="large-title" style="margin:0">Basket</h1>
+      ${items.length ? `<button class="link-btn" data-action="clear-basket">Empty</button>` : ""}</div>
       <div class="basket-presets">
         <button class="preset-btn" data-action="add-core">
-          <div class="pt">＋ Core kit</div><div class="ps">The minimal best-per-category shop</div></button>
+          <div class="pt">＋ Core kit</div><div class="ps">Minimal best-per-category</div></button>
         <button class="preset-btn" data-action="add-full">
           <div class="pt">＋ Full list</div><div class="ps">A week for two</div></button>
       </div>`;
 
+    if (cartRecipes.length) {
+      html += `<div class="section-title">Recipes</div>`;
+      cartRecipes.forEach(r => {
+        const b = (S.cart[r.slug] || {}).batches || 1;
+        html += `<div class="cart-recipe">
+          <div class="cr-main"><a class="cr-title" href="#/recipe/${r.slug}">${esc(r.title)}</a>
+            <div class="cr-sub">serves ${esc(r.serves || "1–2")}${b > 1 ? ` · ${b} batches` : ""}</div></div>
+          <div class="stepper">
+            <button data-action="batch-dec" data-slug="${r.slug}" ${b <= 1 ? "disabled" : ""}>−</button>
+            <span class="sv">×${b}</span>
+            <button data-action="batch-inc" data-slug="${r.slug}">＋</button></div>
+          <button class="cr-remove" data-action="rm-recipe" data-slug="${r.slug}" aria-label="Remove recipe">×</button>
+        </div>`;
+      });
+    }
+
     if (!items.length) {
       html += emptyState("🛒", "Your basket is empty. Add a recipe, or tap a preset above.");
     } else {
+      const groups = {};
+      need.forEach(i => { (groups[i.aisle] = groups[i.aisle] || []).push(i); });
+      const aisleOrder = D.shoppingList.map(g => g.title).concat(Object.values(catLabel));
+      const sortedAisles = Object.keys(groups).sort((a, b) => idx(aisleOrder, a) - idx(aisleOrder, b));
+      html += `<div class="section-title">To buy${need.length ? ` · ${need.length}` : ""}</div>`;
+      if (!need.length) html += `<p class="result-count" style="margin-left:4px">All ticked off 🎉</p>`;
       sortedAisles.forEach(a => {
-        html += `<div class="section-title basket-group-title"><span>${esc(a)}</span></div>
+        html += `<div class="section-title" style="margin-top:14px">${esc(a)}</div>
           <div class="check-list">` + groups[a].map(checkRow).join("") + `</div>`;
       });
       if (have.length) {
-        html += `<div class="section-title basket-group-title"><span>Got it (${have.length})</span>
+        html += `<div class="section-title basket-group-title" style="margin-top:18px"><span>Got it (${have.length})</span>
           <button class="link-btn" data-action="clear-have">Clear</button></div>
           <div class="check-list">` + have.map(checkRow).join("") + `</div>`;
       }
-      html += `<div style="text-align:center;margin-top:8px"><button class="link-btn" data-action="clear-basket">Empty basket</button></div>`;
     }
     view.innerHTML = html;
   }
   function checkRow(i) {
     return `<div class="check-item ${i.have ? "done" : ""}">
       <button class="check-box" data-action="toggle-have" data-id="${esc(i.id)}">${i.have ? "✓" : ""}</button>
-      <span class="ci-label">${esc(i.label)}</span>
+      <div class="ci-main"><div class="ci-label">${esc(i.label)}</div>
+        <div class="ci-source">${esc(itemSourcesText(i))}</div></div>
       <button class="ci-remove" data-action="rm-item" data-id="${esc(i.id)}" aria-label="Remove">×</button>
     </div>`;
   }
+  function itemSourcesText(it) {
+    const srcs = (it.sources && it.sources.length) ? it.sources : ["manual"];
+    const seen = [];
+    srcs.forEach(s => {
+      let label;
+      if (s.indexOf("recipe:") === 0) {
+        const slug = s.slice(7), r = recBySlug[slug], b = (S.cart[slug] || {}).batches || 1;
+        label = (r ? r.title : "a recipe") + (b > 1 ? ` ×${b}` : "");
+      } else label = { manual: "added on its own", core: "core kit", full: "week list" }[s] || s;
+      if (seen.indexOf(label) < 0) seen.push(label);
+    });
+    return seen.join(" · ");
+  }
 
   // ---------- basket ops ----------
-  function addItem(id, label, aisle, isIng) {
-    if (!S.basket[id]) S.basket[id] = { label, aisle, have: false, ing: !!isIng };
+  function addItem(id, label, aisle, source) {
+    const it = S.basket[id];
+    if (it) {
+      if (!Array.isArray(it.sources)) it.sources = [];
+      if (source && it.sources.indexOf(source) < 0) it.sources.push(source);
+    } else {
+      S.basket[id] = { label, aisle, have: false, sources: source ? [source] : [] };
+    }
   }
-  function recipeInBasket(r) {
-    const need = r.uses.map(s => ingBySlug[s]).filter(i => i && ingredientAllowed(i));
-    return need.length > 0 && need.every(i => S.basket[i.slug]);
-  }
+  function recipeInCart(slug) { return !!S.cart[slug]; }
   function addRecipe(r) {
+    if (!S.cart[r.slug]) S.cart[r.slug] = { batches: 1 };
     r.uses.forEach(s => {
       const i = ingBySlug[s]; if (!i || !ingredientAllowed(i)) return;
-      addItem(i.slug, i.name, catLabel[i.category] || "Other", true);
+      addItem(i.slug, i.name, catLabel[i.category] || "Other", "recipe:" + r.slug);
     });
   }
-  function removeRecipe(r) { r.uses.forEach(s => { if (S.basket[s] && S.basket[s].ing) delete S.basket[s]; }); }
+  function removeRecipe(slug) {
+    delete S.cart[slug];
+    Object.keys(S.basket).forEach(id => {
+      const it = S.basket[id];
+      it.sources = (it.sources || []).filter(x => x !== "recipe:" + slug);
+      if (!it.sources.length) delete S.basket[id];
+    });
+  }
+  function setBatches(slug, n) {
+    if (!S.cart[slug]) return;
+    S.cart[slug].batches = Math.max(1, Math.min(9, n));
+  }
   function addCoreKit() {
-    D.coreKit.forEach(s => { const i = ingBySlug[s]; if (i && ingredientAllowed(i)) addItem(i.slug, i.name, catLabel[i.category] || "Other", true); });
+    D.coreKit.forEach(s => { const i = ingBySlug[s]; if (i && ingredientAllowed(i)) addItem(i.slug, i.name, catLabel[i.category] || "Other", "core"); });
   }
   function addFullList() {
     D.shoppingList.forEach(g => g.items.forEach(it => {
       if (isVegan() && textIsAnimal(it)) return;
-      addItem("full:" + slugifyText(it), it, g.title, false);
+      addItem("full:" + slugifyText(it), it, g.title, "full");
     }));
   }
 
@@ -383,22 +446,31 @@
     if (act === "seg") { filters[a.dataset.group] = a.dataset.val; viewRecipes(); return; }
     if (act === "f-best") { filters.best = !filters.best; viewRecipes(); return; }
     if (act === "f-saved") { filters.saved = !filters.saved; viewRecipes(); return; }
+    if (act === "jump") {
+      e.preventDefault();
+      const el = document.getElementById("grp-" + a.dataset.group);
+      if (el) el.scrollIntoView({ block: "start" });
+      return;
+    }
     if (act === "add-recipe") {
       const r = recBySlug[a.dataset.slug];
-      recipeInBasket(r) ? removeRecipe(r) : addRecipe(r);
+      recipeInCart(r.slug) ? removeRecipe(r.slug) : addRecipe(r);
       persist(); updateBasketBadge(); viewRecipe(r.slug); return;
     }
     if (act === "add-ing") {
       const i = ingBySlug[a.dataset.slug];
-      if (S.basket[i.slug]) delete S.basket[i.slug]; else addItem(i.slug, i.name, catLabel[i.category] || "Other", true);
+      if (S.basket[i.slug]) delete S.basket[i.slug]; else addItem(i.slug, i.name, catLabel[i.category] || "Other", "manual");
       persist(); updateBasketBadge(); viewIngredient(i.slug); return;
     }
     if (act === "add-core") { addCoreKit(); persist(); viewBasket(); updateBasketBadge(); return; }
     if (act === "add-full") { addFullList(); persist(); viewBasket(); updateBasketBadge(); return; }
+    if (act === "batch-inc") { setBatches(a.dataset.slug, ((S.cart[a.dataset.slug] || {}).batches || 1) + 1); persist(); viewBasket(); return; }
+    if (act === "batch-dec") { setBatches(a.dataset.slug, ((S.cart[a.dataset.slug] || {}).batches || 1) - 1); persist(); viewBasket(); return; }
+    if (act === "rm-recipe") { removeRecipe(a.dataset.slug); persist(); viewBasket(); updateBasketBadge(); return; }
     if (act === "toggle-have") { const it = S.basket[a.dataset.id]; if (it) { it.have = !it.have; persist(); viewBasket(); updateBasketBadge(); } return; }
     if (act === "rm-item") { delete S.basket[a.dataset.id]; persist(); viewBasket(); updateBasketBadge(); return; }
     if (act === "clear-have") { Object.entries(S.basket).forEach(([k, v]) => { if (v.have) delete S.basket[k]; }); persist(); viewBasket(); updateBasketBadge(); return; }
-    if (act === "clear-basket") { S.basket = {}; persist(); viewBasket(); updateBasketBadge(); return; }
+    if (act === "clear-basket") { S.basket = {}; S.cart = {}; persist(); viewBasket(); updateBasketBadge(); return; }
   });
   function toggleSave(slug) {
     const i = S.saved.indexOf(slug);

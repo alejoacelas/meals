@@ -2,7 +2,7 @@
 window.MEALS_DATA = {
  "snapshot": {
   "date": "2026-06-27",
-  "builtAt": "2026-06-27T19:36:19+00:00",
+  "builtAt": "2026-06-27T20:02:46+00:00",
   "recipeCount": 44,
   "ingredientCount": 59,
   "sources": [
@@ -5985,11 +5985,10 @@ window.MEALS_DATA = {
    "storage": "Store in a sealed jar away from the hob and steam — it lasts indefinitely but clumps badly if moisture gets in."
   }
  ],
- "categories": [
+ "groups": [
   {
-   "slug": "vegetables",
+   "slug": "veg",
    "label": "Vegetables",
-   "description": "",
    "items": [
     "spinach",
     "tomato",
@@ -6004,9 +6003,8 @@ window.MEALS_DATA = {
    ]
   },
   {
-   "slug": "fruits",
-   "label": "Fruits",
-   "description": "",
+   "slug": "fruit",
+   "label": "Fruit",
    "items": [
     "banana",
     "apple",
@@ -6018,19 +6016,11 @@ window.MEALS_DATA = {
    ]
   },
   {
-   "slug": "legumes-and-beans",
-   "label": "Legumes & beans",
-   "description": "",
+   "slug": "protein",
+   "label": "Proteins & beans",
    "items": [
     "canned-chickpeas",
-    "red-split-lentils"
-   ]
-  },
-  {
-   "slug": "other-proteins",
-   "label": "Proteins",
-   "description": "",
-   "items": [
+    "red-split-lentils",
     "eggs",
     "firm-tofu",
     "greek-yoghurt",
@@ -6040,87 +6030,42 @@ window.MEALS_DATA = {
    ]
   },
   {
-   "slug": "grains-and-starches",
-   "label": "Grains & starches",
-   "description": "",
+   "slug": "grains",
+   "label": "Grains & bread",
    "items": [
     "rolled-oats",
-    "pasta"
-   ]
-  },
-  {
-   "slug": "bread-and-wraps",
-   "label": "Bread & wraps",
-   "description": "",
-   "items": [
+    "pasta",
     "seeded-bread",
     "wholemeal-pita",
     "wholemeal-wrap"
    ]
   },
   {
-   "slug": "nuts-and-seeds",
+   "slug": "nuts",
    "label": "Nuts & seeds",
-   "description": "",
    "items": [
     "peanut-butter",
     "almonds",
-    "pumpkin-seeds"
-   ]
-  },
-  {
-   "slug": "nutrition-powerhouses",
-   "label": "Nutrition add-ons",
-   "description": "",
-   "items": [
+    "pumpkin-seeds",
     "chia-seeds",
     "ground-flaxseed"
    ]
   },
   {
-   "slug": "oils-and-fats",
-   "label": "Oils & fats",
-   "description": "",
+   "slug": "pantry",
+   "label": "Oils, acids & seasoning",
    "items": [
     "olive-oil",
-    "rapeseed-oil"
-   ]
-  },
-  {
-   "slug": "acids",
-   "label": "Acids",
-   "description": "",
-   "items": [
+    "rapeseed-oil",
     "lemon",
-    "red-wine-vinegar"
-   ]
-  },
-  {
-   "slug": "aromatics",
-   "label": "Aromatics",
-   "description": "",
-   "items": [
+    "red-wine-vinegar",
     "garlic",
-    "onion"
-   ]
-  },
-  {
-   "slug": "condiments-and-umami",
-   "label": "Condiments & umami",
-   "description": "",
-   "items": [
+    "onion",
     "fish-sauce",
     "miso",
     "soy-sauce",
     "stock-paste",
-    "tomato-puree"
-   ]
-  },
-  {
-   "slug": "spices-and-dried-herbs",
-   "label": "Spices & dried herbs",
-   "description": "",
-   "items": [
+    "tomato-puree",
     "black-pepper",
     "ground-cumin",
     "bay-leaves",
@@ -6132,18 +6077,27 @@ window.MEALS_DATA = {
     "ground-coriander",
     "ground-ginger",
     "turmeric",
-    "smoked-paprika"
-   ]
-  },
-  {
-   "slug": "seasoning",
-   "label": "Seasoning",
-   "description": "",
-   "items": [
+    "smoked-paprika",
     "fine-sea-salt"
    ]
   }
  ],
+ "categoryLabels": {
+  "oils-and-fats": "Oils & fats",
+  "aromatics": "Aromatics",
+  "grains-and-starches": "Grains & starches",
+  "acids": "Acids",
+  "vegetables": "Vegetables",
+  "fruits": "Fruits",
+  "legumes-and-beans": "Legumes & beans",
+  "other-proteins": "Proteins",
+  "nuts-and-seeds": "Nuts & seeds",
+  "nutrition-powerhouses": "Nutrition add-ons",
+  "bread-and-wraps": "Bread & wraps",
+  "condiments-and-umami": "Condiments & umami",
+  "spices-and-dried-herbs": "Spices & dried herbs",
+  "seasoning": "Seasoning"
+ },
  "coreKit": [
   "spinach",
   "tomato",
