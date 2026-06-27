@@ -1,0 +1,8 @@
+name = "meals-sync"
+main = "worker.js"
+compatibility_date = "2025-01-01"
+
+# Paste the id printed by `npx wrangler kv namespace create KITCHENS` here.
+[[kv_namespaces]]
+binding = "KITCHENS"
+id = "REPLACE_WITH_YOUR_KV_NAMESPACE_ID"

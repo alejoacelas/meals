@@ -1,0 +1,382 @@
+{
+ "_meta": {
+  "generatedBy": "meals-app-content workflow (wf_03977090-613)",
+  "snapshotDate": "2026-06-27",
+  "note": "Authored overlay merged by build.py onto the catalog. Regenerate via the workflow; hand-edits are fine."
+ },
+ "items": [
+  {
+   "slug": "apple-cinnamon-toasted-almond-oats",
+   "veganStatus": "adaptable",
+   "veganVariant": {
+    "note": "One ingredient swap — the Greek yoghurt finish — makes this fully vegan; everything else is already plant-based.",
+    "swaps": [
+     "replace the 2–3 tbsp Greek yoghurt with plain plant yoghurt (oat or soy gives the closest tang)"
+    ],
+    "coreIngredients": [
+     "rolled oats",
+     "water",
+     "apple",
+     "ground cinnamon",
+     "ground ginger",
+     "almonds",
+     "plain plant yoghurt",
+     "fine sea salt"
+    ]
+   }
+  },
+  {
+   "slug": "black-pepper-mushroom-pak-choi-egg",
+   "veganStatus": "adaptable",
+   "veganVariant": {
+    "note": "The mushroom-pak choi-black pepper base is the dish; tofu replaces the egg for protein and a tahini-vinegar drizzle replaces the yolk sauce.",
+    "swaps": [
+     "Replace the 2–3 eggs with 200g firm tofu, pressed and sliced 1cm thick",
+     "Fry the tofu in the same hot oiled pan — leave it alone until deeply golden, ~3–4 min per side, before flipping",
+     "Mix 1 tbsp tahini with 1 tbsp water and a splash of red wine vinegar; drizzle over the finished dish in place of the broken yolk"
+    ],
+    "coreIngredients": [
+     "mushroom",
+     "pak choi",
+     "firm tofu",
+     "garlic",
+     "rapeseed oil",
+     "black pepper",
+     "fine sea salt",
+     "red wine vinegar",
+     "tahini"
+    ],
+    "steps": "hard-brown mushrooms in oil, season hard with black pepper → add garlic and pak choi (stems then leaves) with a splash of water, wilt, hit with vinegar → fry tofu slices until deeply golden both sides → slide over veg, drizzle tahini-vinegar sauce, finish with pepper and vinegar"
+   }
+  },
+  {
+   "slug": "charred-cabbage-egg-pan",
+   "veganStatus": "adaptable",
+   "veganVariant": {
+    "note": "Crumbled firm tofu replaces the eggs, keeping the lift-out-and-fold-back structure; the result is golden and protein-rich rather than glossy-soft.",
+    "swaps": [
+     "Replace the 3 eggs with 200g firm tofu, drained and crumbled into large chunks — cook in hot oil, stirring, until the edges turn golden (~3 min), then lift out and proceed exactly as written",
+     "Season the tofu with a pinch of turmeric alongside the salt for colour"
+    ],
+    "coreIngredients": [
+     "cabbage",
+     "firm tofu (200g)",
+     "garlic",
+     "rapeseed oil",
+     "chilli flakes",
+     "red wine vinegar",
+     "fine sea salt",
+     "black pepper",
+     "turmeric"
+    ],
+    "steps": "crumble + salt + turmeric tofu → cook in hot oil until golden-edged, lift out → char shredded cabbage hard until edges blacken and go sweet → add garlic + chilli → splash vinegar to deglaze, fold the tofu back through, season"
+   }
+  },
+  {
+   "slug": "chickpea-egg-deli-salad",
+   "veganStatus": "adaptable",
+   "veganVariant": {
+    "note": "The egg is a supporting act — firm tofu gives the same chunky protein without boiling.",
+    "swaps": [
+     "Replace the 2–3 eggs with 150 g firm tofu, cubed roughly egg-sized and folded in at the end"
+    ],
+    "coreIngredients": [
+     "canned chickpeas",
+     "firm tofu",
+     "tomato",
+     "onion",
+     "extra-virgin olive oil",
+     "red wine vinegar",
+     "fresh lemon",
+     "chilli flakes",
+     "fine sea salt",
+     "black pepper"
+    ],
+    "steps": "quick-pickle sliced onion in vinegar and salt → chop tomato, drain chickpeas, cube firm tofu → fold everything with oil, lemon, chilli, salt and pepper"
+   }
+  },
+  {
+   "slug": "chickpea-shakshuka",
+   "veganStatus": "adaptable",
+   "veganVariant": {
+    "note": "The sauce is already vegan; swap firm tofu for the eggs to keep distinct protein pockets in the pan.",
+    "swaps": [
+     "Replace the 4 eggs with 200g firm tofu, pressed dry and cut into 4 large chunks — nestle into the wells, cover and heat through for 5 minutes",
+     "No tofu? Skip the wells and add a second drained tin of chickpeas to the sauce instead"
+    ],
+    "coreIngredients": [
+     "firm tofu",
+     "canned chickpeas",
+     "tinned chopped tomatoes",
+     "bell pepper",
+     "onion",
+     "garlic",
+     "ground cumin",
+     "chilli flakes",
+     "olive oil",
+     "salt",
+     "black pepper"
+    ],
+    "steps": "soften onion + pepper in oil → add garlic, cumin, chilli → pour in tomato + chickpeas, simmer to a thick sauce → press in tofu chunks, cover and heat through 5 min → season and serve"
+   }
+  },
+  {
+   "slug": "frozen-pea-egg-lemon-bright",
+   "veganStatus": "adaptable",
+   "veganVariant": {
+    "note": "Crumbled firm tofu takes the egg's place and gives a similar soft texture; nutritional yeast fills in the savoury depth the egg provides.",
+    "swaps": [
+     "replace the 3–4 eggs with 200g firm tofu, drained and crumbled into rough pieces — fold in at step 3 and warm through rather than scramble",
+     "add 1 tbsp nutritional yeast off the heat with the lemon",
+     "add a pinch of turmeric to the peas for colour"
+    ],
+    "coreIngredients": [
+     "frozen peas",
+     "firm tofu",
+     "garlic",
+     "extra-virgin olive oil",
+     "lemon",
+     "nutritional yeast",
+     "chilli flakes",
+     "fine sea salt",
+     "black pepper"
+    ],
+    "steps": "bloom garlic in oil → simmer peas → fold in crumbled tofu to warm through → off heat: nutritional yeast, lemon, chilli, pepper, final drizzle of oil"
+   }
+  },
+  {
+   "slug": "garlicky-mushrooms-spinach-runny-eggs",
+   "veganStatus": "adaptable",
+   "veganVariant": {
+    "note": "The mushroom-spinach base is already vegan; chickpeas replace the eggs as protein, crisped in the same pan.",
+    "swaps": [
+     "Replace the 2–3 eggs with a drained 400 g tin of chickpeas — add them with the garlic and chilli and crisp at the edges for 2–3 min",
+     "Stir in a teaspoon of nutritional yeast with the spinach for the savoury depth the yolk would have given"
+    ],
+    "coreIngredients": [
+     "mushroom",
+     "garlic",
+     "spinach",
+     "extra-virgin olive oil",
+     "chickpeas (tinned)",
+     "nutritional yeast",
+     "fine sea salt",
+     "black pepper",
+     "chilli flakes",
+     "fresh lemon"
+    ],
+    "steps": "Sear mushrooms hard until deep golden → add garlic, chilli & chickpeas, crisp 2–3 min → pile in spinach with nutritional yeast to wilt → finish with lemon"
+   }
+  },
+  {
+   "slug": "jammy-eggs-tomato-spinach-salad",
+   "veganStatus": "animal"
+  },
+  {
+   "slug": "lemony-smashed-chickpea-jammy-egg-bowl",
+   "veganStatus": "adaptable",
+   "veganVariant": {
+    "note": "Avocado replaces the jammy eggs — same fatty richness fanned over the chickpeas, and the dish needs no cooking at all.",
+    "swaps": [
+     "Replace the 2 eggs (and the boiling step) with ½–1 ripe avocado, sliced or roughly broken over the top"
+    ],
+    "coreIngredients": [
+     "canned chickpeas",
+     "avocado",
+     "spinach",
+     "onion",
+     "lemon",
+     "extra-virgin olive oil",
+     "chilli flakes",
+     "fine sea salt",
+     "black pepper"
+    ],
+    "steps": "fork-smash chickpeas with lemon, oil, chilli, salted onion → dress raw spinach, pile on the chickpeas, fan sliced avocado over the top, finish with oil, lemon, pepper"
+   }
+  },
+  {
+   "slug": "mackerel-oat-fishcakes-smoky-paprika",
+   "veganStatus": "animal"
+  },
+  {
+   "slug": "sardine-avocado-lemon-smash-toast",
+   "veganStatus": "animal"
+  },
+  {
+   "slug": "sardine-orange-red-onion-salad-over-spinach",
+   "veganStatus": "animal"
+  },
+  {
+   "slug": "savoury-cumin-oats-peas-egg",
+   "veganStatus": "adaptable",
+   "veganVariant": {
+    "note": "The oats-and-peas base is already vegan; only the egg topping needs swapping.",
+    "swaps": [
+     "Replace the 1–2 eggs with 100g drained tinned chickpeas, crisped in the wiped pan with a splash of oil and an extra pinch of cumin for 3–4 min until golden, then spoon over the oats"
+    ],
+    "coreIngredients": [
+     "rolled oats",
+     "frozen peas",
+     "tinned chickpeas",
+     "onion",
+     "garlic",
+     "ground cumin",
+     "chilli flakes",
+     "rapeseed oil",
+     "lemon",
+     "salt",
+     "black pepper"
+    ],
+    "steps": "temper onion, garlic, cumin & chilli in oil → stir in oats, water & peas, simmer to creamy → crisp chickpeas in the same pan → plate the oats, top with chickpeas, lemon & a pinch more chilli"
+   }
+  },
+  {
+   "slug": "smoky-hummus-toast-frizzled-egg-chilli-oil",
+   "veganStatus": "adaptable",
+   "veganVariant": {
+    "note": "The frizzled egg and its runny yolk are gone; crispy chickpeas in the same hot oil give comparable texture and protein without rebuilding the dish.",
+    "swaps": [
+     "replace the 2 eggs with 6 tbsp drained tinned chickpeas, crisped in the generous hot oil for 3–4 min until they pop and brown, then scatter over the hummus"
+    ],
+    "coreIngredients": [
+     "wholemeal / seeded sliced bread",
+     "hummus",
+     "tinned chickpeas (drained)",
+     "smoked paprika",
+     "chilli flakes",
+     "extra-virgin olive oil",
+     "lemon",
+     "fine sea salt",
+     "black pepper"
+    ],
+    "steps": "toast the bread → spread thick with hummus → crisp drained chickpeas in hot oil until they pop and brown, scatter over the hummus → bloom paprika & chilli in the same hot oil and pour over → finish with lemon, salt, pepper"
+   }
+  },
+  {
+   "slug": "stovetop-frittata-cake",
+   "veganStatus": "adaptable",
+   "veganVariant": {
+    "note": "Gram flour (chickpea flour) whisked into cold water sets firm under a lid and flips and slices exactly like the egg version — you get a legitimate stovetop farinata with the same wedge-and-keep logic.",
+    "swaps": [
+     "Replace the 6 eggs with 150g gram flour whisked smooth into 300ml cold water, well-seasoned — pour it over the cooked veg exactly as the batter step says",
+     "Stir 2 tbsp nutritional yeast into the batter for savoury depth in place of egg flavour"
+    ],
+    "coreIngredients": [
+     "gram flour (chickpea flour)",
+     "onion",
+     "bell pepper",
+     "spinach",
+     "garlic",
+     "extra-virgin olive oil",
+     "nutritional yeast",
+     "fine sea salt",
+     "black pepper",
+     "chilli flakes"
+    ],
+    "steps": "soften onion + pepper, then garlic + spinach → pour seasoned gram-flour batter over, cover, cook low until set firm throughout (~20 min) → flip onto a plate and back into the pan, finish 2–3 min → cool, cut into wedges"
+   }
+  },
+  {
+   "slug": "tinned-mackerel-curry",
+   "veganStatus": "adaptable",
+   "veganVariant": {
+    "note": "The spiced tomato-spinach base does the heavy lifting; chickpeas slot in cleanly as the protein.",
+    "swaps": [
+     "replace 1–2 tins of mackerel with 1 tin of chickpeas (drained and rinsed), stirred in with the spinach and simmered for 2 minutes"
+    ],
+    "coreIngredients": [
+     "tinned chickpeas",
+     "onion",
+     "garlic",
+     "tinned chopped tomato",
+     "curry powder",
+     "ground turmeric",
+     "ground ginger",
+     "ground coriander",
+     "ground cumin",
+     "chilli flakes",
+     "spinach",
+     "rapeseed/canola oil",
+     "fresh lemon",
+     "salt",
+     "black pepper"
+    ],
+    "steps": "soften onion in oil → bloom garlic + spices → add tomato, simmer to a thick base → stir in spinach and chickpeas, simmer 2 min → finish with lemon, salt, pepper"
+   }
+  },
+  {
+   "slug": "tofu-tikka-masala",
+   "veganStatus": "adaptable",
+   "veganVariant": {
+    "note": "One swap makes this fully vegan: Greek yoghurt for plain unsweetened soy yoghurt — same off-heat technique, same silky-tangy finish.",
+    "swaps": [
+     "Replace the 3–4 tbsp Greek yoghurt with plain unsweetened soy yoghurt; coconut yoghurt also works for a slightly richer, rounder sauce."
+    ],
+    "coreIngredients": [
+     "firm tofu",
+     "onion",
+     "garlic",
+     "tinned chopped tomato",
+     "curry powder",
+     "smoked/sweet paprika",
+     "ground turmeric",
+     "ground ginger",
+     "ground coriander",
+     "ground cumin",
+     "chilli flakes",
+     "rapeseed/canola oil",
+     "plain unsweetened soy yoghurt",
+     "fresh lemon",
+     "spinach",
+     "fine sea salt",
+     "black pepper"
+    ]
+   }
+  },
+  {
+   "slug": "tomato-and-egg",
+   "veganStatus": "adaptable",
+   "veganVariant": {
+    "note": "Tofu and tomato is a genuine Chinese pairing — you lose the silky curd texture but the dish stays recognizable and satisfying.",
+    "swaps": [
+     "Replace the 3 eggs with 200g firm tofu, pressed dry and torn into rough 2–3 cm chunks; season with a pinch of salt before cooking",
+     "Pan-fry the tofu chunks in hot oil until golden on at least one side, then lift out — same point in the recipe as the eggs"
+    ],
+    "coreIngredients": [
+     "tomato",
+     "firm tofu",
+     "garlic",
+     "onion",
+     "extra-virgin olive oil",
+     "fine sea salt",
+     "black pepper"
+    ],
+    "steps": "press + salt tofu, tear into chunks → fry in hot oil until golden, lift out → soften onion + garlic, cook tomato to a loose sauce → fold tofu back in, season"
+   }
+  },
+  {
+   "slug": "tomato-egg-drop-soup",
+   "veganStatus": "animal"
+  },
+  {
+   "slug": "warm-berry-compote-yoghurt-bowl",
+   "veganStatus": "adaptable",
+   "veganVariant": {
+    "note": "Only the Greek yoghurt needs to change — thick coconut or soy yoghurt gives the same creamy, protein-carrying base.",
+    "swaps": [
+     "Replace the 150–200g Greek yoghurt with the same quantity of thick coconut or soy yoghurt",
+     "If using the optional sweetener from 'Level it up', use maple syrup rather than honey"
+    ],
+    "coreIngredients": [
+     "plant yoghurt (coconut or soy)",
+     "frozen mixed berries",
+     "rolled oats",
+     "banana",
+     "almonds",
+     "pumpkin seeds",
+     "ground cinnamon"
+    ]
+   }
+  }
+ ]
+}

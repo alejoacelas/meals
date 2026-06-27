@@ -1,0 +1,947 @@
+{
+ "_meta": {
+  "generatedBy": "meals-app-content workflow (wf_03977090-613)",
+  "snapshotDate": "2026-06-27",
+  "note": "Authored overlay merged by build.py onto the catalog. Regenerate via the workflow; hand-edits are fine."
+ },
+ "items": [
+  {
+   "slug": "spinach",
+   "summary": "The most effort-free nutrient hit in the kitchen — zero prep, wilts into any hot dish in 30–60 seconds, and delivers vitamin K, vitamin A, folate and magnesium in every handful.",
+   "tips": [
+    "Add it last and pull the pan off the heat the moment it collapses — 30–60 seconds is enough, and another minute makes it grey and watery.",
+    "Eat it alongside a vitamin C source in the same meal — lemon, tomato or bell pepper — because spinach iron is oxalate-bound and vitamin C substantially improves how much you absorb.",
+    "Use fresh leaves raw as a salad base; dress with oil and acid and leave for two minutes — the acid softens the leaves slightly without cooking them.",
+    "With frozen, defrost slightly and squeeze out the water before it goes in the pan, or it will steam everything instead of wilting cleanly."
+   ],
+   "swaps": [
+    "Keep a bag of frozen spinach in the freezer — it lasts 3 months, is already blanched, and goes straight into hot dishes after a quick squeeze.",
+    "Kale swaps in for any cooked dish; strip the tough stems and give it 4–5 extra minutes, expecting a firmer bite.",
+    "Rocket or watercress work in place of raw spinach in salads, with more peppery character."
+   ],
+   "storage": "Fresh spinach keeps 2–3 days in the fridge, unwashed and loosely bagged; frozen keeps for 3 months and is the more practical choice for most kitchens."
+  },
+  {
+   "slug": "tomato",
+   "summary": "Fresh or tinned, the tomato delivers acid, umami, and body in a single ingredient — the backbone of quick sauces, braises, and salads with almost no effort.",
+   "tips": [
+    "Never refrigerate ripe tomatoes — cold kills their flavour and turns the flesh mealy.",
+    "Salt cut tomatoes and leave them 10 minutes before using in salads; you get concentrated flavour and the right texture.",
+    "Outside peak season (roughly July–September in the UK), reach for tinned plum tomatoes over fresh — they are riper, cheaper, and far more consistent.",
+    "Crush whole tinned tomatoes by hand straight into the pan so you control the texture and avoid watery lumps."
+   ],
+   "swaps": [
+    "Tinned whole plum tomatoes are the year-round default — better than pale, out-of-season fresh ones for anything cooked.",
+    "Passata works wherever you want a smooth sauce without bothering to blend.",
+    "A spoonful of tomato purée stirred in at the start deepens colour and umami in any slow-cooked dish."
+   ],
+   "storage": "Store ripe tomatoes at room temperature stem-side down, away from direct sun — they keep 3–5 days; refrigerate only once cut and use within 2 days."
+  },
+  {
+   "slug": "bell-pepper",
+   "summary": "A sweet, crunchy vegetable packed with vitamin C that adds colour, body, and natural sweetness to everyday cooking with almost no effort.",
+   "tips": [
+    "Cut out the white pith — it's bitter and worth the extra ten seconds.",
+    "Roast whole directly over a gas flame or under a hot grill until blackened all over, then steam in a covered bowl for 10 minutes and peel — the flesh underneath is silky and sweet, nothing like the raw version.",
+    "Add raw strips late in a stir-fry if you want crunch; add early if you want them to melt into the sauce.",
+    "Red, yellow, and orange are ripe (sweeter); green are unripe (sharper, slightly bitter) — choose accordingly rather than by habit."
+   ],
+   "swaps": [
+    "Jarred roasted red peppers are a straight, no-cook swap for cooked bell pepper in sauces, dips, and pasta.",
+    "Courgette or sugar snap peas give similar crunch in a stir-fry or raw salad when you're out.",
+    "A mild poblano or Anaheim chilli works if you want the same sweetness with a gentle background heat."
+   ],
+   "storage": "Store whole peppers in the fridge crisper drawer — they last up to 10 days; once cut, wrap tightly and use within 3 days."
+  },
+  {
+   "slug": "broccoli",
+   "summary": "A fast-cooking, nutrient-dense brassica that works roasted, steamed, or stir-fried and earns its keep in any low-effort kitchen by turning a bare fridge into a proper meal.",
+   "tips": [
+    "Cut the stalk into coins and cook them alongside the florets — they're sweeter than the top and go to waste for no reason.",
+    "Dry the florets completely before roasting, then use high heat (220 °C) so they char at the edges rather than steam into mush.",
+    "Don't overcook it: two to three minutes in well-salted boiling water keeps it bright green and with some bite.",
+    "Add a splash of acid — lemon juice or vinegar — just before serving to lift the whole dish."
+   ],
+   "swaps": [
+    "Frozen broccoli is just as good in cooked dishes — tip it straight from frozen into a hot pan or boiling water.",
+    "Tenderstem (broccolini) is a direct swap and needs no chopping; roast or griddle whole.",
+    "Cauliflower works in place of broccoli in any recipe where it will be cooked through."
+   ],
+   "storage": "Store unwashed in a loose bag in the fridge crisper drawer and use within five days before the florets yellow and the smell sharpens."
+  },
+  {
+   "slug": "cabbage",
+   "summary": "A tough, cheap brassica that keeps for weeks and earns its place by being equally good raw in a slaw, quickly charred in a hot pan, or braised low and slow into something sweet and tender.",
+   "tips": [
+    "Salt shredded cabbage and leave it 10 minutes before dressing — it wilts to silk and stops the slaw turning watery.",
+    "Get the pan searingly hot before adding cabbage wedges cut-side down — dry heat caramelises the face and turns something bland into something genuinely sweet and complex.",
+    "Pull it off the heat while it still has bite — overcooking releases sulphur compounds and turns it grey and rank.",
+    "Add vinegar or lemon juice at the end of cooking to brighten both the colour and the flavour."
+   ],
+   "swaps": [
+    "Savoy is softer and more yielding — use it when you want the cabbage to melt into a braise rather than hold its shape.",
+    "Hispi (sweetheart) cabbage halves and chars beautifully in less time than a round head, and has a more delicate flavour.",
+    "Pak choi substitutes well in any stir-fry or quick braise where you'd otherwise reach for cabbage."
+   ],
+   "storage": "Keep the whole head loosely wrapped in the fridge for up to 3 weeks; once cut, press cling film directly against the exposed face and use within a week."
+  },
+  {
+   "slug": "carrot",
+   "summary": "A sweet, sturdy root that keeps for weeks in the fridge and earns its place raw, roasted, braised, or blended — the most forgiving vegetable in a minimal kitchen.",
+   "tips": [
+    "Roast at 200°C or above and leave space between pieces — crowded carrots steam and stay pallid instead of caramelising.",
+    "Cut to a uniform size; pieces of different thickness cook at different rates and you'll end up with some burnt and some crunchy.",
+    "When sweating for a base, give carrots a full five minutes over medium heat with fat and salt before adding liquid — they need time to soften and release their sweetness.",
+    "Skip peeling if the skin is unblemished; scrub instead and you lose nothing but hassle."
+   ],
+   "swaps": [
+    "Parsnip swaps in almost any cooked carrot role — earthier and slightly nuttier, handles the same heat.",
+    "Pre-grated carrot from a bag goes straight into slaws, stir-fries, or fritters with no prep.",
+    "Frozen diced carrot is a solid stand-in for soups and stews — add from frozen and give it a few extra minutes."
+   ],
+   "storage": "Remove any green tops before storing, then keep unwashed in a sealed bag or container in the fridge — they'll stay crisp for two to three weeks."
+  },
+  {
+   "slug": "frozen-peas",
+   "summary": "Frozen peas are sweet garden peas blanched within hours of picking — consistently better than tired supermarket fresh pods, and the fastest way to add protein, fibre, and colour to almost any dish with zero prep.",
+   "tips": [
+    "Drop them in frozen, off the heat or in the final 60 seconds — active boiling turns them khaki and soft.",
+    "Squeeze lemon over them the moment they land: peas are naturally sweet and need acid to taste alive.",
+    "Blitz a handful with olive oil, salt, and a splash of cooking water for an instant purée — use it as a sauce, a spread, or a base for fried or poached eggs.",
+    "Season at the very end; salt draws moisture fast and accelerates the mushy slide."
+   ],
+   "swaps": [
+    "Frozen edamame give more protein and a firmer bite — add them 2–3 minutes earlier as they need a little longer.",
+    "Frozen broad (fava) beans for an earthier, more substantial swap with a similar freezer life.",
+    "Fresh peas in early summer if you can find them in the pod — shell on the day; anything pre-podded in a bag is usually no fresher than frozen."
+   ],
+   "storage": "Keep sealed in the freezer; press out the air after each use and they'll hold their quality for up to 6 months — once thawed, use immediately and don't refreeze."
+  },
+  {
+   "slug": "kale",
+   "summary": "Kale is a hardy brassica that delivers iron, calcium, and vitamins C and K in bulk, keeps a week in the fridge, and survives long cooking without dissolving — the most forgiving leafy green in a minimal kitchen.",
+   "tips": [
+    "Strip the leaves from the stems before cooking — the stems are woodier and more bitter and will never soften at the same rate as the leaf.",
+    "Massage raw kale with a pinch of salt and a splash of oil for two minutes until it darkens and softens; it goes from harsh and raw-tasting to almost dressed without any heat.",
+    "Add it to soups and stews early — unlike spinach, it holds its shape through long cooking and actually improves with it.",
+    "Season it while it's still hot; kale absorbs salt and acid far better warm than cold."
+   ],
+   "swaps": [
+    "Cavolo nero (Tuscan or black kale) is more tender and less bitter — use it anywhere you'd use curly kale with half the massaging.",
+    "Spinach substitutes in a pinch but wilts in seconds and won't survive long cooking.",
+    "Spring greens or chard are the closest match in both texture and cooking time."
+   ],
+   "storage": "Store unwashed in a loose bag in the fridge crisper and it will last up to a week — longer than almost any other leafy green."
+  },
+  {
+   "slug": "mushroom",
+   "summary": "Cheap, widely available, and loaded with umami, mushrooms add meaty depth and satisfaction to any dish, making a vegetable-forward kitchen genuinely filling without much effort.",
+   "tips": [
+    "Don't wash them — wipe with a damp cloth; water forces them to steam rather than brown.",
+    "Cook in a single layer over high heat and hold the salt until they've taken on colour — crowding or salting early traps moisture and turns them grey and watery.",
+    "Add a knob of butter and a splash of soy sauce in the final minute to amplify the umami without complicating the dish."
+   ],
+   "swaps": [
+    "Dried porcini or shiitake are the pantry standby — rehydrate in boiling water for 20 minutes, then use both the mushrooms and the soaking liquor in your sauce.",
+    "Tinned mushrooms hold up in slow-cooked sauces and stews where texture matters less.",
+    "Aubergine makes a reasonable bulk substitute in most dishes, though it won't bring the same depth."
+   ],
+   "storage": "Store loose in a paper bag or cardboard tray in the fridge — avoid plastic, which traps moisture and speeds rot; they'll keep for 5–7 days."
+  },
+  {
+   "slug": "pak-choi",
+   "summary": "A fast-wilting brassica that delivers vitamin C, K, and low-oxalate calcium (better absorbed than spinach's) in under four minutes over high heat.",
+   "tips": [
+    "Separate the stems from the leaves before cooking — stems need 2–3 minutes, leaves barely 1, so add them in two waves or the leaves turn to mush.",
+    "Use the highest heat you have and don't crowd the pan — pak choi throws off a lot of water and will steam grey and limp instead of charring if there's too much in at once.",
+    "Rinse it and check between the leaves at the base — grit hides there.",
+    "Season at the end: salt draws moisture out fast and turns the pan liquid watery before anything has had time to caramelise."
+   ],
+   "swaps": [
+    "Choi sum (flowering pak choi) is a direct swap and often cheaper at Asian supermarkets.",
+    "Chinese leaf (napa cabbage) works in the same dishes — shred finely and give it 2–3 minutes longer.",
+    "Small broccoli florets are a reasonable fallback in the same stir-fry flavour profile — allow 4–5 minutes on high heat."
+   ],
+   "storage": "Keep unwashed and loosely wrapped in a bag in the salad drawer; use within 3–4 days — it yellows and wilts quickly and doesn't forgive being left to the back of the fridge."
+  },
+  {
+   "slug": "banana",
+   "summary": "A banana is an instant, no-prep source of energy and natural sweetness that earns its place in a minimal kitchen by pulling triple duty: eaten raw, mashed into baking, or blended into breakfast.",
+   "tips": [
+    "Bake with very ripe, black-speckled bananas — the starch has fully converted to sugar and they mash smoothly into batter without lumps.",
+    "Pan-fry sliced ripe banana in butter for two minutes until caramelised — that alone is a dessert or a porridge topping.",
+    "Mash half a ripe banana into oats or yogurt instead of reaching for honey or sugar.",
+    "Freeze overripe bananas whole in their skins — peel and use straight from frozen in smoothies or baking, no prep needed."
+   ],
+   "swaps": [
+    "In most baking recipes, one mashed ripe banana replaces either one egg or 60 ml of oil — expect a denser, moister crumb.",
+    "Frozen banana chunks blended alone for two minutes produce a single-ingredient ice cream with no added dairy.",
+    "Plantain is the starchier, less sweet cousin — treat it like a vegetable, slice and fry rather than eat raw."
+   ],
+   "storage": "Leave unripe bananas on the counter until they hit your preferred ripeness, then move them to the fridge — the skin blackens but the flesh holds well for up to a week; freeze peeled overripe ones in a bag and they keep for three months."
+  },
+  {
+   "slug": "apple",
+   "summary": "A crisp, lightly acidic fruit that bridges sweet and savoury — it adds natural sweetness, structure, and brightness to everything from porridge to pork without needing much from you.",
+   "tips": [
+    "Toss cut apple in lemon juice immediately if prepping ahead — it browns within minutes and looks unappetising.",
+    "Keep the skin on when making compote or sauce; it contributes pectin and colour, and disappears once cooked down.",
+    "Taste before adding any sugar — a ripe apple at its peak often needs none.",
+    "Match variety to task: sharp Bramley for sauces and pies where it collapses into the dish, firm Cox or Braeburn for salads and cheese boards where it must hold its shape."
+   ],
+   "swaps": [
+    "Pear works interchangeably in cooked apple recipes — same idea, slightly softer texture, goes tender faster.",
+    "Unsweetened apple sauce from a jar substitutes in baking where fresh apple is called for — equal weight for chopped apple in muffins and loaf cakes.",
+    "Quince is worth seeking for chutney and jelly: higher pectin, more complex flavour, no recipe changes needed."
+   ],
+   "storage": "Store loose in the fridge crisper drawer and they keep 3–4 weeks; left on the counter they go mealy within a week."
+  },
+  {
+   "slug": "avocado",
+   "summary": "A fat-rich fruit that delivers creaminess, body, and satiety to any meal with zero cooking — one of the few ingredients that does real nutritional work without touching a hob.",
+   "tips": [
+    "Buy firm ones and ripen on the counter; once they yield to gentle pressure, move them straight to the fridge to hold them until you're ready.",
+    "Salt the flesh the moment you cut it — avocado needs seasoning to taste like itself rather than neutral fat.",
+    "Dress any cut surface with lime or lemon juice immediately; acid slows browning far better than cling film alone.",
+    "Score the flesh in a grid while it's still in the skin and scoop with a spoon — faster and cleaner than peeling."
+   ],
+   "swaps": [
+    "Frozen avocado chunks are a reliable backup for guacamole and smoothies when fresh ones are rock-hard or expensive.",
+    "Hummus or labneh fills the same creamy, rich role in wraps and grain bowls when you're out of avocado."
+   ],
+   "storage": "Ripen at room temperature for 2–4 days, then refrigerate; once cut, press lime juice into the flesh and lay cling film flat on the surface — use within a day or two."
+  },
+  {
+   "slug": "frozen-mixed-berries",
+   "summary": "A pre-washed, individually frozen blend of strawberries, blueberries, raspberries, and blackberries that delivers antioxidants, natural sweetness, and year-round convenience with zero prep.",
+   "tips": [
+    "Use them straight from frozen in smoothies and porridge — thawing first makes them watery and limp.",
+    "For baking, toss frozen berries in a tablespoon of flour before folding into batter so they don't sink or bleed purple streaks through everything.",
+    "To make a quick compote, tip them straight from the bag into a pan with a splash of water and a little sugar over medium heat — they're sauced in five minutes.",
+    "Thaw overnight in the fridge and drain the liquid if you're using them on yogurt or in a salad where a pool of purple juice would be a problem."
+   ],
+   "swaps": [
+    "Fresh berries work in any recipe but cost more out of season and need using within days.",
+    "A single variety — frozen blueberries or raspberries alone — does the job when you want a cleaner, less muddled flavour.",
+    "Frozen cherries or mango chunks are a solid stand-in for smoothies and compotes if that's all you have."
+   ],
+   "storage": "Keep sealed in the freezer and use within 12 months of the best-before date; press out excess air and reseal tightly after each use to prevent freezer burn."
+  },
+  {
+   "slug": "grapes",
+   "summary": "Grapes are a zero-prep fruit that earn their place by working raw as a snack or salad component and transforming completely when roasted into something jammy and complex.",
+   "tips": [
+    "Wash them only right before eating — moisture in the bag accelerates mould fast.",
+    "Roast a bunch halved with olive oil and a sprig of thyme at 200°C until they burst; the result is sweet-acidic and pairs with cheese, pork, or grains.",
+    "Add fresh grapes to a bitter-leaf salad (rocket, chicory) with blue cheese — their sweetness does the work dressing alone can't.",
+    "Freeze a handful to chill white wine without diluting it, or eat straight from frozen as a quick dessert."
+   ],
+   "swaps": [
+    "Raisins give the same sweet-acid hit in cooked dishes — use a small handful where fresh grapes would be too watery.",
+    "Sliced apple or pear holds up equally well in salads when grapes aren't to hand.",
+    "Dried currants substitute cleanly in stuffings and grain dishes where you want concentrated fruitiness."
+   ],
+   "storage": "Store unwashed in the fridge in their original punnet or a loose container and they'll keep up to two weeks; at room temperature they soften and mould within days."
+  },
+  {
+   "slug": "orange",
+   "summary": "A whole orange or clementine earns its place twice over — the juice brings acid and sweetness to dressings, marinades, and puddings, while the zest delivers concentrated flavour that no bottled product can match.",
+   "tips": [
+    "Zest before you juice — once it's squeezed, the zest is gone and you cannot go back.",
+    "Grate only the coloured skin; the white pith beneath is bitter and will ruin a dish.",
+    "Roll the fruit firmly on the worktop before cutting — it breaks down the cells and you get significantly more juice.",
+    "Add a strip of zest to braised meats, lentils, or beans near the end of cooking; it lifts the whole pot without making it taste like orange."
+   ],
+   "swaps": [
+    "Use clementines for snacking and packed lunches — no seeds, the peel comes off in seconds, and they stay tidier than oranges.",
+    "Swap for lemon when you want the acid hit without any sweetness (dressings, fish, most savoury cooking).",
+    "A small glass of good unsweetened orange juice works in marinades and sauces where you need the liquid and flavour but have no fresh fruit to hand."
+   ],
+   "storage": "Keep oranges and clementines in the fridge once you have them — they last a week or so at room temperature but stretch to three to four weeks chilled."
+  },
+  {
+   "slug": "strawberries",
+   "summary": "A seasonal fruit that brings brightness and acidity with no prep beyond hulling, earning its place by working raw, macerated, or cooked with equal ease.",
+   "tips": [
+    "Hull after washing, not before — water pools in the cavity and dilutes flavour.",
+    "Macerate sliced strawberries with a pinch of sugar and a squeeze of lemon for 20 minutes; the syrup that forms is more useful than the fruit on its own.",
+    "Eat ripe strawberries at room temperature, not straight from the fridge — cold kills their scent and flattens the taste.",
+    "Add a crack of black pepper or a splash of balsamic vinegar to amplify sweetness without piling on sugar."
+   ],
+   "swaps": [
+    "Frozen strawberries are a straight swap for cooking, sauces, and smoothies — thaw and drain before using anywhere you'd notice the texture.",
+    "Raspberries substitute in most macerated or cooked recipes and sharpen the acidity further."
+   ],
+   "storage": "Store unwashed in a single layer on kitchen paper in the fridge for up to 3 days — washing before storage accelerates mould, so rinse only when ready to eat."
+  },
+  {
+   "slug": "canned-chickpeas",
+   "summary": "Canned chickpeas are pre-cooked, shelf-stable legumes that go from tin to table in minutes, making them the fastest route to a filling, protein-rich meal when there's nothing fresh in the house.",
+   "tips": [
+    "Rinse well, then dry thoroughly before roasting or frying — wet chickpeas steam instead of crisping.",
+    "Rub them in a tea towel to slip off the skins before making hummus; the texture improves noticeably.",
+    "Add them near the end of curries and stews — they only need warming through, and long cooking turns them mealy.",
+    "Keep the tin liquid (aquafaba) if you want to thicken a sauce or bind a batter without eggs."
+   ],
+   "swaps": [
+    "Dried chickpeas give better texture — soak overnight and simmer 1–1.5 hours when you have the time.",
+    "Cannellini or butter beans work in most chickpea dishes where you want a creamy, mild legume.",
+    "Jarred chickpeas from a deli tend to be creamier and less tinny, worth it for hummus."
+   ],
+   "storage": "Transfer leftovers to a covered container, submerged in their liquid, and refrigerate for up to 4 days; the sealed tin keeps indefinitely in a cool cupboard."
+  },
+  {
+   "slug": "red-split-lentils",
+   "summary": "Red split lentils are dehulled, pre-split lentils that dissolve into a thick, protein-rich mush in under 20 minutes with no soaking — the fastest legume in a minimal kitchen.",
+   "tips": [
+    "Rinse them until the water runs clear — they shed starch that clouds and thickens the pot before cooking even starts.",
+    "Bloom your spices in oil first, then add the lentils and liquid — they absorb whatever surrounds them, so build the flavour before they go in.",
+    "Watch the pot in the final five minutes: they go from done to wallpaper paste fast, and there is no coming back.",
+    "Hold the salt until they are nearly soft — adding it too early slows the cooking noticeably."
+   ],
+   "swaps": [
+    "Yellow split lentils (moong dal) behave almost identically and are interchangeable in any dal or soup.",
+    "Yellow split peas work in soups where a thicker, slightly earthier result is fine — give them an extra 10 minutes.",
+    "Whole red lentils (unspilt) are a direct swap but need 30–35 minutes and will not dissolve as smoothly."
+   ],
+   "storage": "Store in a sealed jar or airtight container in a cool, dry cupboard — they keep well for up to two years, though older lentils take longer to cook."
+  },
+  {
+   "slug": "eggs",
+   "summary": "A whole protein that fries, scrambles, poaches, and binds in under ten minutes, making it the most versatile fast food in a minimal kitchen.",
+   "tips": [
+    "Pull scrambled eggs off the heat just before they look done — the pan carries them the rest of the way, and every extra second overcooks them.",
+    "Lower eggs into already-boiling water for reliable timing: 6 minutes for a jammy yolk, 9 for fully set.",
+    "Add a splash of white wine vinegar to poaching water — it helps the white pull together quickly around the yolk instead of spreading.",
+    "Crack each egg into a small bowl before it goes into the pan — you catch shell fragments and drop it in exactly where you want it."
+   ],
+   "swaps": [
+    "For baking, replace one egg with 1 tbsp ground flaxseed stirred into 3 tbsp water — let it sit five minutes until it gels.",
+    "A carton of liquid whole eggs keeps longer than shell eggs and saves time when you need several at once.",
+    "Silken tofu crumbled into a hot oiled pan with a pinch of turmeric mimics scrambled eggs in texture and colour if you have none left."
+   ],
+   "storage": "Keep eggs in their box in the fridge (not the door, where temperature swings) and use within three weeks — the box stops them absorbing fridge odours through the shell."
+  },
+  {
+   "slug": "firm-tofu",
+   "summary": "Firm tofu is a dense soy curd that, pressed and pan-fried, crisps to a genuine crackling crust — plant protein, calcium, and iron at low cost, equally at home in a dry fry or a wet curry.",
+   "tips": [
+    "Press it first — wrap in a clean tea towel, weight for 15–20 minutes, then pat the cubes dry; skip this and the water steams out in the pan instead of forming a crust.",
+    "Lay the cubes in a single layer over medium-high heat and leave each face undisturbed until it releases cleanly and is deep golden before you turn it.",
+    "Season off the heat — toss the hot crisp cubes in dry spice straight from the pan so the seasoning clings to the crackly surface rather than steaming off.",
+    "Freeze the block, thaw fully, then press — the ice crystals open up the structure into a sponge that soaks up marinades far better than fresh."
+   ],
+   "swaps": [
+    "Extra-firm tofu needs far less pressing and is worth buying if your supermarket stocks it.",
+    "Tempeh is denser and nuttier — slice and pan-fry it the same way for more bite and a higher protein hit.",
+    "Paneer behaves almost identically in curries and stir-fries and needs no pressing."
+   ],
+   "storage": "Once opened, submerge in fresh cold water in a sealed container, change the water daily, and use within 3–4 days; unopened, it keeps until the pack date (often weeks in the fridge)."
+  },
+  {
+   "slug": "greek-yoghurt",
+   "summary": "Greek yoghurt is strained cow's milk yoghurt with roughly twice the protein of regular yoghurt — thick enough to double as a sauce, marinade, or dip straight from the tub, with no prep required.",
+   "tips": [
+    "Always buy full-fat — low-fat splits the moment heat touches it and tastes thin.",
+    "Never stir it into a hot pan directly; pull the pan off the heat first or it will curdle into grainy lumps.",
+    "Season it with salt and a squeeze of lemon and it becomes an instant sauce for anything grilled or roasted.",
+    "Use it instead of cream over chilli, soup, or spiced lentils — the acidity cuts through richness better than cream does."
+   ],
+   "swaps": [
+    "Soured cream is the closest cold-use swap and handles heat only marginally better, so treat it the same way.",
+    "Regular full-fat yoghurt works if you drain it in a sieve lined with kitchen paper for 30 minutes to shed some whey.",
+    "Crème fraîche gives similar body and richness without the sharpness if you want a milder result."
+   ],
+   "storage": "Keep it sealed in the coldest part of the fridge — it will last up to two weeks after opening; discard it if the pooled whey on top turns yellow or pink."
+  },
+  {
+   "slug": "hummus",
+   "summary": "A ready-made chickpea and tahini dip that delivers plant protein and healthy fat with zero cooking — the fastest protein in a minimal kitchen.",
+   "tips": [
+    "Loosen shop-bought hummus with a tablespoon of cold water and a squeeze of lemon — it fixes the gluey texture and makes it taste considerably fresher.",
+    "Warm it in a pan with olive oil and a pinch of smoked paprika to use as a sauce or a base for cracking eggs directly into.",
+    "Spread it thick on toast or flatbread and treat it as your protein, not a condiment — it holds a meal together without anything else."
+   ],
+   "swaps": [
+    "Blitz a drained tin of cannellini beans with lemon juice, a garlic clove, and olive oil for a near-identical white bean version.",
+    "Full-fat Greek yoghurt works as a fast protein-rich spread when hummus is out.",
+    "Tahini thinned with lemon juice and cold water approximates the flavour as a sauce or dressing."
+   ],
+   "storage": "Once opened, press cling film directly onto the surface and refrigerate — it keeps for up to 5 days; a thin layer of olive oil on top helps stop it drying out."
+  },
+  {
+   "slug": "tinned-mackerel",
+   "summary": "Tinned mackerel is a shelf-stable, already-cooked oily fish that delivers more omega-3s and flavour per penny than almost anything else in a low-effort kitchen.",
+   "tips": [
+    "Don't overcook it — it's fully cooked in the tin, so just warm it through for 60 seconds or use it straight from cold; prolonged heat makes it dry and muddy.",
+    "Hit it with acid before serving — a squeeze of lemon, a splash of cider vinegar, or a few capers cut through the richness and make it taste alive rather than heavy.",
+    "Save the oil from oil-packed tins to dress the finished dish or toast bread in — it carries the fish's flavour and is too good to pour away.",
+    "The central spine is soft and edible (and full of calcium), but if you're flaking it into a salad or pâté, run your thumb down it to lift it out cleanly."
+   ],
+   "swaps": [
+    "Tinned sardines are the closest swap — same price, same technique, slightly milder.",
+    "Smoked mackerel fillets from the chiller have more punch and no liquid to drain, but need refrigerating and cost more.",
+    "Tinned tuna works in any recipe but is leaner and blander, so you'll need to compensate with more fat or seasoning."
+   ],
+   "storage": "Unopened tins keep for years in the cupboard; once opened, transfer to a covered container and refrigerate, using within two days."
+  },
+  {
+   "slug": "tinned-sardines",
+   "summary": "Tinned sardines are small oily fish you open and eat — stacked with omega-3, complete protein, bone-in calcium, vitamin D and B12, all for near-zero effort from a tin that lasts years in the cupboard.",
+   "tips": [
+    "Drain and save the packing oil — drizzle it over toast or whisk it into a dressing; it's flavoured fat you've already paid for.",
+    "Mash the bones right in — they're soft enough to disappear and that's where the calcium lives.",
+    "Always add acid before you taste: a squeeze of lemon or a splash of red wine vinegar cuts the richness and lifts the whole tin.",
+    "Fork the fillets into rough flakes rather than mashing smooth — you want texture on the plate, not fish paste."
+   ],
+   "swaps": [
+    "Tinned mackerel is the nearest substitute — same omega-3 nutrition, slightly less assertive flavour.",
+    "Buy in olive oil rather than sunflower oil or brine — the packing liquid is worth reusing, so make it count.",
+    "Tinned salmon works when sardine funk would overpower a delicate salad or pasta."
+   ],
+   "storage": "Unopened tins keep for years in the cupboard; once open, transfer any leftovers to a lidded container and refrigerate, eating within 2 days."
+  },
+  {
+   "slug": "rolled-oats",
+   "summary": "Steamed and flattened oat groats that cook in minutes, keep for years, and deliver more fibre and protein than almost any other pantry staple.",
+   "tips": [
+    "Salt the water before the oats go in — salting at the end never catches up.",
+    "Cook on a low heat and stir occasionally; a hard boil makes them gluey.",
+    "For overnight oats, skip the hob entirely — cover with cold milk or water and leave in the fridge overnight.",
+    "Toast a dry handful in a hot pan until golden before adding to a crumble or granola; it adds a nuttiness you can't get any other way."
+   ],
+   "swaps": [
+    "Steel-cut oats give a chewier porridge with a lower glycaemic hit, but need 20–30 minutes of simmering.",
+    "Quick oats cook in two minutes if you're short on time, though they go softer and lose some texture.",
+    "Blitz rolled oats in a food processor for 30 seconds to make oat flour — a cheap substitute in pancakes and muffins."
+   ],
+   "storage": "Store in an airtight container in a cool, dry cupboard and they'll keep well for up to two years."
+  },
+  {
+   "slug": "pasta",
+   "summary": "Dried durum-wheat pasta is the most reliable fast meal in a minimal kitchen — shelf-stable, forgiving, and capable of carrying almost any sauce in under 20 minutes.",
+   "tips": [
+    "Salt the cooking water until it tastes like mild seawater — this is the only moment you can season the pasta itself, and no amount of sauce compensates for bland noodles.",
+    "Reserve a mugful of pasta water before you drain — the cloudy, starchy liquid emulsifies fat and sauce into something glossy and cohesive rather than greasy.",
+    "Pull the pasta out 90 seconds early and finish it in the pan with the sauce over heat — it absorbs flavour, and the released starch does the work of a separate thickener.",
+    "Never rinse cooked pasta — you wash off the surface starch that makes sauce cling."
+   ],
+   "swaps": [
+    "Use rice if you need a gluten-free swap — it won't take the sauce the same way, but it's a complete meal.",
+    "Couscous (pour boiling water, cover, five minutes) when you need something even faster and don't mind a different texture.",
+    "Dried egg noodles work in any brothy or butter-based dish where you'd reach for long pasta."
+   ],
+   "storage": "Keep dried pasta in an airtight container in a cool, dry cupboard — it stays good for up to two years with no meaningful quality loss."
+  },
+  {
+   "slug": "seeded-bread",
+   "summary": "Wholemeal or seeded sliced bread delivers fibre and slow-release energy with zero prep, making it the fastest nutritious base for breakfast, lunch, or a quick dinner.",
+   "tips": [
+    "Toast it whenever it's going under anything wet — eggs, beans, avocado — or it'll turn to mush before you're halfway through.",
+    "Look for a loaf with sunflower, pumpkin, or linseed seeds; the extra fat and protein come free with no extra cooking.",
+    "Blitz stale end slices into breadcrumbs and freeze them — free crumb coating ready whenever you need it.",
+    "Let toast sit 30 seconds before loading cold toppings; it stops steam from softening the crust underneath."
+   ],
+   "swaps": [
+    "Rye crispbread lives at room temperature for months and handles the same toppings without going soft.",
+    "Wholemeal pitta wraps and scoops better and freezes just as well.",
+    "Sourdough gives a better crust and more depth of flavour for plain toast if you're near a good bakery."
+   ],
+   "storage": "Freeze the loaf on the day you buy it and pull slices out as needed — they toast straight from frozen in two to three minutes and keep for up to three months; at room temperature the loaf lasts four to five days once opened."
+  },
+  {
+   "slug": "wholemeal-pita",
+   "summary": "A wholemeal flatbread with a built-in pocket that holds eggs, beans, or tuna without a plate — the most self-contained no-cook vehicle in the bread aisle, with solid fibre, protein, and manganese for near-zero effort.",
+   "tips": [
+    "Warm it 20 seconds in a dry pan or hold it over a gas flame before stuffing — the pocket opens cleanly instead of tearing when you force it cold.",
+    "Fill from the open end rather than cutting it in half — halving it destroys the pocket and lets everything fall out.",
+    "Tear into wedges, toss with a little olive oil and cumin, and grill for 5–6 minutes — they crisp into natural dipping chips with nothing extra needed.",
+    "Spoon warm fillings like chickpeas or shakshuka straight into the pocket and eat it like a bowl — no plate, minimal washing up."
+   ],
+   "swaps": [
+    "A wholemeal wrap does the same no-cook filling job when pita is out — just fold instead of pocket.",
+    "Seeded sliced bread toasted is the easiest backup: same fibre and protein, different form.",
+    "Mini pittas (stocked in most UK supermarkets) are the handiest format — already single-serve, and the pocket-to-filling ratio is better."
+   ],
+   "storage": "Freeze the pack on the day you buy it — individual pitas come apart easily from frozen and warm through in a dry pan in under 2 minutes; once thawed they'll last 2–3 days in a bread bin but go stale fast, so the freezer is the better default."
+  },
+  {
+   "slug": "wholemeal-wrap",
+   "summary": "A pliable wholemeal flatbread that turns any filling into a meal without cooking — more adaptable than sliced bread and just as effortless to use straight from the pack.",
+   "tips": [
+    "Warm it in a dry pan for 30 seconds each side before filling — a cold wrap cracks and splits along the fold.",
+    "Lay the filling in the lower third, fold the bottom up first, then roll in the sides — this keeps it sealed end-to-end rather than spilling out.",
+    "Always buy wholemeal over white — same price, same effort, more fibre and a nuttier flavour.",
+    "For a quick quesadilla, add filling, fold in half, and press in a dry pan over medium heat until both sides blister and the filling heats through."
+   ],
+   "swaps": [
+    "White flour tortilla is more elastic and less prone to tearing, especially when the filling is generous.",
+    "Wholemeal pitta gives a pocket instead of a roll — 20 seconds in a warm pan opens it up for the same fillings.",
+    "A large cos or iceberg leaf wraps cold fillings cleanly if you want to skip the carbs."
+   ],
+   "storage": "Keep sealed in the original packaging at room temperature and use within 3–5 days of opening; or freeze the whole pack and peel off one wrap at a time — it defrosts at room temperature in minutes."
+  },
+  {
+   "slug": "peanut-butter",
+   "summary": "A shelf-stable, high-protein paste that goes from toast to no-cook satay sauce in thirty seconds — one of the most nutritionally complete, zero-effort staples you can keep.",
+   "tips": [
+    "Buy natural (just peanuts, maybe salt) — sweetened, palm-oil versions undermine savoury applications and can't be rescued with acid.",
+    "To make a no-cook sauce, stir in warm water a tablespoon at a time until it pours; cold water makes it seize.",
+    "Add acid — lemon juice, lime, or rice vinegar — whenever you use it in a dressing or sauce; it cuts the fat and stops it tasting heavy."
+   ],
+   "swaps": [
+    "Almond or cashew butter swap in one-to-one but cost roughly three times as much.",
+    "Tahini works in savoury sauces and dressings when you want a more bitter, mineral note.",
+    "Sunflower seed butter is the nut-free alternative with the same spreadable texture and fat profile."
+   ],
+   "storage": "Natural peanut butter separates — stir before use and refrigerate once opened (up to three months); stabilised commercial peanut butter is fine in the cupboard for the same period."
+  },
+  {
+   "slug": "almonds",
+   "summary": "A shelf-stable nut dense with fat, protein, and flavour that earns its cupboard space by working raw, toasted, ground, or blended across sweet and savoury dishes alike.",
+   "tips": [
+    "Toast them dry in a cold pan over medium heat, shaking constantly — they colour fast and burn in seconds once they start to smell good.",
+    "Add toasted almonds at the very last moment: they lose their crunch within minutes once exposed to steam or moisture.",
+    "Blanch whole almonds in boiling water for a minute, then rub off the skins in a tea towel when you need a cleaner flavour or softer bite.",
+    "Blitz in a food processor to coarse crumbs for a quick almond meal that thickens sauces and replaces some flour in baking."
+   ],
+   "swaps": [
+    "Flaked almonds (sold pre-sliced) toast faster and scatter more evenly over finished dishes — prefer them to whole almonds for garnishing.",
+    "Ground almonds (almond flour) are widely available and skip the grinding step entirely for any baking use.",
+    "Cashews swap in when you need a nut that blends completely smooth — almonds stay slightly grainy in sauces and creams."
+   ],
+   "storage": "Keep in an airtight container away from heat and light — 3 months in the cupboard or up to a year in the freezer before the fat turns rancid."
+  },
+  {
+   "slug": "pumpkin-seeds",
+   "summary": "Pumpkin seeds are the most mineral-dense no-cook sprinkle in the kit — a tablespoon delivers meaningful zinc and magnesium that most diets run short of, with zero prep beyond opening the bag.",
+   "tips": [
+    "If you toast them, use a dry pan over medium heat and pull them the moment they start to pop and colour — they go from raw to burnt in under a minute.",
+    "Salt them the instant they leave the pan so it sticks while the oil is still on the surface.",
+    "Add them at the very last moment over soups, porridge, or yoghurt — even a minute sitting in liquid turns them soft.",
+    "Blitz a handful with garlic, lemon juice, and olive oil for a quick pesto-style sauce — they behave like pine nuts at a fraction of the cost."
+   ],
+   "swaps": [
+    "Sunflower seeds are the nearest swap — same crunch, same no-cook convenience, but lighter on zinc.",
+    "Buy them pre-toasted (often labelled roasted pepitas) and skip the pan entirely.",
+    "Roughly chopped walnuts or almonds do the same scattering job when pumpkin seeds run out."
+   ],
+   "storage": "Keep in an airtight container in a cool, dark cupboard for up to 3 months; once the bag is open, refrigerate in warm weather — the oils go rancid quickly."
+  },
+  {
+   "slug": "chia-seeds",
+   "summary": "Tiny seeds that gel in liquid, delivering fibre, omega-3s, and protein with zero cooking — one of the few nutritional add-ons that genuinely earns its shelf space.",
+   "tips": [
+    "Soak 1 tablespoon in 6 tablespoons of liquid for at least 15 minutes before eating — dry seeds pass through largely undigested and absorb gut moisture instead.",
+    "Use as an egg substitute by mixing 1 tablespoon with 3 tablespoons of water and letting it sit for 5 minutes until gelatinous.",
+    "Stir once after the first couple of minutes of soaking to break up clumps before they set.",
+    "Add a tablespoon to overnight oats or yogurt straight from the bag — no measuring beyond that changes much."
+   ],
+   "swaps": [
+    "Ground flaxseeds deliver similar omega-3s and fibre but must be ground to be absorbed — buy them pre-ground or blitz in batches.",
+    "Hemp seeds give protein and omega-3s without the gelling, so swap in when you want nutrition without texture change.",
+    "Psyllium husk does the thickening job in baking or smoothies if you're out, though you need far less of it."
+   ],
+   "storage": "Store in an airtight container away from light and heat — they keep for up to two years and go off so slowly you'll run out before they do."
+  },
+  {
+   "slug": "ground-flaxseed",
+   "summary": "Milled flaxseed is the easiest way to add omega-3s, soluble fibre, and lignans to a plain breakfast — stir a tablespoon into porridge or yogurt and the job is done.",
+   "tips": [
+    "Buy it already milled — whole flaxseeds pass through undigested and deliver almost nothing nutritionally.",
+    "Stir it in rather than sprinkling on top; it absorbs liquid quickly and thickens whatever it touches, which works for you in porridge but turns a dry topping gluey.",
+    "Make a flax egg by mixing one tablespoon with three tablespoons of water and leaving it five minutes — it gels into a serviceable egg binder for baking.",
+    "Keep it out of high heat; the oils degrade, so add it off the heat or into cold and room-temperature dishes."
+   ],
+   "swaps": [
+    "Chia seeds do the same nutritional job without needing to be ground — use the same weight.",
+    "Whole linseeds (the same plant) are cheaper but skip them unless you're grinding them yourself just before use.",
+    "Hemp seeds are a looser swap — less fibre and no gel, but good fat and protein if flaxseed is unavailable."
+   ],
+   "storage": "Once opened, store in an airtight container in the fridge and use within three months — the milled oils oxidise fast and it will smell distinctly rancid when it's gone off."
+  },
+  {
+   "slug": "olive-oil",
+   "summary": "A cold-pressed fruit oil that handles most weeknight cooking — sautéing, roasting, dressing — and finishes dishes with flavour no neutral fat can match.",
+   "tips": [
+    "Use it freely up to medium-high heat; the only real danger is a sustained screaming-hot sear, which pushes past its smoke point and turns it acrid.",
+    "Add a final glug over finished pasta, soup, or roasted veg just before serving — heat kills the grassy, peppery notes that justify the price.",
+    "Taste a new bottle neat: a peppery catch at the back of the throat means quality and freshness; a flat or waxy taste means it's already gone.",
+    "Don't store it next to the hob — heat and light are the main causes of rancidity, not time."
+   ],
+   "swaps": [
+    "Reach for rapeseed or sunflower oil when you need a sustained screaming-hot sear without smoke.",
+    "Butter swaps in for finishing when you want richness over fruitiness.",
+    "Refined (\"light\") olive oil handles deep-frying if you want the name with a higher smoke point."
+   ],
+   "storage": "Store in a dark cupboard away from the hob and use within 3 months of opening — check the harvest date on the bottle, not just the best-before, and don't buy more than you'll use in a season."
+  },
+  {
+   "slug": "rapeseed-oil",
+   "summary": "The UK's workhorse cooking oil — refined rapeseed has a high smoke point, neutral flavour, and a better omega-3 balance than most alternatives, making it the sensible default for frying, roasting, and baking.",
+   "tips": [
+    "Use refined rapeseed (not cold-pressed) for high-heat cooking — cold-pressed smokes at lower temperatures and will taste acrid before your pan is properly hot.",
+    "Switch to cold-pressed rapeseed for dressings and finishing drizzles, where its mild nuttiness earns its place.",
+    "Coat vegetables properly before roasting — a thin scrape of oil steams; a generous toss colours.",
+    "Heat the oil until it shimmers before adding food, so it sears rather than sticks."
+   ],
+   "swaps": [
+    "Sunflower oil is a like-for-like swap at high heat, though its fat profile is less favourable.",
+    "Extra-virgin olive oil replaces cold-pressed rapeseed in dressings, but its stronger flavour will lead.",
+    "Groundnut oil works well for deep-frying if you want something with an even higher smoke point."
+   ],
+   "storage": "Store in a cool, dark cupboard away from the hob — refined rapeseed keeps about a year unopened and six months once open; cold-pressed is more perishable, so use it within three to four months of opening."
+  },
+  {
+   "slug": "lemon",
+   "summary": "Fresh lemon is the acid backbone of a minimal kitchen — a squeeze at the end of cooking brightens almost any dish and replaces half a dozen specialist condiments.",
+   "tips": [
+    "Zest before you juice — once squeezed the skin is awkward to work with and the fragrant oils in the zest carry most of the flavour.",
+    "Squeeze over finished dishes rather than into the pan — heat drives off the volatile compounds that make lemon bright.",
+    "Roll the lemon firmly on the worktop before cutting to break down the membranes and get measurably more juice.",
+    "Add a pinch of salt alongside lemon juice — it amplifies brightness without making things taste salty."
+   ],
+   "swaps": [
+    "Lime works one-for-one in most recipes and is sometimes cheaper.",
+    "A splash of good white wine vinegar gives similar acidity when you're out of citrus.",
+    "Bottled lemon juice is a passable backup for cooking but lacks the zest and top notes — keep one as a fallback, not a default."
+   ],
+   "storage": "Store whole lemons at room temperature for up to a week, or refrigerate for up to three weeks; wrap cut halves tightly in cling film and use within two days."
+  },
+  {
+   "slug": "red-wine-vinegar",
+   "summary": "A sharp, wine-derived acid that brightens dressings, cuts through fat in braises, and rescues a flat sauce with a single splash — the workhorse acid of a minimal kitchen.",
+   "tips": [
+    "Add a small splash off the heat at the end of cooking — heat drives off the sharp edge and leaves brightness without harshness.",
+    "Deglaze a hot pan with it after browning meat or onions; it lifts the fond and adds depth without needing wine.",
+    "Balance it in dressings at roughly 1 part vinegar to 3 parts oil — taste as you go, because bottles vary in acidity.",
+    "Dress salads at the last moment — acid wilts leaves within minutes."
+   ],
+   "swaps": [
+    "White wine vinegar is the closest substitute — same quantity, cleaner and less complex.",
+    "Lemon juice matches the brightness and acidity well when you're out; use the same amount.",
+    "Sherry vinegar is richer and nuttier — a worthwhile upgrade in vinaigrettes and slow-cooked dishes."
+   ],
+   "storage": "Store in a cool, dark cupboard; it keeps almost indefinitely but is at its best within two years of opening."
+  },
+  {
+   "slug": "garlic",
+   "summary": "A pungent allium bulb that forms the aromatic backbone of virtually every savoury dish in this kitchen — cheap, shelf-stable, and impossible to fake for its depth.",
+   "tips": [
+    "Add garlic only after the onion is soft and lower the heat first — it burns bitter in under a minute and there is no fixing it.",
+    "Chop it and leave it on the board for 5–10 minutes before it hits the pan; the allicin develops and the flavour deepens noticeably.",
+    "Slice for gentle, sweet background depth in a braise or soup; mince or grate when you want it to punch through a dressing or sauce.",
+    "Use a whole unpeeled clove in a roasting tin or braise — it turns mellow and sweet, and you can squeeze it straight from the skin."
+   ],
+   "swaps": [
+    "Garlic paste (tube or jar) is a solid shortcut — about half a teaspoon per clove — though fresh gives more lift.",
+    "Garlic granules work well in dry rubs and spice blends where moisture would clump things.",
+    "Wild garlic leaves, available in spring at most greengrocers and markets, can stand in for garlic in pestos and sauces with a fresher, grassier flavour."
+   ],
+   "storage": "Keep whole bulbs in a cool, dry, well-ventilated spot — they'll last 4–6 weeks; once you break into a bulb, use the loose cloves within two weeks before they dry out or sprout."
+  },
+  {
+   "slug": "onion",
+   "summary": "The workhorse allium that opens almost every savory dish — cheap, long-keeping, and capable of anything from sharp raw bite to deep jammy sweetness depending on how long it cooks.",
+   "tips": [
+    "Give them more time than you think: a properly softened onion takes 8–10 minutes over medium heat, not 2–3 — rush it and you get raw-tasting, watery results.",
+    "Salt them the moment they hit the pan to pull out moisture and speed softening without burning.",
+    "Cut with the grain (root to tip) for strips that hold together in braises; cut across the grain for pieces that break down faster into sauces.",
+    "Rinse raw sliced onion under cold water for 30 seconds to knock back the harsh edge before using in salads or salsas."
+   ],
+   "swaps": [
+    "Shallots swap in anywhere you want a milder, less pungent onion — use the same weight.",
+    "Spring onions replace raw onion in salads and salsas; the white parts give sharpness, the green tops add freshness.",
+    "Frozen diced onion is a decent shortcut for soffritto-style cooking — it softens and flavors a sauce well but won't caramelize."
+   ],
+   "storage": "Store whole onions in a cool, dark, dry spot away from potatoes — they keep for 2–3 months; once cut, wrap tightly and refrigerate for up to 5 days."
+  },
+  {
+   "slug": "fish-sauce",
+   "summary": "Fish sauce is a fermented anchovy-and-salt liquid that delivers deep, rounded umami in a single teaspoon — the fastest way to add backbone to anything from a stir-fry to a salad dressing without making it taste remotely fishy.",
+   "tips": [
+    "Use it where you'd reach for salt — a teaspoon into a braise, mince, or roast tray dripping transforms the whole dish and no one will identify the source.",
+    "Taste before adding more: it's twice as salty as soy sauce and you cannot dial it back once it's in.",
+    "Add a splash raw at the end of cooking for a sharper hit; cook it in early for a deeper, more integrated savouriness.",
+    "Whisk it straight into vinaigrettes — one part fish sauce replaces both salt and adds umami, making every green salad taste properly seasoned."
+   ],
+   "swaps": [
+    "Soy sauce works 1:1 for saltiness but lacks the same funky depth — add a small dash of Worcestershire to get closer.",
+    "Worcestershire sauce is a decent stand-in in small amounts (it also contains anchovies) and is easier to find in most UK supermarkets.",
+    "A few anchovy fillets mashed into a dish will replicate the fermented depth in cooked recipes, though not in dressings."
+   ],
+   "storage": "Store in the cupboard before and after opening — the salt content means it keeps indefinitely, though it's at its best within two years of opening."
+  },
+  {
+   "slug": "miso",
+   "summary": "A fermented soybean paste that delivers instant, rounded umami — one tablespoon makes soups, dressings, and braises taste like they simmered for hours.",
+   "tips": [
+    "Never boil it — stir miso in off the heat or at the very end, because boiling kills the live cultures and turns the flavour acrid.",
+    "Dissolve it in a spoonful of the warm cooking liquid first so it disperses evenly instead of sitting in lumps.",
+    "Use it wherever you'd reach for salt — a teaspoon stirred into butter, a vinaigrette, or roasting juices adds depth that salt alone cannot.",
+    "Start with white (shiro) miso if you're new to it — it's sweeter and more forgiving than red (aka), which is saltier and more intense."
+   ],
+   "swaps": [
+    "Soy sauce is the closest emergency substitute — use about a teaspoon per tablespoon of miso, knowing it's thinner and saltier with less body.",
+    "White miso can stand in for red in most recipes; just use a touch more and taste as you go.",
+    "Most large supermarkets stock it in the chilled section or World Foods aisle — the 300–500 g tub is the most economical form to keep on hand."
+   ],
+   "storage": "Sealed in the fridge a tub lasts a year or more — the salt means it barely spoils, but press clingfilm directly onto the surface to stop it drying out."
+  },
+  {
+   "slug": "soy-sauce",
+   "summary": "A fermented condiment that delivers salt and deep umami in one pour, making it the fastest way to add savouriness to almost anything without a stock in sight.",
+   "tips": [
+    "Swap it for salt in marinades, dressings, and braises — you get the same seasoning with a layer of umami underneath.",
+    "Add it in the last 30 seconds of a stir-fry: high heat cooks off the raw edge, but leave it too long and it scorches.",
+    "Taste before adding more — one tablespoon carries roughly a gram of salt and it is easy to over-season without noticing.",
+    "Keep two bottles: light soy for seasoning and everyday flavour; dark soy when you want depth and a mahogany colour in braises."
+   ],
+   "swaps": [
+    "Tamari is the gluten-free swap and has a rounder, slightly less sharp flavour.",
+    "Fish sauce works in Southeast-Asian-leaning dishes — use about half the quantity and expect a fishier, more pungent result.",
+    "Coconut aminos are sweeter and lower in salt, so use more and add a small pinch of salt to compensate."
+   ],
+   "storage": "Store an opened bottle in the fridge to preserve its flavour; it lasts up to a year, though it will not spoil quickly at room temperature."
+  },
+  {
+   "slug": "stock-paste",
+   "summary": "Concentrated stock in paste or jelly-pot form, it turns plain cooking water into flavour and is the fastest way to add savoury depth to soups, stews, grains, and sauces without simmering bones for hours.",
+   "tips": [
+    "Add it straight to the pot rather than dissolving it separately — the heat does the work and it integrates more evenly.",
+    "Taste before you add any salt: paste is already heavily seasoned and it's easy to overshoot.",
+    "Stir a teaspoon into the cooking water for rice, lentils, or grains — it turns a bland base into something that tastes finished.",
+    "Use a half-teaspoon to rescue a flat sauce or gravy when acidity or wine alone isn't doing enough."
+   ],
+   "swaps": [
+    "A crumbled stock cube works in its place — use half the quantity, since cubes tend to run saltier than paste.",
+    "Miso paste swaps in well for vegetable or chicken bases, giving the same umami depth with a slightly different register.",
+    "A tablespoon of soy sauce thinned with the same volume of water stands in for the savoury hit if you're out of both."
+   ],
+   "storage": "Keep the jar or pot sealed in the fridge after opening and it will stay good for six months to a year."
+  },
+  {
+   "slug": "tomato-puree",
+   "summary": "Deeply concentrated cooked-down tomato that adds instant body, colour, and savoury depth to anything — one tablespoon does the work of a whole tin of chopped tomatoes when you need richness without extra liquid.",
+   "tips": [
+    "Fry it in the fat for a full minute before adding any liquid — it toasts out the raw, tinny edge and turns darker and noticeably richer.",
+    "Add it right after your onions are soft so it gets direct contact with the hot pan, not steam from liquid going in too early.",
+    "One tablespoon is usually enough; too much tips the dish from deep to sour-bitter, especially in small-batch cooking.",
+    "Use it to rescue a watery sauce — stir in half a tablespoon and simmer two minutes to thicken and round out the flavour."
+   ],
+   "swaps": [
+    "Buy it in a tube rather than a tin — you use a teaspoon at a time, reseal it, and the rest keeps refrigerated for months.",
+    "Sundried tomato paste is a richer, less sharp substitute that often comes in smaller, more convenient jars.",
+    "In a pinch, reduce a tin of chopped tomatoes hard over high heat for 15–20 minutes until thick and dark."
+   ],
+   "storage": "A tube keeps in the fridge for up to 3 months after opening; if you've opened a tin, decant the remainder into a small jar, press a thin film of oil over the surface, and use within a week."
+  },
+  {
+   "slug": "black-pepper",
+   "summary": "Ground black pepper is the universal finishing spice — it sharpens and lifts almost any savoury dish in seconds, and it boosts the absorption of turmeric's active compounds, making it genuinely useful beyond flavour.",
+   "tips": [
+    "Add it near the end of cooking — prolonged heat dulls its volatile aroma and turns it flat.",
+    "Grind it fresh if you can; pre-ground loses its punch within weeks, so use more of it if that's what you have.",
+    "Pair it with turmeric whenever you use that spice — black pepper makes turmeric's curcumin far more bioavailable.",
+    "Don't be shy: a generous crack finishes eggs, dal, and roasted veg in a way a timid pinch never will."
+   ],
+   "swaps": [
+    "White pepper is milder and less aromatic — use it when you don't want black flecks in a pale sauce.",
+    "Chilli flakes can stand in for heat but add a different, sharper character rather than pepper's earthy bite.",
+    "Pre-ground black pepper works fine but fades fast — buy a small jar and replace it every few months."
+   ],
+   "storage": "Keep in an airtight jar away from light and heat; whole peppercorns in a grinder stay punchy for up to a year, while pre-ground loses most of its character after two to three months."
+  },
+  {
+   "slug": "ground-cumin",
+   "summary": "Ground cumin is the warm, earthy backbone of beans, lentils, and curry — the single most versatile spice in a minimal kitchen, doing heavy flavour work with zero prep.",
+   "tips": [
+    "Bloom it first: heat a little oil, add your cumin, and stir for about 30 seconds until it smells toasty — then add everything else; this step transforms the dish.",
+    "Start with half a teaspoon per portion and add more at the end, not the beginning, if you want more heat-resistant intensity.",
+    "Pair it with ground coriander in a roughly 1:1 ratio for an instant curry base that works on anything — chickpeas, lentils, root veg.",
+    "Don't add it dry to cold food; it needs heat to bloom, so if you're seasoning after cooking, warm the spice in a dry pan for 20 seconds first."
+   ],
+   "swaps": [
+    "Curry powder covers cumin's role in a pinch — it's mostly cumin, turmeric, and coriander already blended.",
+    "Cumin seeds work instead of ground — toast them whole in dry or oiled pan until they pop, then crush roughly or leave whole.",
+    "Ground coriander alone gives warmth and body if you're out of cumin, but the earthy depth won't be the same."
+   ],
+   "storage": "Keep in a sealed jar away from heat and light; ground cumin holds good flavour for about 12 months, but buy small jars and replace when the smell fades."
+  },
+  {
+   "slug": "bay-leaves",
+   "summary": "A dried leaf that adds quiet, savoury background depth to anything that simmers for 20-plus minutes — worth keeping because it costs nothing in effort.",
+   "tips": [
+    "Drop one or two in at the very start of a simmer, never at the end — they need long, gentle heat to release anything useful.",
+    "Fish them out before serving; they stay tough and sharp-edged no matter how long they cook.",
+    "Dried Turkish bay is milder and more widely available than fresh; use two dried leaves where a recipe calls for one fresh.",
+    "Don't bother for anything under 20 minutes — the flavour simply won't develop in time."
+   ],
+   "swaps": [
+    "If you're out, a small sprig of fresh thyme or a pinch of dried thyme adds a similar savoury background note to a braise or stew.",
+    "Fresh bay leaves (sold in the herb section) are more pungent — use one where you'd use two dried.",
+    "For lentil or bean dishes, a strip of dried kombu does a comparable job of adding depth, though it's harder to find."
+   ],
+   "storage": "Keep dried bay leaves in a sealed jar away from light and heat; they hold their flavour for up to a year, though they fade noticeably after that."
+  },
+  {
+   "slug": "chilli-flakes",
+   "summary": "Crushed dried chilli that dials heat from a faint background warmth to a proper kick — versatile enough to earn a permanent spot in any minimal spice rack and useful in almost every savoury dish.",
+   "tips": [
+    "Add to warm oil at the start for gentle, mellow heat woven through the dish, or stir in at the very end for a sharper, more immediate kick — decide before you reach for the jar.",
+    "Start with less than you think you need; taste after a minute and add more if needed; there is no fixing an over-spiced pan.",
+    "Use a small pinch in any savoury dish, not just explicitly spicy ones — a little in scrambled eggs, pasta sauce, or roasted veg adds depth without detectable heat.",
+    "If the jar no longer smells hot when you open it, replace it rather than compensating with a bigger pinch — stale flakes give dull heat and no flavour."
+   ],
+   "swaps": [
+    "Fresh chilli (half a small red one, deseeded) works wherever you are cooking the chilli through — brighter and more fragrant than the dried version.",
+    "A few drops of hot sauce substitutes in a pinch, though it brings vinegar acidity along with the heat.",
+    "Gochugaru (Korean chilli flakes) is worth keeping alongside — milder, slightly sweet, and ideal when you want warmth without a sharp bite."
+   ],
+   "storage": "Store in a sealed jar away from light and heat and it will hold its kick for up to a year — once it stops smelling spicy when you open the lid, buy a new jar."
+  },
+  {
+   "slug": "curry-powder",
+   "summary": "A pre-blended spice mix (turmeric, cumin, coriander, and more) that builds a full curry base from a single jar — the lowest-effort route to deeply flavoured weeknight food.",
+   "tips": [
+    "Bloom a heaped teaspoon in oil for 30 seconds before adding anything else — this is the single step that separates flat curry from fragrant curry.",
+    "Use at least 1 tsp per portion; under-spicing is the most common mistake and costs nothing to fix.",
+    "Add a pinch of black pepper alongside it — pepper makes turmeric's curcumin far more absorbable.",
+    "Deglaze with water, yoghurt, or tinned tomatoes straight after blooming so the spices don't scorch."
+   ],
+   "swaps": [
+    "If you're out, combine equal parts ground cumin and ground coriander with a pinch of turmeric — that's the core of most blends.",
+    "Garam masala works as a swap but is more aromatic and less earthy, so use slightly less.",
+    "Madras curry powder is hotter and more complex if you want more heat from the jar."
+   ],
+   "storage": "Store in a sealed jar away from heat and light; potency drops noticeably after about a year, so buy small jars and replace them when the smell goes flat."
+  },
+  {
+   "slug": "oregano",
+   "summary": "Dried oregano is the go-to Mediterranean herb that lifts anything tomato-based — passata, tinned tomatoes, pizza sauce — with almost no effort.",
+   "tips": [
+    "Add it in the last few minutes of cooking or straight to the finished dish — prolonged heat dulls its flavour.",
+    "Crumble the leaves between your fingers before adding to wake up the volatile oils.",
+    "Start with half a teaspoon per portion; it's assertive and can overwhelm if you over-pour.",
+    "Pair it with tomato, garlic, and olive oil — that trio is its natural home and needs nothing else."
+   ],
+   "swaps": [
+    "Dried thyme is the closest swap — a touch earthier, but works well in the same tomato and bean dishes.",
+    "Herbes de Provence contains oregano and can stand in at the same quantity with a slightly more floral result.",
+    "Fresh oregano works too but is stronger — use roughly twice the volume and add right at the end."
+   ],
+   "storage": "Keep in a sealed jar away from heat and light; it holds good flavour for about a year, after which it smells of dust rather than herbs and should be replaced."
+  },
+  {
+   "slug": "garlic-granules",
+   "summary": "Dried, pre-minced garlic in powder form — it delivers consistent garlic flavour instantly, with no chopping, no risk of burning, and a shelf life that keeps a minimal kitchen covered for months.",
+   "tips": [
+    "Sprinkle straight in rather than blooming in oil — unlike fresh garlic, granules don't need high-heat activation and can scorch quickly.",
+    "Use about half a teaspoon per portion as a baseline, then taste; it's more concentrated than fresh and easy to overdo.",
+    "Stir it into something with a little moisture (oil, water, yoghurt, tomato) so it hydrates and distributes evenly rather than sitting in dry clumps.",
+    "Add it mid-cook rather than right at the start of a dry pan — it catches and turns acrid with nothing to cling to."
+   ],
+   "swaps": [
+    "Fresh garlic works in almost every case — one clove equals roughly half a teaspoon of granules, but add it earlier so it cooks through.",
+    "Garlic paste (in a tube) is a closer match to granules for convenience and keeps in the fridge for weeks.",
+    "Garlic flakes (coarser dried pieces) give a slightly chunkier texture and milder flavour; use about twice the volume."
+   ],
+   "storage": "Keep the jar sealed, away from heat and steam — it stays potent for up to a year, though if it smells faint rather than pungent it has lost its punch and should be replaced."
+  },
+  {
+   "slug": "cinnamon",
+   "summary": "Ground cinnamon is a sweet-warm spice that earns its jar not just on porridge and fruit but as a quiet depth-builder in tomato and bean dishes — one ingredient, two roles, minimal effort.",
+   "tips": [
+    "Add a pinch to tomato-based stews and bean dishes — not enough to taste cinnamon, just enough to round them out.",
+    "Sprinkle it in rather than blooming it in oil; unlike cumin or turmeric, cinnamon doesn't need heat to activate and can turn harsh if left in a hot dry pan.",
+    "Start with a quarter teaspoon and taste — it's easy to overdo and hard to fix once it's in.",
+    "Pair it with something acidic (tomato, yoghurt, lemon) or sweet (banana, oats) to keep it balanced rather than cloying."
+   ],
+   "swaps": [
+    "Mixed spice works as a swap in sweet dishes — same warmth, slightly more complex.",
+    "A pinch of ground allspice covers the same savoury-depth role in stews if you're out.",
+    "Cinnamon sticks steeped in warm milk or porridge give a subtler, cleaner flavour than ground — fish them out before serving."
+   ],
+   "storage": "Keep in a sealed jar away from heat and light — ground cinnamon holds its flavour for up to a year, but if it smells dusty rather than sweet it's done."
+  },
+  {
+   "slug": "ground-coriander",
+   "summary": "Ground coriander is a warm, citrusy spice that pairs with cumin to build an instant curry base — two jars doing the work of a full spice rack.",
+   "tips": [
+    "Bloom it in oil for 30 seconds before adding anything wet — this is non-negotiable; raw ground coriander tastes flat and dusty.",
+    "Use it roughly 1:1 with cumin as your default curry base, then add turmeric for colour and chilli for heat.",
+    "Start with half a teaspoon per portion; it's mild enough that going heavy won't ruin a dish, but there's no point using more than a teaspoon without cumin alongside.",
+    "Add it early with the other ground spices — heat is what releases the citrus note."
+   ],
+   "swaps": [
+    "Curry powder already contains coriander, so a heaped teaspoon of curry powder substitutes the cumin-coriander pair in a pinch.",
+    "Whole coriander seeds, toasted and ground in a mug with the back of a spoon, have a brighter flavour than the pre-ground version.",
+    "Fresh coriander leaf is not a swap — it's a completely different ingredient; don't sub one for the other."
+   ],
+   "storage": "Keep in a sealed jar away from heat and light; it holds decent flavour for up to a year, but rub a pinch between your fingers — if it smells of nothing, replace it."
+  },
+  {
+   "slug": "ground-ginger",
+   "summary": "Ground ginger is the dried, powdered form of the root — warmer and earthier than fresh, less bright and sharp — and useful enough across curries, dals, marinades, and baked goods to earn a permanent jar on the spice rack.",
+   "tips": [
+    "Bloom it in a little hot oil for 30 seconds before adding liquid — heat is what unlocks the flavour, same as any ground spice.",
+    "Use roughly a quarter of what a recipe asks for in fresh ginger: it is more concentrated, and the character is different, so don't treat it as a straight swap.",
+    "Add a pinch to dal, bean stews, or roasted veg even when the recipe doesn't call for it — it brings background warmth that reads as depth rather than ginger.",
+    "Smell the jar before you cook: if it gives you nothing, neither will the dish — buy small jars so you replace them before they go flat."
+   ],
+   "swaps": [
+    "Fresh ginger is brighter and spicier — keep a knob in the freezer and grate it straight from frozen with no peeling needed; use about four times the volume.",
+    "Ginger paste (tubes or jars, found in most supermarkets) sits between fresh and dried in flavour and keeps for weeks in the fridge."
+   ],
+   "storage": "Keep in a sealed jar away from heat and light; buy small — potency fades noticeably after about a year."
+  },
+  {
+   "slug": "turmeric",
+   "summary": "Ground turmeric is the spice that turns everything golden — mild and earthy on its own, but the colour and backbone of any quick curry or dal, costing almost nothing per meal.",
+   "tips": [
+    "Bloom it in oil for 30 seconds before adding anything else — dry powder in a cold pan does almost nothing.",
+    "Always add a crack of black pepper alongside it; pepper makes turmeric's curcumin far more absorbable by the body.",
+    "Use it by the half-teaspoon, not the tablespoon — more than that and the dish turns dusty and bitter.",
+    "Treat it as colour and base note, not the main flavour: pair with cumin or coriander to build a full curry taste."
+   ],
+   "swaps": [
+    "Curry powder covers it in a pinch — it's mostly turmeric anyway, so use a heaped teaspoon in place of the whole spice mix.",
+    "A tiny pinch of saffron gives the same golden colour but a completely different, more floral flavour and costs far more.",
+    "Fresh turmeric root grates in like ginger and is more vivid, but ground is easier to reach for daily."
+   ],
+   "storage": "Keep it in a small sealed jar away from light and heat; it holds its colour and flavour for about a year, though it fades fast after that — buy small."
+  },
+  {
+   "slug": "smoked-paprika",
+   "summary": "Dried, smoke-cured red peppers ground into a powder that adds smoky depth and colour to beans, eggs, and stews with a single teaspoon and no extra effort.",
+   "tips": [
+    "Bloom it in oil for 30 seconds before adding any liquid — heat activates the flavour compounds and turns a flat, dusty note into something rich and rounded.",
+    "Start with half a teaspoon per portion; it builds fast and you can always add more, but you can't take it back.",
+    "Stir it constantly while blooming — it scorches in seconds and burnt paprika tastes bitter and acrid.",
+    "Use it on eggs: a pinch in the pan before the eggs go in, or dusted over at the end, turns a plain fried egg into something that tastes cooked-down."
+   ],
+   "swaps": [
+    "Sweet (unsmoked) paprika is a fine colour substitute but brings none of the smoke — add a few drops of liquid smoke or a pinch of cumin to compensate.",
+    "A small pinch of chipotle chilli powder delivers smoke plus heat in one go, so dial back any chilli you'd otherwise add.",
+    "If you're completely out, a dash of Worcestershire sauce stirred into the pot is a rough workaround for the savoury depth, not the smoke."
+   ],
+   "storage": "Keep it in a sealed jar away from heat and light; it stays vivid and aromatic for about a year, but if the colour has faded to pale orange and the smell is flat, replace it."
+  },
+  {
+   "slug": "fine-sea-salt",
+   "summary": "Fine sea salt is finely ground salt harvested from evaporated seawater that dissolves quickly and evenly, making it the essential all-purpose seasoning for building flavour at every stage of cooking.",
+   "tips": [
+    "Season in layers — add salt at each cooking stage, not just at the end, so flavour builds throughout rather than sitting on top.",
+    "Salt pasta water until it tastes like mild seawater; it's the only chance to season the pasta itself.",
+    "Taste before you salt anything made with stock, cheese, or cured meat — they carry their own salinity and it stacks up fast.",
+    "Add a small pinch to sweet batters and doughs; it sharpens sweetness and lifts flat flavours."
+   ],
+   "swaps": [
+    "Coarse sea salt works as a substitute — crush it between your fingers first so it dissolves at the same rate.",
+    "Flaky salt (Maldon) is better for finishing — keep a separate pinch pot and scatter it just before serving for crunch and bursts of salinity.",
+    "Table salt can substitute in a pinch but is sharper by volume, so use roughly a quarter less than the recipe calls for."
+   ],
+   "storage": "Store in a sealed jar away from the hob and steam — it lasts indefinitely but clumps badly if moisture gets in."
+  }
+ ]
+}

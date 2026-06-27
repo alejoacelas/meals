@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#f5f5f7" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="meals">
+  <title>meals</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Onboarding overlay (diet + name); shown until a diet is chosen -->
+  <div id="onboarding" class="onboarding" hidden>
+    <div class="onboarding-card">
+      <div class="onboarding-mark">🥬</div>
+      <h1>meals</h1>
+      <p class="onboarding-sub">Nutritious food, fast, anywhere. First, how do you eat?</p>
+      <div class="diet-choice">
+        <button class="diet-btn" data-diet="vegan"><span class="diet-emoji">🌱</span>Vegan</button>
+        <button class="diet-btn" data-diet="omnivore"><span class="diet-emoji">🍳</span>Everything</button>
+      </div>
+      <label class="name-field">
+        <span>Your kitchen name</span>
+        <input id="onboard-name" type="text" inputmode="text" autocomplete="off"
+               autocapitalize="none" spellcheck="false" placeholder="e.g. alejo">
+      </label>
+      <p class="name-hint">No password. Type the same name on any device to find your
+        basket and saved recipes. Anyone who knows it sees the same kitchen.</p>
+      <button id="onboard-go" class="primary-btn" disabled>Start cooking</button>
+    </div>
+  </div>
+
+  <!-- Top bar -->
+  <header class="topbar">
+    <button id="back-btn" class="back-btn" hidden aria-label="Back">‹</button>
+    <h1 id="topbar-title" class="topbar-title">Recipes</h1>
+    <button id="name-chip" class="name-chip" aria-label="Your kitchen">
+      <span class="chip-diet" id="chip-diet">🌱</span>
+      <span id="chip-name">—</span>
+    </button>
+  </header>
+
+  <main id="view" class="view"></main>
+
+  <!-- Bottom tab bar -->
+  <nav class="tabbar">
+    <a class="tab" data-tab="recipes" href="#/recipes">
+      <span class="tab-ico">🍽️</span><span class="tab-label">Recipes</span>
+    </a>
+    <a class="tab" data-tab="ingredients" href="#/ingredients">
+      <span class="tab-ico">🧺</span><span class="tab-label">Ingredients</span>
+    </a>
+    <a class="tab" data-tab="basket" href="#/basket">
+      <span class="tab-ico">🛒</span><span class="tab-label">Basket</span>
+      <span id="basket-badge" class="badge" hidden>0</span>
+    </a>
+  </nav>
+
+  <!-- Settings / name sheet -->
+  <div id="sheet" class="sheet" hidden>
+    <div class="sheet-card">
+      <div class="sheet-grip"></div>
+      <h2>Your kitchen</h2>
+      <label class="name-field">
+        <span>Kitchen name</span>
+        <input id="sheet-name" type="text" autocomplete="off" autocapitalize="none" spellcheck="false">
+      </label>
+      <div class="seg" id="sheet-diet" role="tablist" aria-label="Diet">
+        <button data-diet="vegan">🌱 Vegan</button>
+        <button data-diet="omnivore">🍳 Everything</button>
+      </div>
+      <div class="sheet-actions">
+        <button id="sheet-save" class="primary-btn">Done</button>
+      </div>
+      <p class="sheet-meta" id="sheet-meta"></p>
+    </div>
+    <div class="sheet-backdrop" id="sheet-backdrop"></div>
+  </div>
+
+  <script src="config.js"></script>
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
