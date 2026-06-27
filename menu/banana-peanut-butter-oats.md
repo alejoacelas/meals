@@ -1,0 +1,36 @@
+## Banana–Peanut Butter Oats
+**Nutrition** 🟢 · **Effort** 🟢 (active ~5m · 1 session · ~10m total) · **Availability** 🟢 · **Taste** 🟢
+**Equipment:** one pot / knife
+**Serves:** 1
+
+| | |
+|---|---|
+| **Core ingredients** | rolled oats, water, banana, peanut butter, ground cinnamon, pumpkin seeds, fine sea salt |
+| **Time** | active ~5m · ~10m total · 1 session |
+| **Steps** | simmer oats in water with a pinch of salt → mash in half a banana, cook to creamy → swirl in peanut butter and cinnamon off the heat → top with the rest of the banana, sliced, and pumpkin seeds |
+
+The default sweet bowl: oats simmered in water with half a mashed banana melting in for sweetness, a swirl of peanut butter for richness and staying power. No added sugar, no milk, no fridge — yet banana-and-PB is near-universally loved, so it earns its place on taste with effort close behind.
+
+### Core recipe — proven ingredients only
+**Ingredients**
+- 50g (½ cup) rolled oats
+- ~300ml water
+- 1 banana (½ mashed into the pot, ½ sliced for the top)
+- 1 heaped tbsp peanut butter
+- ¼ tsp ground cinnamon
+- 1 tbsp pumpkin seeds
+- A small pinch of fine sea salt
+
+**Method**
+1. Tip the oats, water and salt into the pot and bring to a gentle simmer over medium heat.
+2. Mash half the banana and stir it in. Cook 4–5 min, stirring now and then, until thick and creamy and the oats are tender — add a splash more water if it tightens too much.
+3. Off the heat, swirl through the peanut butter and cinnamon, leaving a few ribbons of PB visible.
+4. Scrape into a bowl, fan the sliced banana over the top and scatter with pumpkin seeds. Eat hot.
+
+### Level it up (optional — beyond the kit, widely available)
+- **Omega-3 & body (+ ground flaxseed or chia, not in kit):** stir a tablespoon in with the oats for a thicker bowl and a hit of omega-3 fat.
+- **Creamier cook (+ fortified plant milk, not in kit):** swap half the water for fortified plant milk for a richer porridge and added B12 and calcium.
+- **If the banana's underripe (+ honey or maple, not in kit):** a small drizzle rounds out the sweetness when the fruit alone doesn't carry it.
+- **PB–chocolate bowl (+ cocoa powder or dark chocolate, not in kit):** beat in a teaspoon of cocoa, or grate over a little dark chocolate, for a peanut-butter-cup finish.
+
+**Why it scores well:** Taste leads — banana and peanut butter is a crowd-pleaser, and cinnamon plus a pinch of salt keep it from cloying. Effort is right behind: one pot, one continuous session, ~10 minutes, nothing from the fridge and every item supermarket-anywhere. Nutrition holds its own too — whole oats and pumpkin seeds bring fibre and minerals, the peanut butter healthy fat and staying power, and the sweetness is all fruit, no added sugar.

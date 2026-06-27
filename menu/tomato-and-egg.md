@@ -1,0 +1,36 @@
+## Tomato & Egg (番茄炒蛋)
+**Nutrition** 🟡 · **Effort** 🟢 (active ~10m · 1 session · ~15m total) · **Availability** 🟢 · **Taste** 🟢
+**Equipment:** one pan, knife
+**Serves:** 1–2
+
+| | |
+|---|---|
+| **Core ingredients** | tomato, eggs, garlic, onion, extra-virgin olive oil, fine sea salt, black pepper |
+| **Time** | active ~10m · ~15m total · 1 session |
+| **Steps** | beat + salt eggs → scramble in hot oil until just set, lift out → soften onion + garlic, cook tomato to a loose sauce → fold eggs back in, season |
+
+The beloved Chinese home classic: silky eggs folded through a sweet-tangy tomato sauce. It earns its place on taste alone — genuinely delicious straight from the cupboard in about a quarter of an hour — and the onion's sweetness covers for the sugar the kit doesn't carry.
+
+### Core recipe — proven ingredients only
+**Ingredients**
+- 3 eggs
+- 3 ripe tomatoes, chopped (or ~½ tin chopped tomatoes)
+- ½ onion, finely diced
+- 2 cloves garlic, minced
+- Extra-virgin olive oil
+- Fine sea salt, black pepper
+
+**Method**
+1. Beat the eggs with a pinch of salt.
+2. Heat a good glug of oil over high heat; pour in the eggs and scramble in big soft folds until just set, ~1 min. Lift them out while still glossy.
+3. Add a little more oil; soften the onion 2–3 min, then the garlic ~30s.
+4. Add the tomatoes and a pinch of salt; cook down 4–5 min to a loose, jammy sauce, crushing as you go.
+5. Fold the eggs back through to warm, ~30s. Season with salt and plenty of black pepper.
+
+### Level it up (optional — beyond the kit, widely available)
+- **Authentic balance (+ soy sauce, + sugar, both not in kit):** a splash of soy and a small pinch of sugar in the sauce gives the real sweet-savoury depth the dish is known for.
+- **Spring onion finish (+ spring onion, not in kit):** scatter sliced spring onion over at the end for colour and a fresh allium lift.
+- **Make it a meal (+ rice, not in kit):** spoon over steamed rice, or fold through cooked fusilli from the kit, to turn it into a full plate.
+- **Fibre boost (+ white beans, not in kit):** stir a handful of drained white beans into the sauce before the eggs go back — fibre and extra protein without changing the flavour.
+
+**Why it scores well:** All-supermarket, one pan, one unbroken ~15-minute session (low effort); eggs bring complete protein, choline and B12 with tomato's vitamin C and lycopene (nutrition is solid, if light on fibre — hence the bean and rice levers); and it's flat-out tasty, which is the whole point of this one.

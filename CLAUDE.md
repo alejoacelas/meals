@@ -15,16 +15,18 @@ This file is just the conventions for editing.
 - **Ingredient tables** (`ingredients/candidates/`): ranked best-first, columns in
   scan order — `Ingredient · Why here · Versatility · Prep effort · Availability ·
   Nutrition`. *Why here* is one sentence on the placement.
-- **Recipes**: a scoreline (the four principles + active/total time + sessions),
-  then **Equipment** and **Serves**, a line or two on the dish, **Ingredients**,
-  **Method**, and a closing *why it scores well* + *levers*. Match an existing file
-  in `recipes/proven/`. Every recipe's core version must cook from the proven kit
-  alone; widely-available extras are flagged optional.
+- **Recipes** (`menu/`): a scoreline (the four principles + active/total time +
+  sessions), **Equipment**, **Serves**, then an at-a-glance table (**Core
+  ingredients · Time · Steps**), a line on the dish, a **Core recipe** (proven kit
+  only), and a **Level it up** list of widely-available extras, each flagged
+  `(not in kit)`. Match an existing file in `menu/`. Every recipe's core version
+  must cook from the proven kit alone.
 
 ## Rules
 - One dish or one ingredient per file or row; keep entries short and scannable.
 - Prefer a small set of repeated staples over variety for its own sake — the
   recipes should keep landing on the same handful.
 - Flag equipment beyond pot/pan/knife at the top of a recipe.
-- **Never auto-promote.** New items start in `candidates/`; only the user moves
-  them to `proven/`. Mark anything generated-but-unchecked as a draft.
+- **Ingredients** start in `candidates/`; only the user promotes them to `proven/` —
+  never automatic. **Recipes** all live in `menu/`; a recipe earns a `> **Tried**`
+  note and a ✓ in the index only once the user has actually cooked it.

@@ -31,21 +31,17 @@ tie-breakers. Spices, for instance, earn their place on **taste**, not nutrition
 you eat a pinch, so nutrient density is mostly noise.
 
 ## How it's organized
-Both `ingredients/` and `recipes/` use the same `candidates/` → `proven/` split,
-and promotion between them is always **by hand** — nothing is promoted automatically.
-
-- **`ingredients/`** — the building blocks, ranked.
+- **`ingredients/`** — the building blocks, ranked, using a `candidates/` → `proven/`
+  split; promotion between them is always **by hand**.
   - `candidates/` — the full research: a scored, ranked table per category.
   - `proven/` — the go-tos I've settled on, with why. `proven/README.md` is the
     core kit at a glance.
   - `shopping-list.md` — a week's shop for two, built from the proven kit.
-- **`recipes/`** — dishes, each scored against the four principles.
-  - `candidates/` — scored but untested ideas. `candidates/README.md` is the
-    browsable catalog with top picks.
-  - `proven/` — recipes I've cooked and kept in rotation.
-
-I promote an ingredient once I've settled a category's go-tos, and a recipe once
-I've cooked it and it earns its place.
+- **`menu/`** — every dish, in one folder, each scored against the four principles.
+  The core version of each cooks from the proven kit alone; widely-available extras
+  are flagged as optional level-ups. `menu/README.md` is the browsable index, led by
+  the top picks. **✓ marks the ones I've actually cooked** (my own, or worked out
+  with friends); the rest are scored ideas I haven't made yet.
 
 ## What's in it right now
 
@@ -64,21 +60,17 @@ I've cooked it and it earns its place.
 pepper, broccoli, carrot, cabbage, pak choi; chickpeas and red lentils; eggs, Greek
 yoghurt, tinned sardines and mackerel, tofu, hummus.
 
-**Proven recipes** (`recipes/proven/`) — the two staples in rotation:
-- **Spinach, tomato & chickpeas** — the staple; one pan, ~15 min, good even unspiced.
-  Pasta variant included.
-- **Kale & mushroom sauté** — in rotation, still iterating.
-
-**The catalog** (`recipes/candidates/`) — a few dozen scored, untested recipes, all
-built so the core version cooks from the proven kit alone, with widely-available
-extras flagged as optional level-ups. The
-[catalog index](recipes/candidates/README.md) leads with the top picks — the ones
-that land 🟢 on nutrition, effort *and* taste at once.
+**The menu** (`menu/`) — 44 scored dishes in one folder, all built so the core
+version cooks from the proven kit alone, with widely-available extras flagged as
+optional level-ups. The [menu index](menu/README.md) leads with the top picks — the
+ones that land 🟢 on nutrition, effort *and* taste at once. **✓ marks the two I've
+actually cooked:** spinach, tomato & chickpeas (the staple; one pan, ~15 min, good
+even unspiced) and kale & mushroom sauté (in rotation, still iterating).
 
 ## How I use it
-Shop from `ingredients/shopping-list.md`, cook from the catalog, and move what
-earns its place into `proven/`. The four principles in this README are the standard
-everything is held to; `CLAUDE.md` holds the conventions for adding entries.
+Shop from `ingredients/shopping-list.md` and cook from the `menu/`; when a dish earns
+its place I mark it ✓. The four principles in this README are the standard everything
+is held to; `CLAUDE.md` holds the conventions for adding entries.
 
 ---
 

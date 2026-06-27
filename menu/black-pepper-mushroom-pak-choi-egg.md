@@ -1,0 +1,38 @@
+## Black-Pepper Mushroom & Pak Choi with Egg
+**Nutrition** 🟢 · **Effort** 🟢 (active ~10m · 1 session · ~16m total) · **Availability** 🟢 · **Taste** 🟢
+**Equipment:** one pan / knife
+**Serves:** 1–2
+
+| | |
+|---|---|
+| **Core ingredients** | mushroom, pak choi, eggs, garlic, rapeseed oil, black pepper, fine sea salt, red wine vinegar |
+| **Time** | active ~10m · ~16m total · 1 session |
+| **Steps** | hard-brown mushrooms in oil, season hard with black pepper → add garlic and pak choi (stems then leaves) with a splash of water, wilt, hit with red wine vinegar → fry the eggs crisp-edged and runny → slide over the veg, break the yolk as the sauce, finish with pepper and vinegar |
+
+Hard-browned mushrooms and wilted pak choi under a fried egg, heavy on cracked black pepper — deep, meaty umami without a drop of soy, the runny yolk doing the work of a sauce. It earns its place on taste: a stir-fry that eats far richer than its all-cupboard parts.
+
+### Core recipe — proven ingredients only
+**Ingredients**
+- A few big handfuls mushrooms, sliced thick
+- 2 heads pak choi, stems and leaves separated, stems sliced
+- 2–3 eggs
+- 3 cloves garlic, sliced
+- Rapeseed oil
+- Plenty of black pepper, coarsely ground
+- Fine sea salt
+- A splash of red wine vinegar
+- A splash of water
+
+**Method**
+1. Heat a good glug of rapeseed oil in the pan over high heat. Add the mushrooms and leave them largely undisturbed to release their water, then brown deeply, ~6–8 min — the colour is the flavour. Season with salt and a heavy grind of black pepper.
+2. Add the garlic and the pak choi stems with a splash of water; toss 1–2 min until the stems are crisp-tender. Add the leaves and wilt ~1 min more. Splash in the red wine vinegar, toss once, then tip everything onto a plate.
+3. Wipe the pan, add a little more oil, and fry the eggs over medium-high until the edges are crisp and lacy but the yolks still run. Crack lots of black pepper over them.
+4. Slide the eggs onto the mushrooms and pak choi. Break the yolk so it sauces the vegetables; finish with salt, more pepper and a few drops of vinegar.
+
+### Level it up (optional — beyond the kit, widely available)
+- **Glossy sauce (+ soy or oyster sauce + cornflour, both not in kit):** stir a teaspoon of cornflour into a splash of water with the soy or oyster sauce, then pour it in with the pak choi to coat everything in a clinging, takeaway-style gloss — and the soy deepens the umami the core builds without it.
+- **Aromatic base (+ ginger + spring onion, not in kit):** grate a thumb of ginger in with the garlic, and scatter sliced spring onion over at the end for freshness and lift.
+- **Toasty finish (+ sesame oil, not in kit):** a few drops swirled in off the heat for a nutty, sesame aroma.
+- **Make it heartier (+ firm tofu or butter, not in kit):** brown cubes of firm tofu alongside the mushrooms for extra protein, or melt a knob of butter into the pan with the eggs for richness.
+
+**Why it scores well:** Dominant criterion is **taste** — hard-browning the mushrooms and a fistful of black pepper build deep, meaty umami with no soy in sight, and the runny yolk turns it into a sauce. It's genuinely nutrient-dense too (complete protein, choline and B12 from the eggs; fibre, B-vitamins and selenium from the mushrooms; vitamin C, K, folate and calcium from the pak choi; healthy fat from the oil → nutrition 🟢). Every core item is an ordinary supermarket staple (availability 🟢), and it's one pan, one continuous session, ~10 minutes hands-on (effort 🟢).

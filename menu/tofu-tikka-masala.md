@@ -1,0 +1,67 @@
+## Tofu "Tikka" Masala (Yoghurt-Creamy)
+**Nutrition** 🟢 · **Effort** 🟡 (active ~20m · 1 session · ~30m total) · **Availability** 🟢 · **Taste** 🟢
+**Equipment:** one deep pan (or pot), knife
+**Serves:** 1–2
+
+| | |
+|---|---|
+| **Core ingredients** | firm tofu, onion, garlic, tinned chopped tomato, curry powder, smoked/sweet paprika, ground turmeric, ground ginger, ground coriander, ground cumin, chilli flakes, rapeseed/canola oil, Greek yoghurt, fresh lemon, spinach, fine sea salt, black pepper |
+| **Time** | active ~20m · ~30m total · 1 session |
+| **Steps** | pat and cube the tofu, brown it in oil, set aside → soften onion, then bloom garlic and the spices in oil → add tomato and simmer to a deep gravy → wilt spinach, return the tofu → off the heat, stir in yoghurt and lemon and season |
+
+The crowd-pleaser: seared tofu folded into a deep spiced tomato gravy made silky
+and tangy by stirring Greek yoghurt in *off the heat* — no cream or coconut. It
+hits the creamy-curry craving while staying high-protein and low in saturated fat.
+
+### Core recipe — proven ingredients only
+**Ingredients**
+- 1 block firm tofu (~280–400g), patted dry and cut into 2cm cubes
+- 1 onion, finely diced
+- 3 cloves garlic, minced
+- 1 can chopped tomatoes (~400g)
+- 1 tbsp curry powder
+- 1 tsp smoked/sweet paprika
+- ½ tsp ground turmeric
+- ½ tsp ground ginger
+- ½ tsp ground coriander
+- ½ tsp ground cumin
+- A pinch of chilli flakes
+- 3–4 tbsp Greek yoghurt
+- A good squeeze of fresh lemon
+- 2 handfuls spinach
+- Rapeseed/canola oil, fine sea salt, black pepper
+
+**Method**
+1. Press the tofu briefly between a towel to squeeze out water, then cube. Heat a
+   good glug of oil in the pan over medium-high and brown the cubes on a couple of
+   sides, ~6–8 min — colour means they hold together and taste seared, not raw.
+   Salt, then tip onto a plate.
+2. Lower to medium, add a little more oil and the onion; soften 5 min. Stir in the
+   garlic and cook 30 sec, then add all the ground spices and chilli flakes and
+   fry 30–60 sec until fragrant — this blooming step is where the depth comes from.
+3. Pour in the tomatoes with a splash of water. Simmer, stirring now and then,
+   8–10 min, until it darkens into a thick, jammy gravy.
+4. Stir in the spinach until just wilted, then return the tofu and any juices and
+   warm through. Take the pan off the heat and let it stop bubbling for a minute.
+5. Off the heat, stir in the Greek yoghurt a spoonful at a time so it goes silky
+   and doesn't split. Brighten with lemon, season hard with salt and black pepper.
+   Loosen with a splash of water if you want it saucier.
+
+### Level it up (optional — beyond the kit, widely available)
+- **Tikka char (uses kit yoghurt + spices):** before searing, toss the cubes in a
+  spoon of the Greek yoghurt with the spices and a little salt; the coating blisters
+  and chars for that grilled-tikka edge — a free upgrade using what's already here.
+- **Restaurant richness (+ butter or coconut milk, not in kit):** a knob of butter
+  or a splash of coconut milk swirled in at the end makes the sauce luxuriously
+  round, closer to a takeaway makhani.
+- **Aromatic finish (+ garam masala & kasuri methi, not in kit):** a pinch of each
+  stirred in off the heat adds the warm, slightly bitter perfume of a proper masala.
+- **Make it a meal (+ rice or naan, not in kit):** serve over basmati or with warm
+  naan to mop the gravy; fresh coriander (not in kit) on top.
+
+**Why it scores well:** Dominant criterion is **taste** — bloomed spices and a
+tangy off-heat yoghurt swirl deliver a genuine creamy-curry hit without cream. It's
+also seriously nutrient-dense (complete protein from tofu *and* yoghurt, fibre and
+vitamin C from tomato, iron and folate from spinach, low saturated fat →
+nutrition 🟢), all shelf-and-fridge staples (availability 🟢), one pan and one
+session — 🟡 on effort only because the tofu wants a patient sear.

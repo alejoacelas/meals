@@ -1,0 +1,39 @@
+## Cumin Pepper, Carrot & Chickpea Stir-fry
+**Nutrition** 🟢 · **Effort** 🟡 (active ~14m · 1 session · ~20m total) · **Availability** 🟢 · **Taste** 🟢
+**Equipment:** one pan / knife
+**Serves:** 1–2
+
+| | |
+|---|---|
+| **Core ingredients** | bell pepper, carrot, canned chickpeas, garlic, onion, ground cumin, chilli flakes, rapeseed oil, red wine vinegar, fine sea salt, black pepper |
+| **Time** | active ~14m · ~20m total · 1 session |
+| **Steps** | dry-fry chickpeas crisp → blister peppers and carrots hard in oil → add onion, garlic, cumin, chilli → return chickpeas, splash of vinegar, salt, pepper |
+
+A Xinjiang-leaning stir-fry: peppers and carrots blistered hard, crisp-edged chickpeas, and a heavy hand of cumin and chilli. Vegan, fast, and a real protein-and-fibre hit.
+
+### Core recipe — proven ingredients only
+**Ingredients**
+- 1 bell pepper, cut into strips
+- 2 medium carrots, cut into thin matchsticks
+- 1 can chickpeas, drained and patted dry
+- 2 cloves garlic, sliced
+- ½ onion, sliced
+- 1½ tsp ground cumin
+- A good pinch of chilli flakes
+- Rapeseed oil
+- 1 tbsp red wine vinegar
+- Fine sea salt, black pepper
+
+**Method**
+1. Heat the pan dry over medium-high; add the chickpeas and dry-fry, shaking now and then, until nutty and crisp, ~7 min. Salt, then tip onto a plate.
+2. Add a good glug of rapeseed oil and turn the heat high. Add the peppers and carrots and stir-fry hard, leaving them to sit between tosses so they blister and char, ~5 min. A splash of water and a brief cover softens the carrot if it needs it.
+3. Add the onion, garlic, cumin and chilli flakes; toss ~2 min until fragrant and the onion just softens.
+4. Return the chickpeas, splash in the vinegar and let it sizzle off, then season hard with salt and plenty of black pepper. Serve straight from the pan.
+
+### Level it up (optional — beyond the kit, widely available)
+- **Umami depth (+ soy sauce, not in kit):** swap the vinegar splash for soy, or use both, for a savoury, restaurant-style finish.
+- **Fresh heat and lift (+ fresh chilli and ginger, not in kit):** a grated thumb of ginger and a sliced red chilli in with the garlic push it brighter and more aromatic.
+- **Herby, citrus finish (+ fresh coriander and lime, not in kit):** scatter torn coriander and squeeze lime over off the heat for a Xinjiang-night-market lift.
+- **Smoke and crunch (+ smoked paprika and peanuts, not in kit):** a teaspoon of paprika with the cumin, a handful of toasted peanuts on top for healthy fat and bite.
+
+**Why it scores well:** Nutrition leads — chickpeas bring plant protein, iron and fibre, peppers load it with vitamin C, carrots add beta-carotene, and rapeseed oil the healthy fat, with nothing empty in the pan. One pan, one continuous session, every item an ordinary supermarket staple; high-heat blistering plus a heavy hand of cumin, chilli and a vinegar hit make it genuinely tasty — effort sits at 🟡 only because the matchsticks and constant tossing want tending.

@@ -1,0 +1,37 @@
+## Warm Berry-Compote Yoghurt Bowl with Toasted Oats & Almonds
+**Nutrition** 🟢 · **Effort** 🟢 (active ~8m · 1 session · ~10m total) · **Availability** 🟢 · **Taste** 🟢
+**Equipment:** one pan / one bowl / knife
+**Serves:** 1–2
+
+| | |
+|---|---|
+| **Core ingredients** | Greek yoghurt, frozen mixed berries, rolled oats, banana, almonds, pumpkin seeds, ground cinnamon |
+| **Time** | active ~8m · ~10m total · 1 session |
+| **Steps** | toast oats, almonds & pumpkin seeds in a dry pan → simmer frozen berries in the same pan till they collapse to jam → mash a ripe banana through the Greek yoghurt → spoon over the warm compote, scatter the toasted crunch, dust with cinnamon |
+
+A thick bed of Greek yoghurt sweetened only by a ripe banana mashed through, rippled with a 3-minute pan compote of frozen berries that jam themselves, then a hot handful of toasted oats, almonds and pumpkin seeds tipped over for crunch — warm jammy berries against cold creamy yoghurt, no sugar and no overnight soak. A real protein-plus-fibre breakfast that doesn't taste like health food.
+
+### Core recipe — proven ingredients only
+**Ingredients**
+- 150–200g Greek yoghurt
+- 1 ripe banana
+- A large handful (~75g) frozen mixed berries
+- 3 tbsp (~30g) rolled oats
+- A small handful (~20g) almonds, roughly chopped
+- 1 tbsp pumpkin seeds
+- A pinch of ground cinnamon
+- Splash of water; pinch of fine sea salt (optional)
+
+**Method**
+1. Set a dry pan over medium heat. Tip in the oats, chopped almonds and pumpkin seeds and toast, tossing often, 3–4 min until the oats smell nutty and the seeds start to pop. Scrape onto a plate.
+2. Return the pan to the heat, add the frozen berries with a splash of water and a tiny pinch of salt. Simmer, stirring and gently crushing, ~3 min until they collapse into a loose, glossy jam. Take off the heat.
+3. Meanwhile, mash the banana into the Greek yoghurt in your bowl with a fork until smooth — it sweetens and loosens the yoghurt without any sugar.
+4. Spoon the warm berry compote over the yoghurt so it ripples through, scatter the toasted oats, almonds and seeds over the top, and finish with a dusting of cinnamon. Eat while the berries are still warm against the cold yoghurt.
+
+### Level it up (optional — beyond the kit, widely available)
+- **Sweeten if needed (+ honey or maple, not in kit):** a thread over the top or stirred into the compote, for days your banana isn't quite ripe enough to carry it.
+- **More body & omega-3 (+ ground flaxseed or chia, not in kit):** a spoon stirred through the yoghurt thickens it to an almost mousse-like set and adds omega-3.
+- **Halva note (+ tahini, not in kit):** a swirl through the yoghurt brings a nutty, savoury-sweet edge that plays off the berries.
+- **Fresh & crunchy top (+ fresh berries or granola, not in kit):** scatter over at the end for a pop of fresh fruit or extra crunch alongside the toasted oats.
+
+**Why it scores well:** Nutrition leads — Greek yoghurt and almonds bring protein and healthy fat, oats and berries the fibre and antioxidants, pumpkin seeds magnesium and zinc, all in one bowl with no added sugar. Effort keeps right up: one dry pan, one continuous session, ~10 minutes start to spoon, and no soaking ahead. Every item is an ordinary supermarket staple, and taste is the quiet win — warm jammy compote melting into cold creamy banana-sweet yoghurt under a toasty crunch tastes like a treat, not a health chore.

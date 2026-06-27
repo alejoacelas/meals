@@ -1,0 +1,38 @@
+## Lemony Smashed-Chickpea & Jammy-Egg Bowl
+**Nutrition** 🟢 · **Effort** 🟢 (active ~7m · 1 session · ~12m total) · **Availability** 🟢 · **Taste** 🟡
+**Equipment:** one pot / knife
+**Serves:** 1–2
+
+| | |
+|---|---|
+| **Core ingredients** | canned chickpeas, eggs, spinach, onion, lemon, extra-virgin olive oil, chilli flakes, fine sea salt, black pepper |
+| **Time** | active ~7m · ~12m total · 1 session |
+| **Steps** | boil eggs to jammy, cold-shock → fork-smash chickpeas with lemon, oil, chilli, salted onion → dress raw spinach, pile on the chickpeas, halve the eggs over the top, finish with oil, lemon, pepper |
+
+The lowest-effort way to get a hot protein on the plate: you boil an egg, and the rest is fork-and-assemble. Lemony smashed chickpeas and jammy yolks over raw spinach — fresh, honest, and done before the kettle's cooled.
+
+### Core recipe — proven ingredients only
+**Ingredients**
+- 2 eggs
+- 1 can chickpeas, drained
+- 2 handfuls spinach (fresh)
+- ¼ onion, very finely diced
+- 1 lemon
+- Extra-virgin olive oil
+- A pinch of chilli flakes
+- Fine sea salt, black pepper
+- Water (to boil the eggs)
+
+**Method**
+1. Bring a small pot of water to the boil. Lower in the eggs and simmer 6½ minutes for a jammy yolk, then tip into cold water to stop them — peel when cool enough to handle.
+2. While they cook, put the diced onion in a bowl with a pinch of salt and a squeeze of lemon; leave it to mellow (the acid takes the raw bite off).
+3. Add the chickpeas, a good glug of olive oil, the chilli flakes and more lemon. Fork-smash to a rough, craggy mash — some whole, some crushed. Season with salt and black pepper; taste for lemon.
+4. Dress the spinach with a little oil, a squeeze of lemon and a pinch of salt, and spread it over a plate or bowl. Pile the smashed chickpeas on top, halve the peeled eggs and lay them over, and finish with a thread of oil, black pepper and a last pinch of chilli.
+
+### Level it up (optional — beyond the kit, widely available)
+- **Creamy backbone (+ tahini, not in kit):** loosen a spoon of tahini with lemon and water and swirl it through the chickpeas — turns the rough mash silky and rich.
+- **Cool and tangy (+ Greek yoghurt, not in kit):** a dollop spooned underneath, or feta crumbled (+ feta, not in kit) over the top, adds protein and a salty-sour lift.
+- **Make it greener (+ fresh parsley or coriander, not in kit):** a fistful of chopped herbs through the chickpeas brings it alive; sliced cucumber (+ cucumber, not in kit) adds crunch.
+- **Carry it (+ pita or toast, not in kit):** scoop everything onto warm pita or toast to turn the bowl into a proper handheld meal.
+
+**Why it scores well:** Effort leads — a single pot, one unbroken session, and the only cooking is a boiled egg, so it's the easiest hot-protein dish in the set. Nutrition keeps up: chickpeas bring fibre, plant protein and iron, eggs add complete protein with choline and B12, spinach folate and vitamin K, olive oil the healthy fat. Every item is an ordinary supermarket staple. Taste is the honest trade — fresh and clean rather than rich, which is exactly what the tahini, yoghurt and feta levers are there to fix.

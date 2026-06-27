@@ -1,0 +1,40 @@
+## Carrot, Cumin & Chickpea Pottage
+**Nutrition** 🟢 · **Effort** 🟡 (active ~14m · 1 session · ~35m total) · **Availability** 🟢 · **Taste** 🟡
+**Equipment:** one pot / knife
+**Serves:** 1–2
+
+| | |
+|---|---|
+| **Core ingredients** | carrot, canned chickpeas, onion, garlic, ground cumin, chilli flakes, extra-virgin olive oil, lemon, salt, black pepper |
+| **Time** | active ~14m · ~35m total · 1 session |
+| **Steps** | soften onion in oil → toast garlic, cumin, chilli → add carrot, chickpeas and water, simmer soft → mash velvety against the pot → finish with lemon, olive oil, black pepper |
+
+A tomato-free, naturally sweet bowl: carrots and chickpeas simmered soft, then hand-mashed to a velvety pottage — no blender, no fuss. Comfort food that happens to be a fibre-and-protein hit.
+
+### Core recipe — proven ingredients only
+**Ingredients**
+- 3 medium carrots, diced small (~1cm)
+- 1 can chickpeas, drained
+- 1 onion, diced
+- 3 cloves garlic, sliced
+- 1 tsp ground cumin
+- A pinch of chilli flakes
+- Extra-virgin olive oil
+- ½ lemon
+- Fine sea salt, black pepper
+- Water
+
+**Method**
+1. Warm a good glug of olive oil in the pot; soften the onion over medium heat, ~6 min, until sweet and translucent.
+2. Stir in the garlic, cumin and chilli flakes; toast ~1 min until fragrant.
+3. Add the carrots and chickpeas, a good pinch of salt, and just enough water to cover (~250ml). Bring to a simmer, cover, and cook ~20–25 min until the carrots are fork-soft. Scoop out a spoonful of whole chickpeas first if you want some texture to scatter back later.
+4. Take off the heat and mash roughly against the side of the pot with a fork or the back of a spoon — velvety but not smooth, a few lumps welcome. Loosen with a splash of water if it's stiff.
+5. Squeeze in the lemon, stir through a final drizzle of olive oil, and season hard with salt and black pepper. Top with the reserved chickpeas and an extra pinch of chilli.
+
+### Level it up (optional — beyond the kit, widely available)
+- **Creamy and rich (+ coconut milk, not in kit):** stir a splash in at the mash stage for a silkier, fuller bowl — it tames the chilli and plays beautifully with the cumin.
+- **Warmer, deeper (+ fresh ginger, not in kit):** grate a thumb in with the garlic; (+ curry powder or harissa, not in kit) alongside the cumin pushes it toward a spiced dhal-soup.
+- **Cool tang on top (+ Greek yoghurt, not in kit):** a spoonful swirled in adds protein and a creamy contrast to the sweet carrot.
+- **Crunch and freshness (+ toasted pumpkin seeds and fresh coriander, not in kit):** seeds toasted in the dry pot before you start, scattered on with torn coriander, for healthy fat and lift.
+
+**Why it scores well:** Nutrition leads — chickpeas bring plant protein, iron and fibre, carrots load it with beta-carotene and more fibre, olive oil the healthy fat, and there's not a drop of anything empty in it. One pot, one continuous session, every item an ordinary shelf staple; the simmer time keeps effort at 🟡, but cumin, garlic, chilli and a hard squeeze of lemon make a comforting bowl that's genuinely worth eating.

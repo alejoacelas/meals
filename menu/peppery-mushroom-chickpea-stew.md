@@ -1,0 +1,57 @@
+## Peppery Mushroom & Chickpea Stew
+**Nutrition** 🟢 · **Effort** 🟡 (active ~15m · 1 session · ~30m total) · **Availability** 🟢 · **Taste** 🟢
+**Equipment:** one pot (or deep pan), knife
+**Serves:** 1–2
+
+| | |
+|---|---|
+| **Core ingredients** | mushroom, onion, garlic, canned chickpeas, tinned chopped tomato, extra-virgin olive oil, chilli flakes, fine sea salt, black pepper, water |
+| **Time** | active ~15m · ~30m total · 1 session |
+| **Steps** | hard-brown the mushrooms in oil and set aside → soften onion, then add garlic, chilli and lots of black pepper → pour in tomato, chickpeas and water and simmer → mash some chickpeas to thicken → return mushrooms, season, finish with more pepper |
+
+Hard-browned mushrooms build a meaty, umami broth; mashing some of the chickpeas
+thickens it into a ragout you can eat as a bowl or spoon straight over pasta.
+Aggressive black pepper is the whole point.
+
+### Core recipe — proven ingredients only
+**Ingredients**
+- A few big handfuls mushrooms, sliced thick
+- 1 onion, diced
+- 3 cloves garlic, sliced
+- 1 can chickpeas, drained (keep the liquid)
+- 1 can chopped tomatoes (~400g)
+- A pinch of chilli flakes
+- Plenty of black pepper (½ tsp or more, coarsely ground)
+- Extra-virgin olive oil, fine sea salt
+- A splash of water
+
+**Method**
+1. Heat a good glug of olive oil in the pot over high heat. Add the mushrooms and
+   leave them largely undisturbed to release their water and then brown deeply,
+   ~8 min — don't rush it; the colour is the flavour. Salt, then tip onto a plate.
+2. Lower the heat to medium, add a little more oil and the onion; soften 5 min.
+   Stir in the garlic, chilli flakes and a heavy grind of black pepper; cook
+   1 min until fragrant.
+3. Pour in the tomatoes and chickpeas with a splash of water (or the chickpea
+   liquid). Simmer, stirring now and then, 12–15 min, until thick and savoury.
+4. Mash some of the chickpeas against the side of the pot to thicken the broth
+   into a loose ragout. Return the mushrooms and any juices; warm through.
+5. Season hard with salt and even more black pepper. Loosen with a little water
+   if you want it soupier; serve as is or over pasta.
+
+### Level it up (optional — beyond the kit, widely available)
+- **Deeper umami (+ soy sauce or miso, not in kit):** a splash of soy or a
+  teaspoon of miso stirred in near the end doubles down on the meaty savour.
+- **Silky richness (+ cream or crème fraîche, not in kit):** a swirl off the heat
+  turns the peppery broth velvety, closer to a stroganoff.
+- **Rustic depth (+ red wine and fresh thyme, not in kit):** deglaze the browned
+  mushrooms with a glug of wine and a few thyme sprigs for a French-leaning ragout.
+- **More body (+ tinned white beans or green lentils, not in kit):** add alongside
+  or in place of some chickpeas for extra heft; finish with parsley (not in kit).
+
+**Why it scores well:** Dominant criterion is **taste** — hard-browned mushrooms,
+mashed chickpeas and a fistful of black pepper make a broth that eats far meatier
+than its parts. It's still genuinely nutrient-dense (plant protein and fibre from
+the chickpeas, B-vitamins and umami from the mushrooms, vitamin C from tomato →
+nutrition 🟢), entirely shelf-and-fridge staples (availability 🟢), one pot and
+one session — 🟡 on effort only because the mushrooms want patient browning.
