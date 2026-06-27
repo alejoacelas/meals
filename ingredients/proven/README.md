@@ -8,9 +8,9 @@ workflow's recommendation, still pending my review of `../candidates/`.
 |---|---|---|
 | **Fat / oil** | Extra virgin olive oil + rapeseed/canola | ✅ proven — see `oils-and-fats.md` |
 | **Aromatic base** | Garlic + onion | ✅ proven — see `aromatics.md` |
-| **Grain / starch** | Pasta (fusilli, penne) | ✅ proven — see `grains-and-starches.md` |
+| **Grain / starch** | Pasta (fusilli, penne) + rolled oats | ✅ proven — see `grains-and-starches.md` |
 | **Salt** | Fine sea salt | 💡 suggested — pending review |
-| **Acid** | Lemon (fresh) + red wine vinegar (keeps forever) | 💡 suggested — pending review |
+| **Acid** | Fresh lemon + red wine vinegar | ✅ proven — see `acids.md` |
 | **Heat / spice** | Whole spice rack (cumin, pepper, chilli, paprika, turmeric…) | ⚠️ proven as a set, unreviewed — see `spices-and-dried-herbs.md` |
 
 **Proven whole foods** (the meals are built from these):
@@ -18,11 +18,9 @@ workflow's recommendation, still pending my review of `../candidates/`.
 - **Fruits** — banana, avocado, frozen mixed berries, orange, apple, strawberries, grapes · `fruits.md`
 - **Legumes** — canned chickpeas, red split lentils · `legumes-and-beans.md`
 - **Proteins** — eggs, Greek yoghurt, tinned sardines, tinned mackerel, firm tofu · `other-proteins.md`
+- **Bread & wraps** — wholemeal/seeded bread, wholemeal wraps, wholemeal pita · `bread-and-wraps.md`
 
-**Still to review:** acids (and plain salt). Spices are in as a set, unreviewed.
-
-**Under discussion:** oats — the most convenient form (rolled vs instant) and
-whether to make them with water, milk, or a plant milk.
+**Still to review:** plain salt. Spices are in as a set, unreviewed.
 
 ## How this works
 - `../candidates/` holds the ranked options per category (the full research).

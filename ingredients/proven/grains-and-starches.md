@@ -16,6 +16,13 @@ nutrition as a tie-breaker (wholewheat when you can).
 - **Lever:** wholewheat adds fibre and protein at no extra effort — buy it when the
   shop has it.
 
-**Under discussion:** oats — still settling the most convenient form (rolled vs
-instant) and whether to make them with water, milk, or a plant milk. Not promoted
-yet; see the chat.
+## Oats (rolled)
+- **Why proven:** Best nutrition-per-effort grain — beta-glucan fibre, manganese
+  and some protein, cheap and everywhere, ready in 3–5 min with almost no
+  babysitting. Rolled is the sweet spot: instant goes mushy and is often
+  pre-sugared; steel-cut take 25–30 min.
+- **How:** microwave (oats + water, ~2½ min, one bowl — least washing) or one pot
+  ~5 min. Cook in water, then stir in Greek yoghurt off the heat for creaminess and
+  protein; top with frozen berries and banana — all proven.
+- **Skip:** overnight oats — no-cook, but a second attention episode the night
+  before, against the one-session rule.

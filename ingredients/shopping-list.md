@@ -36,19 +36,25 @@ quantities — tune to appetite. Grows as more categories get promoted.
 
 ## Cupboard
 - Pasta, fusilli/penne — 2 × 500 g
+- Rolled oats — 1 kg bag
 - Chopped tinned tomatoes — 2 tins
 - Extra virgin olive oil — 1 bottle (lasts beyond a week)
 - Rapeseed/canola oil — 1 bottle (lasts beyond a week)
+
+## Bread & wraps
+- Wholemeal / seeded sliced bread — 1 loaf
+- Wholemeal wraps — 1 pack
+- Wholemeal pita — 1 pack
 
 ## Spices — a starter rack (proven but not yet reviewed)
 Buy the set once; it lasts ages. How to use them: `notes/using-spices.md`.
 - Cumin, black pepper, chilli flakes, garlic granules, smoked paprika, turmeric,
   oregano, ground coriander, curry powder, cinnamon.
 
-## Seasoning (categories not yet promoted — restock if low)
-- Sea salt
-- Lemons — 3–4
-- Red wine vinegar — 1 bottle (lasts months)
+## Acids & seasoning
+- Lemons — 3–4 (proven)
+- Red wine vinegar — 1 bottle, lasts months (proven)
+- Sea salt — restock if low (the one category still not promoted)
 
 ## A week of meals from this
 - Spinach–tomato–chickpeas, on its own or over pasta
