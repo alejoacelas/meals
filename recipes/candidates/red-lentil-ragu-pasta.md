@@ -1,12 +1,12 @@
 ## Red Lentil Ragù with Pasta (Lentil "Bolognese")
-**Nutrition** 🟢 · **Effort** 🟡 (active ~16m · 1 session · ~40m total) · **Availability** 🟢 · **Taste** 🟢
+**Nutrition** 🟢 · **Effort** 🟡 (active ~16m · 1 session · ~45m total) · **Availability** 🟢 · **Taste** 🟢
 **Equipment:** one pot, one pan (or second pot), knife
 **Serves:** 1–2
 
 | | |
 |---|---|
 | **Core ingredients** | red split lentils, pasta (fusilli/penne), onion, carrot, garlic, tinned chopped tomato, dried oregano, chilli flakes, red wine vinegar, extra-virgin olive oil, fine sea salt, black pepper, water |
-| **Time** | active ~16m · ~40m total · 1 session |
+| **Time** | active ~16m · ~45m total · 1 session |
 | **Steps** | soften onion & carrot in oil until jammy → add garlic, oregano & chilli → stir in tomato, lentils & water and simmer to a thick, glossy ragù → boil pasta separately → finish the sauce with vinegar, then toss the pasta through with a splash of its water |
 
 Red split lentils cooked down with a slow soffritto and tomato into a thick, glossy, almost-meaty sauce, tossed through fusilli — a lentil bolognese that hits the pasta core from a different angle than Pasta e Ceci. Oregano, jammy onion and a splash of vinegar give it real ragù depth, loaded with plant protein and fibre. Double the sauce; it freezes well.
@@ -36,7 +36,7 @@ Red split lentils cooked down with a slow soffritto and tomato into a thick, glo
 - **Cheese & gloss (+ parmesan and a knob of butter, not in kit):** grate parmesan over and stir butter through off the heat — richer, rounder, more classically bolognese.
 - **Deeper base (+ tomato purée, not in kit):** bloom a spoon of purée with the garlic and oregano for a minute before the tomatoes; it adds concentrated, savoury depth.
 - **Meaty backbone (+ soy sauce or Worcestershire, not in kit):** a splash in with the water brings umami and that long-cooked, almost-meaty edge.
-- **Extra body (+ mushrooms, not in kit):** brown a handful of diced mushrooms in the oil before the onion for more texture and meatiness.
+- **Extra body (mushrooms, in kit):** brown a handful of diced mushrooms in the oil before the onion for more texture and meatiness.
 
 **Why it scores well:** Everything is ordinary-supermarket, all-proven stock (availability 🟢), and lentils simmered with soffritto, tomato, oregano and a hit of vinegar make a genuinely glossy, savoury ragù (taste 🟢). Red lentils bring big plant protein and fibre, with carrot, tomato and olive oil rounding out the nutrition (🟢). It's one session, but the sauce wants a ~30-min simmer with occasional stirring and the pasta boils alongside, so effort is good rather than effortless (🟡).
 

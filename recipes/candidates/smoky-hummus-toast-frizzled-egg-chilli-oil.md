@@ -31,7 +31,7 @@ A café plate in five minutes: thick hummus on hot toast, a crispy-edged frizzle
 ### Level it up (optional — beyond the kit, widely available)
 - **Nutty crunch (+ dukkah or za'atar, not in kit):** a spoon scattered over at the end adds toasty, seedy texture against the soft hummus and yolk.
 - **A hidden kick (+ harissa or sriracha, not in kit):** smear a thin line under the hummus for a deeper, fermented heat beneath the bloomed oil.
-- **Bulk it out (+ avocado, in kit, or sliced fresh tomato, not in kit):** fan over the hummus before the egg for more healthy fat or a fresh, juicy layer.
+- **Bulk it out (+ avocado or sliced fresh tomato, both in kit):** fan over the hummus before the egg for more healthy fat or a fresh, juicy layer.
 - **Better bread (+ sourdough or an English muffin, not in kit):** swap in for a chewier, more structural base that holds the oil without going soggy.
 
 **Why it scores well:** Effort leads — one pan, one unbroken session, five minutes from cold to a hot plate, with toasting and blooming the oil the only real steps. Nutrition keeps right up: eggs bring complete protein and choline, hummus adds chickpea protein, fibre and iron, the wholemeal bread more fibre, and the olive oil healthy fat — a genuinely balanced plate. Every item is an ordinary supermarket staple, and taste is no afterthought: runny yolk into garlicky hummus under a smoky-spiced oil is the kind of thing you'd order out.

@@ -48,9 +48,9 @@ hits the creamy-curry craving while staying high-protein and low in saturated fa
    Loosen with a splash of water if you want it saucier.
 
 ### Level it up (optional — beyond the kit, widely available)
-- **Tikka char (+ extra yoghurt marinade, not in kit):** before searing, toss the
-  cubes in a spoon of yoghurt with the spices and a little salt; the coating
-  blisters and chars for that grilled-tikka edge.
+- **Tikka char (uses kit yoghurt + spices):** before searing, toss the cubes in a
+  spoon of the Greek yoghurt with the spices and a little salt; the coating blisters
+  and chars for that grilled-tikka edge — a free upgrade using what's already here.
 - **Restaurant richness (+ butter or coconut milk, not in kit):** a knob of butter
   or a splash of coconut milk swirled in at the end makes the sauce luxuriously
   round, closer to a takeaway makhani.

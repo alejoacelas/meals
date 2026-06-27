@@ -1,12 +1,12 @@
 ## Crispy Smoked-Paprika Tofu with Garlicky Greens & Pumpkin Seeds
-**Nutrition** 🟢 · **Effort** 🟡 (active ~15m · 1 session · ~30m total) · **Availability** 🟢 · **Taste** 🟢
+**Nutrition** 🟢 · **Effort** 🟡 (active ~20m · 1 session · ~35m total) · **Availability** 🟢 · **Taste** 🟢
 **Equipment:** one pan / knife
 **Serves:** 1–2
 
 | | |
 |---|---|
 | **Core ingredients** | firm tofu, rapeseed oil, extra-virgin olive oil, garlic, smoked paprika, garlic granules, chilli flakes, kale, spinach, lemon, pumpkin seeds, fine sea salt, black pepper |
-| **Time** | active ~15m · ~30m total · 1 session |
+| **Time** | active ~20m · ~35m total · 1 session |
 | **Steps** | press and cube the tofu → toast pumpkin seeds in a dry pan, set aside → shallow-fry the tofu in rapeseed oil, turning each face until golden and crisp → off the heat, toss with smoked paprika, garlic granules and salt so the spice clings → in the same pan wilt garlicky, chilli-flecked kale then spinach with a squeeze of lemon → pile the tofu on the greens, shower with pumpkin seeds and more lemon |
 
 Pressed tofu cubed and shallow-fried until every face genuinely crackles — no coating, just the tofu's own crust — then tossed off the heat in smoked paprika and garlic granules so the spice clings, all piled on garlicky chilli greens and showered with toasted pumpkin seeds. The flagship crispy pan-fried tofu: it proves the texture is achievable kit-only, smoky-crisp protein against bright greens with no starch in sight.
