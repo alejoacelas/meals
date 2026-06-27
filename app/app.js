@@ -14,7 +14,7 @@
 
   // ---- state ----
   // basket: { id: {label, aisle, have, sources:[ "recipe:<slug>" | "manual" | "core" | "full" ]} }
-  // cart:   { recipeSlug: {batches} }  — recipes you've added, for attribution + batch counts
+  // cart:   { recipeSlug: {servings} } — recipes added, for attribution + scaled quantities
   let S = { username: "", diet: null, saved: [], basket: {}, cart: {} };
   let filters = { meal: "all", best: false, saved: false, q: "" };
   let remoteTimer = null;
@@ -83,11 +83,19 @@
   function textIsAnimal(t) { const s = t.toLowerCase(); return ANIMAL_WORDS.some(w => s.includes(w)); }
 
   // ---------- small components ----------
-  function scoreDots(r) {
-    const order = [["nutrition", "N"], ["effort", "E"], ["taste", "T"]];
-    return `<span class="dots" aria-label="nutrition, effort, taste">` +
-      order.map(([k]) => `<span class="dot ${r.scores[k] || "ok"}"></span>`).join("") + `</span>`;
+  // Distinct shape per metric (so they're recognizable); colour = score level.
+  const SHAPES = {
+    nutrition: '<path d="M6.05 8.05c-2.73 2.73-2.73 7.17 0 9.9C7.42 19.32 9.21 20 11 20s3.58-.68 4.95-2.05C19.43 14.47 20 4 20 4S9.53 4.57 6.05 8.05zm2.83 8.49c-.18-2.07.54-4.13 1.97-5.56 1.43-1.43 3.49-2.15 5.56-1.97-.18 2.07-.9 4.13-2.33 5.56-1.43 1.43-3.13 2.15-5.2 1.97z"/>',
+    effort: '<path d="M7 2v11h3v9l7-12h-4l4-8z"/>',
+    taste: '<path d="M12 2l2.2 6.8a1 1 0 0 0 .7.7L21.8 12l-6.9 2.5a1 1 0 0 0-.7.7L12 22l-2.2-6.8a1 1 0 0 0-.7-.7L2.2 12l6.9-2.5a1 1 0 0 0 .7-.7z"/>',
+  };
+  function scoreIcon(metric, score) {
+    return `<svg class="sc ${score || "ok"}" viewBox="0 0 24 24" role="img" aria-label="${metric} ${score || "ok"}">${SHAPES[metric]}</svg>`;
   }
+  function scoreDots(r) {
+    return `<span class="dots">${scoreIcon("nutrition", r.scores.nutrition)}${scoreIcon("effort", r.scores.effort)}${scoreIcon("taste", r.scores.taste)}</span>`;
+  }
+  function recipeScore(metric, label, s) { return `<span class="score">${scoreIcon(metric, s)}${label}</span>`; }
   function dietPill(r) {
     const st = statusOf(r);
     if (st === "vegan") return `<span class="pill veg">🌱 Vegan</span>`;
@@ -145,11 +153,11 @@
       </div>
       <p class="result-count">${list.length} recipe${list.length === 1 ? "" : "s"}${isVegan() ? " · vegan" : ""}</p>
       <div class="legend">
-        <span>The dots:</span>
-        <span class="lg"><span class="dot great"></span>nutrition</span>
-        <span class="lg"><span class="dot ok"></span>effort</span>
-        <span class="lg"><span class="dot weak"></span>taste</span>
-        <span class="sep">green great · amber ok · red weak</span>
+        <span class="lg">${scoreIcon("nutrition", "great")}Nutrition</span>
+        <span class="lg">${scoreIcon("effort", "great")}Effort</span>
+        <span class="lg">${scoreIcon("taste", "great")}Taste</span>
+        <span class="sep">·</span>
+        <span>green great · amber ok · red weak</span>
       </div>
       <div class="cards">${list.map(recipeCard).join("") || emptyState("🍃", "No recipes match. Loosen a filter.")}</div>`;
     view.innerHTML = html;
@@ -179,8 +187,8 @@
         <div class="badges">${dietPill(r)}${r.best ? `<span class="pill best">⭐ Best</span>` : ""}
           <span class="pill">${esc(r.type || "")}</span></div>
         <div class="scoreline">
-          ${scoreItem("Nutrition", r.scores.nutrition)}${scoreItem("Effort", r.scores.effort)}
-          ${scoreItem("Taste", r.scores.taste)}</div>
+          ${recipeScore("nutrition", "Nutrition", r.scores.nutrition)}${recipeScore("effort", "Effort", r.scores.effort)}
+          ${recipeScore("taste", "Taste", r.scores.taste)}</div>
         <div class="glance-row"><div class="k">Time</div><div class="v">${esc(r.summary.time || timeLabel(r))}</div></div>
         <div class="glance-row"><div class="k">You'll need</div><div class="v">${esc((adaptable && v.coreIngredients ? v.coreIngredients : r.summary.coreIngredients).join(", "))}</div></div>
         <div class="glance-row"><div class="k">The gist</div><div class="v">${esc(adaptable && v.steps ? v.steps : r.summary.steps)}</div></div>
@@ -223,21 +231,34 @@
       slug: g.slug, label: g.label,
       list: g.items.map(s => ingBySlug[s]).filter(i => i && ingredientAllowed(i)),
     })).filter(g => g.list.length);
-    let html = `<h1 class="large-title">Ingredients</h1>`;
-    html += `<div class="jump-bar">` + groups.map(g =>
-      `<button class="jump-chip" data-action="jump" data-group="${g.slug}">${esc(g.label)}<span class="jc-count">${g.list.length}</span></button>`
-    ).join("") + `</div>`;
-    html += `<p class="result-count">The proven kit${isVegan() ? " · vegan" : ""} — tap any for tips, swaps and where it's used.</p>`;
-    groups.forEach(g => {
-      html += `<div class="section-title" id="grp-${g.slug}">${esc(g.label)}</div>`;
-      html += `<div class="ing-list">` + g.list.map(i => {
+    const chips = groups.map((g, idx) =>
+      `<button class="jump-chip${idx === 0 ? " on" : ""}" data-action="jump" data-idx="${idx}">${esc(g.label)}<span class="jc-count">${g.list.length}</span></button>`
+    ).join("");
+    const panels = groups.map(g => {
+      const rows = g.list.map(i => {
         const n = (i.usedIn || []).filter(rs => recipeAllowed(recBySlug[rs])).length;
         return `<a class="ing-item" href="#/ingredient/${i.slug}">
           <span class="name">${esc(i.name)}${i.core ? ` <span class="tag">core</span>` : ""}</span>
           <span class="sub">${n} recipe${n === 1 ? "" : "s"}</span><span class="chev">›</span></a>`;
-      }).join("") + `</div>`;
-    });
-    view.innerHTML = html;
+      }).join("");
+      return `<section class="ing-panel" id="grp-${g.slug}"><div class="ing-list">${rows}</div></section>`;
+    }).join("");
+    view.innerHTML =
+      `<div class="ing-head"><h1 class="large-title">Ingredients</h1><div class="jump-bar">${chips}</div></div>
+       <div class="ing-pager" id="ing-pager">${panels}</div>`;
+    // keep the active chip in sync as you swipe between group panels
+    const pager = document.getElementById("ing-pager");
+    if (pager) {
+      let raf = null;
+      pager.addEventListener("scroll", () => {
+        if (raf) return;
+        raf = requestAnimationFrame(() => {
+          raf = null;
+          const idx = Math.round(pager.scrollLeft / pager.clientWidth);
+          document.querySelectorAll(".jump-chip").forEach((c, i) => c.classList.toggle("on", i === idx));
+        });
+      }, { passive: true });
+    }
   }
 
   function viewIngredient(slug) {
@@ -284,14 +305,14 @@
     if (cartRecipes.length) {
       html += `<div class="section-title">Recipes</div>`;
       cartRecipes.forEach(r => {
-        const b = (S.cart[r.slug] || {}).batches || 1;
+        const sv = servingsOf(r.slug);
         html += `<div class="cart-recipe">
           <div class="cr-main"><a class="cr-title" href="#/recipe/${r.slug}">${esc(r.title)}</a>
-            <div class="cr-sub">serves ${esc(r.serves || "1–2")}${b > 1 ? ` · ${b} batches` : ""}</div></div>
+            <div class="cr-sub">${sv} serving${sv === 1 ? "" : "s"}</div></div>
           <div class="stepper">
-            <button data-action="batch-dec" data-slug="${r.slug}" ${b <= 1 ? "disabled" : ""}>−</button>
-            <span class="sv">×${b}</span>
-            <button data-action="batch-inc" data-slug="${r.slug}">＋</button></div>
+            <button data-action="serv-dec" data-slug="${r.slug}" ${sv <= 1 ? "disabled" : ""}>−</button>
+            <span class="sv">${sv}</span>
+            <button data-action="serv-inc" data-slug="${r.slug}">＋</button></div>
           <button class="cr-remove" data-action="rm-recipe" data-slug="${r.slug}" aria-label="Remove recipe">×</button>
         </div>`;
       });
@@ -319,9 +340,10 @@
     view.innerHTML = html;
   }
   function checkRow(i) {
+    const qty = itemQtyText(i);
     return `<div class="check-item ${i.have ? "done" : ""}">
       <button class="check-box" data-action="toggle-have" data-id="${esc(i.id)}">${i.have ? "✓" : ""}</button>
-      <div class="ci-main"><div class="ci-label">${esc(i.label)}</div>
+      <div class="ci-main"><div class="ci-label">${esc(i.label)}${qty ? ` <span class="ci-qty">${esc(qty)}</span>` : ""}</div>
         <div class="ci-source">${esc(itemSourcesText(i))}</div></div>
       <button class="ci-remove" data-action="rm-item" data-id="${esc(i.id)}" aria-label="Remove">×</button>
     </div>`;
@@ -331,10 +353,8 @@
     const seen = [];
     srcs.forEach(s => {
       let label;
-      if (s.indexOf("recipe:") === 0) {
-        const slug = s.slice(7), r = recBySlug[slug], b = (S.cart[slug] || {}).batches || 1;
-        label = (r ? r.title : "a recipe") + (b > 1 ? ` ×${b}` : "");
-      } else label = { manual: "added on its own", core: "core kit", full: "week list" }[s] || s;
+      if (s.indexOf("recipe:") === 0) { const r = recBySlug[s.slice(7)]; label = r ? r.title : "a recipe"; }
+      else label = { manual: "added on its own", core: "core kit", full: "week list" }[s] || s;
       if (seen.indexOf(label) < 0) seen.push(label);
     });
     return seen.join(" · ");
@@ -351,8 +371,13 @@
     }
   }
   function recipeInCart(slug) { return !!S.cart[slug]; }
+  function baseServings(r) { return (r && r.baseServings) || 2; }
+  function servingsOf(slug) {
+    const e = S.cart[slug];
+    return (e && e.servings) || baseServings(recBySlug[slug]);
+  }
   function addRecipe(r) {
-    if (!S.cart[r.slug]) S.cart[r.slug] = { batches: 1 };
+    if (!S.cart[r.slug]) S.cart[r.slug] = { servings: baseServings(r) };
     r.uses.forEach(s => {
       const i = ingBySlug[s]; if (!i || !ingredientAllowed(i)) return;
       addItem(i.slug, i.name, catLabel[i.category] || "Other", "recipe:" + r.slug);
@@ -366,9 +391,34 @@
       if (!it.sources.length) delete S.basket[id];
     });
   }
-  function setBatches(slug, n) {
+  function setServings(slug, n) {
     if (!S.cart[slug]) return;
-    S.cart[slug].batches = Math.max(1, Math.min(9, n));
+    S.cart[slug].servings = Math.max(1, Math.min(20, n));
+  }
+  // sum a basket item's scalable quantity across its source recipes, by unit
+  function itemQtyText(it) {
+    if (!it.id || it.id.indexOf("full:") === 0) return "";
+    const byUnit = {};
+    (it.sources || []).forEach(s => {
+      if (s.indexOf("recipe:") !== 0) return;
+      const r = recBySlug[s.slice(7)];
+      const q = r && r.quantities && r.quantities[it.id];
+      if (!q || !q.scalable || q.qty == null) return;
+      const factor = servingsOf(r.slug) / baseServings(r);
+      byUnit[q.unit] = (byUnit[q.unit] || 0) + q.qty * factor;
+    });
+    const parts = Object.keys(byUnit).map(u => fmtQty(byUnit[u], u)).filter(Boolean);
+    return parts.join(" + ");
+  }
+  function fmtQty(n, unit) {
+    if (unit === "g" || unit === "ml") {
+      const v = n >= 100 ? Math.round(n / 10) * 10 : Math.round(n / 5) * 5;
+      return `${v} ${unit}`;
+    }
+    if (!unit || unit === "to taste") return "";
+    let v = Math.round(n * 2) / 2;          // counts to nearest half
+    const word = v === 1 ? unit : (/s$/.test(unit) ? unit : unit + "s");
+    return `${v} ${word}`;
   }
   function addCoreKit() {
     D.coreKit.forEach(s => { const i = ingBySlug[s]; if (i && ingredientAllowed(i)) addItem(i.slug, i.name, catLabel[i.category] || "Other", "core"); });
@@ -419,6 +469,7 @@
     const m = h.match(/^#\/(\w+)(?:\/(.+))?/);
     const v = m ? m[1] : "recipes";
     const p = m && m[2] ? decodeURIComponent(m[2]) : null;
+    document.body.classList.toggle("view-ingredients", v === "ingredients");
     if (v === "recipe") viewRecipe(p);
     else if (v === "ingredient") viewIngredient(p);
     else if (v === "ingredients") viewIngredients();
@@ -447,9 +498,10 @@
     if (act === "f-best") { filters.best = !filters.best; viewRecipes(); return; }
     if (act === "f-saved") { filters.saved = !filters.saved; viewRecipes(); return; }
     if (act === "jump") {
-      e.preventDefault();
-      const el = document.getElementById("grp-" + a.dataset.group);
-      if (el) el.scrollIntoView({ block: "start" });
+      const pager = document.getElementById("ing-pager");
+      const idx = parseInt(a.dataset.idx, 10) || 0;
+      if (pager) pager.scrollLeft = idx * pager.clientWidth;
+      document.querySelectorAll(".jump-chip").forEach((c, i) => c.classList.toggle("on", i === idx));
       return;
     }
     if (act === "add-recipe") {
@@ -464,8 +516,8 @@
     }
     if (act === "add-core") { addCoreKit(); persist(); viewBasket(); updateBasketBadge(); return; }
     if (act === "add-full") { addFullList(); persist(); viewBasket(); updateBasketBadge(); return; }
-    if (act === "batch-inc") { setBatches(a.dataset.slug, ((S.cart[a.dataset.slug] || {}).batches || 1) + 1); persist(); viewBasket(); return; }
-    if (act === "batch-dec") { setBatches(a.dataset.slug, ((S.cart[a.dataset.slug] || {}).batches || 1) - 1); persist(); viewBasket(); return; }
+    if (act === "serv-inc") { setServings(a.dataset.slug, servingsOf(a.dataset.slug) + 1); persist(); viewBasket(); return; }
+    if (act === "serv-dec") { setServings(a.dataset.slug, servingsOf(a.dataset.slug) - 1); persist(); viewBasket(); return; }
     if (act === "rm-recipe") { removeRecipe(a.dataset.slug); persist(); viewBasket(); updateBasketBadge(); return; }
     if (act === "toggle-have") { const it = S.basket[a.dataset.id]; if (it) { it.have = !it.have; persist(); viewBasket(); updateBasketBadge(); } return; }
     if (act === "rm-item") { delete S.basket[a.dataset.id]; persist(); viewBasket(); updateBasketBadge(); return; }

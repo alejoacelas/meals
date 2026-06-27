@@ -28,14 +28,14 @@ built from the `meals` snapshot — *Salt Fat Acid Heat* turned into software.
    and saved recipes across phone and computer. It shows small but always. Anyone
    who knows the name sees the same kitchen — that's the sharing model, on purpose.
 
-6. **Basket → shopping list.** Add a recipe's ingredients to the basket in one
-   tap; check off what you already have. Every item shows which recipe(s) it's
-   for, overlapping ingredients merge into one line, and each recipe carries a
-   **batch** count (×N) that annotates how much to buy. Seed the basket from two
-   presets: the **Core kit** (minimal best-per-category) or the **Full list** (a
-   week for two). The **Empty** action sits at the top, not buried at the bottom.
-   *Amounts are the recipe's own ("2–3 handfuls"); batches multiply intent, not
-   parsed quantities — true scaling would need structured amounts in the catalog.*
+6. **Basket → shopping list.** Add a recipe in one tap and set its **servings** —
+   the amounts scale. Every ingredient line shows a real **quantity, summed
+   across the recipes that share it** (e.g. 390 g pasta across two dishes), tagged
+   with its source recipes; oils, salt and spices stay "to taste". Check off what
+   you have. Seed from the **Core kit** (minimal best-per-category) or the **Full
+   list** (a week for two). **Empty** sits at the top, not buried at the bottom.
+   *Quantities come from a structured extraction of each recipe's amounts
+   (`content/quantities.json`), so vague "2–3 handfuls" become scalable grams.*
 
 7. **Two depths, never more.** Where there's a "more/less," it's always the same
    two: **Core** (minimal, best-scoring) and **Full**. Recipes have a ⭐ **Best**

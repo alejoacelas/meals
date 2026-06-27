@@ -1,0 +1,3579 @@
+{
+ "_meta": {
+  "generatedBy": "meals-quantities workflow",
+  "snapshotDate": "2026-06-27"
+ },
+ "items": [
+  {
+   "slug": "aglio-e-olio-greens-chickpeas",
+   "baseServings": 2,
+   "items": [
+    {
+     "display": "~120 g fusilli or penne",
+     "item": "pasta",
+     "qty": 120,
+     "unit": "g",
+     "scalable": true
+    },
+    {
+     "display": "1 small head broccoli, cut into small florets",
+     "item": "broccoli",
+     "qty": 200,
+     "unit": "g",
+     "scalable": true
+    },
+    {
+     "display": "1 can chickpeas, drained",
+     "item": "canned chickpeas",
+     "qty": 1,
+     "unit": "tin",
+     "scalable": true
+    },
+    {
+     "display": "3–4 cloves garlic, thinly sliced",
+     "item": "garlic",
+     "qty": 3.5,
+     "unit": "clove",
+     "scalable": true
+    },
+    {
+     "display": "A generous glug extra-virgin olive oil (3–4 tbsp)",
+     "item": "olive oil",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    },
+    {
+     "display": "A good pinch chilli flakes",
+     "item": "chilli flakes",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    },
+    {
+     "display": "½ lemon",
+     "item": "lemon",
+     "qty": 0.5,
+     "unit": "lemon",
+     "scalable": true
+    },
+    {
+     "display": "Fine sea salt, black pepper",
+     "item": "salt",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    },
+    {
+     "display": "Fine sea salt, black pepper",
+     "item": "black pepper",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    }
+   ]
+  },
+  {
+   "slug": "apple-cinnamon-toasted-almond-oats",
+   "baseServings": 2,
+   "items": [
+    {
+     "display": "A small handful (~25g) almonds, roughly chopped",
+     "item": "almonds",
+     "qty": 25,
+     "unit": "g",
+     "scalable": true
+    },
+    {
+     "display": "50g (½ cup) rolled oats",
+     "item": "rolled oats",
+     "qty": 50,
+     "unit": "g",
+     "scalable": true
+    },
+    {
+     "display": "~300ml water",
+     "item": "water",
+     "qty": 300,
+     "unit": "ml",
+     "scalable": true
+    },
+    {
+     "display": "1 apple, coarsely grated (skin on; core left behind)",
+     "item": "apple",
+     "qty": 1,
+     "unit": "apple",
+     "scalable": true
+    },
+    {
+     "display": "½ tsp ground cinnamon",
+     "item": "ground cinnamon",
+     "qty": null,
+     "unit": "tsp",
+     "scalable": false
+    },
+    {
+     "display": "¼ tsp ground ginger",
+     "item": "ground ginger",
+     "qty": null,
+     "unit": "tsp",
+     "scalable": false
+    },
+    {
+     "display": "A pinch of fine sea salt",
+     "item": "sea salt",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    },
+    {
+     "display": "2–3 tbsp Greek yoghurt, to finish",
+     "item": "greek yoghurt",
+     "qty": 37.5,
+     "unit": "g",
+     "scalable": true
+    }
+   ]
+  },
+  {
+   "slug": "banana-peanut-butter-oats",
+   "baseServings": 1,
+   "items": [
+    {
+     "display": "50g (½ cup) rolled oats",
+     "item": "rolled oats",
+     "qty": 50,
+     "unit": "g",
+     "scalable": true
+    },
+    {
+     "display": "~300ml water",
+     "item": "water",
+     "qty": 300,
+     "unit": "ml",
+     "scalable": true
+    },
+    {
+     "display": "1 banana (½ mashed into the pot, ½ sliced for the top)",
+     "item": "banana",
+     "qty": 1,
+     "unit": "banana",
+     "scalable": true
+    },
+    {
+     "display": "1 heaped tbsp peanut butter",
+     "item": "peanut butter",
+     "qty": 18,
+     "unit": "g",
+     "scalable": true
+    },
+    {
+     "display": "¼ tsp ground cinnamon",
+     "item": "cinnamon",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    },
+    {
+     "display": "1 tbsp pumpkin seeds",
+     "item": "pumpkin seeds",
+     "qty": 10,
+     "unit": "g",
+     "scalable": true
+    },
+    {
+     "display": "A small pinch of fine sea salt",
+     "item": "salt",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    }
+   ]
+  },
+  {
+   "slug": "big-hummus-avocado-wrap-lemon-slaw",
+   "baseServings": 2,
+   "items": [
+    {
+     "display": "1 large wholemeal wrap",
+     "item": "wholemeal wrap",
+     "qty": 1,
+     "unit": "piece",
+     "scalable": true
+    },
+    {
+     "display": "3–4 tbsp hummus",
+     "item": "hummus",
+     "qty": 50,
+     "unit": "g",
+     "scalable": true
+    },
+    {
+     "display": "½ ripe avocado",
+     "item": "avocado",
+     "qty": 0.5,
+     "unit": "avocado",
+     "scalable": true
+    },
+    {
+     "display": "A big handful cabbage, finely shredded",
+     "item": "cabbage",
+     "qty": 80,
+     "unit": "g",
+     "scalable": true
+    },
+    {
+     "display": "½ carrot, grated or cut into thin matchsticks",
+     "item": "carrot",
+     "qty": 40,
+     "unit": "g",
+     "scalable": true
+    },
+    {
+     "display": "1 tbsp pumpkin seeds",
+     "item": "pumpkin seeds",
+     "qty": 10,
+     "unit": "g",
+     "scalable": true
+    },
+    {
+     "display": "1 tbsp red wine vinegar",
+     "item": "red wine vinegar",
+     "qty": 15,
+     "unit": "ml",
+     "scalable": true
+    },
+    {
+     "display": "½ lemon",
+     "item": "lemon",
+     "qty": 0.5,
+     "unit": "lemon",
+     "scalable": true
+    },
+    {
+     "display": "A pinch of chilli flakes",
+     "item": "chilli flakes",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    },
+    {
+     "display": "Fine sea salt",
+     "item": "salt",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    }
+   ]
+  },
+  {
+   "slug": "black-pepper-mushroom-pak-choi-egg",
+   "baseServings": 2,
+   "items": [
+    {
+     "display": "A few big handfuls mushrooms, sliced thick",
+     "item": "mushrooms",
+     "qty": 240,
+     "unit": "g",
+     "scalable": true
+    },
+    {
+     "display": "2 heads pak choi, stems and leaves separated, stems sliced",
+     "item": "pak choi",
+     "qty": 500,
+     "unit": "g",
+     "scalable": true
+    },
+    {
+     "display": "2–3 eggs",
+     "item": "eggs",
+     "qty": 2.5,
+     "unit": "egg",
+     "scalable": true
+    },
+    {
+     "display": "3 cloves garlic, sliced",
+     "item": "garlic",
+     "qty": 3,
+     "unit": "clove",
+     "scalable": true
+    },
+    {
+     "display": "Rapeseed oil",
+     "item": "rapeseed oil",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    },
+    {
+     "display": "Plenty of black pepper, coarsely ground",
+     "item": "black pepper",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    },
+    {
+     "display": "Fine sea salt",
+     "item": "sea salt",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    },
+    {
+     "display": "A splash of red wine vinegar",
+     "item": "red wine vinegar",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    },
+    {
+     "display": "A splash of water",
+     "item": "water",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    }
+   ]
+  },
+  {
+   "slug": "carrot-cumin-chickpea-pottage",
+   "baseServings": 2,
+   "items": [
+    {
+     "display": "3 medium carrots, diced small (~1cm)",
+     "item": "carrot",
+     "qty": 240,
+     "unit": "g",
+     "scalable": true
+    },
+    {
+     "display": "1 can chickpeas, drained",
+     "item": "canned chickpeas",
+     "qty": 1,
+     "unit": "tin",
+     "scalable": true
+    },
+    {
+     "display": "1 onion, diced",
+     "item": "onion",
+     "qty": 1,
+     "unit": "onion",
+     "scalable": true
+    },
+    {
+     "display": "3 cloves garlic, sliced",
+     "item": "garlic",
+     "qty": 3,
+     "unit": "clove",
+     "scalable": true
+    },
+    {
+     "display": "1 tsp ground cumin",
+     "item": "ground cumin",
+     "qty": 1,
+     "unit": "tsp",
+     "scalable": false
+    },
+    {
+     "display": "A pinch of chilli flakes",
+     "item": "chilli flakes",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    },
+    {
+     "display": "Extra-virgin olive oil",
+     "item": "olive oil",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    },
+    {
+     "display": "½ lemon",
+     "item": "lemon",
+     "qty": 0.5,
+     "unit": "lemon",
+     "scalable": true
+    },
+    {
+     "display": "Fine sea salt, black pepper",
+     "item": "salt",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    },
+    {
+     "display": "Fine sea salt, black pepper",
+     "item": "black pepper",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    },
+    {
+     "display": "Water",
+     "item": "water",
+     "qty": 250,
+     "unit": "ml",
+     "scalable": true
+    }
+   ]
+  },
+  {
+   "slug": "charred-broccoli-cumin-chickpeas",
+   "baseServings": 2,
+   "items": [
+    {
+     "display": "1 can chickpeas, drained and patted dry",
+     "item": "canned chickpeas",
+     "qty": 1,
+     "unit": "tin",
+     "scalable": true
+    },
+    {
+     "display": "1 head broccoli, cut into small florets (slice any thick stem thin)",
+     "item": "broccoli",
+     "qty": 1,
+     "unit": "whole",
+     "scalable": true
+    },
+    {
+     "display": "2 cloves garlic, sliced",
+     "item": "garlic",
+     "qty": 2,
+     "unit": "clove",
+     "scalable": true
+    },
+    {
+     "display": "1 tsp ground cumin",
+     "item": "ground cumin",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    },
+    {
+     "display": "A pinch of chilli flakes",
+     "item": "chilli flakes",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    },
+    {
+     "display": "Extra-virgin olive oil",
+     "item": "olive oil",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    },
+    {
+     "display": "½ lemon",
+     "item": "lemon",
+     "qty": 0.5,
+     "unit": "lemon",
+     "scalable": true
+    },
+    {
+     "display": "Fine sea salt",
+     "item": "salt",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    },
+    {
+     "display": "black pepper",
+     "item": "black pepper",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    }
+   ]
+  },
+  {
+   "slug": "charred-cabbage-egg-pan",
+   "baseServings": 2,
+   "items": [
+    {
+     "display": "¼ cabbage, cut into rough 2 cm ribbons (a few big handfuls)",
+     "item": "cabbage",
+     "unit": "g",
+     "qty": 300,
+     "scalable": true
+    },
+    {
+     "display": "3 eggs",
+     "item": "egg",
+     "unit": "egg",
+     "qty": 3,
+     "scalable": true
+    },
+    {
+     "display": "2 cloves garlic, sliced",
+     "item": "garlic",
+     "unit": "clove",
+     "qty": 2,
+     "scalable": true
+    },
+    {
+     "display": "A pinch of chilli flakes",
+     "item": "chilli flakes",
+     "unit": "to taste",
+     "qty": null,
+     "scalable": false
+    },
+    {
+     "display": "A splash of red wine vinegar",
+     "item": "red wine vinegar",
+     "unit": "ml",
+     "qty": 15,
+     "scalable": true
+    },
+    {
+     "display": "Rapeseed oil, fine sea salt, black pepper",
+     "item": "rapeseed oil",
+     "unit": "to taste",
+     "qty": null,
+     "scalable": false
+    },
+    {
+     "display": "Rapeseed oil, fine sea salt, black pepper",
+     "item": "salt",
+     "unit": "to taste",
+     "qty": null,
+     "scalable": false
+    },
+    {
+     "display": "Rapeseed oil, fine sea salt, black pepper",
+     "item": "black pepper",
+     "unit": "to taste",
+     "qty": null,
+     "scalable": false
+    }
+   ]
+  },
+  {
+   "slug": "chickpea-egg-deli-salad",
+   "baseServings": 2,
+   "items": [
+    {
+     "display": "1 can chickpeas, drained",
+     "item": "canned chickpeas",
+     "qty": 1,
+     "unit": "tin",
+     "scalable": true
+    },
+    {
+     "display": "2–3 eggs",
+     "item": "egg",
+     "qty": 2.5,
+     "unit": "egg",
+     "scalable": true
+    },
+    {
+     "display": "1 tomato, chopped (or a handful of tinned / cherry tomatoes)",
+     "item": "tomato",
+     "qty": 1,
+     "unit": "tomato",
+     "scalable": true
+    },
+    {
+     "display": "½ onion, thinly sliced",
+     "item": "onion",
+     "qty": 0.5,
+     "unit": "onion",
+     "scalable": true
+    },
+    {
+     "display": "1 tbsp red wine vinegar",
+     "item": "red wine vinegar",
+     "qty": 15,
+     "unit": "ml",
+     "scalable": true
+    },
+    {
+     "display": "½ lemon",
+     "item": "lemon",
+     "qty": 0.5,
+     "unit": "lemon",
+     "scalable": true
+    },
+    {
+     "display": "A pinch of chilli flakes",
+     "item": "chilli flakes",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    },
+    {
+     "display": "Extra-virgin olive oil",
+     "item": "olive oil",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    },
+    {
+     "display": "fine sea salt",
+     "item": "salt",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    },
+    {
+     "display": "black pepper",
+     "item": "pepper",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    }
+   ]
+  },
+  {
+   "slug": "chickpea-shakshuka",
+   "baseServings": 2,
+   "items": [
+    {
+     "display": "4 eggs",
+     "item": "eggs",
+     "unit": "egg",
+     "qty": 4,
+     "scalable": true
+    },
+    {
+     "display": "1 can chickpeas, drained",
+     "item": "canned chickpeas",
+     "unit": "tin",
+     "qty": 1,
+     "scalable": true
+    },
+    {
+     "display": "1 can chopped tomatoes (~400g)",
+     "item": "tinned chopped tomatoes",
+     "unit": "tin",
+     "qty": 1,
+     "scalable": true
+    },
+    {
+     "display": "1 bell pepper, sliced",
+     "item": "bell pepper",
+     "unit": "whole",
+     "qty": 1,
+     "scalable": true
+    },
+    {
+     "display": "1 onion, diced",
+     "item": "onion",
+     "unit": "onion",
+     "qty": 1,
+     "scalable": true
+    },
+    {
+     "display": "3 cloves garlic, sliced",
+     "item": "garlic",
+     "unit": "clove",
+     "qty": 3,
+     "scalable": true
+    },
+    {
+     "display": "1 tsp ground cumin",
+     "item": "ground cumin",
+     "unit": "tsp",
+     "qty": 1,
+     "scalable": true
+    },
+    {
+     "display": "chilli flakes, to taste",
+     "item": "chilli flakes",
+     "unit": "to taste",
+     "qty": null,
+     "scalable": false
+    },
+    {
+     "display": "olive oil, salt, black pepper",
+     "item": "olive oil",
+     "unit": "to taste",
+     "qty": null,
+     "scalable": false
+    },
+    {
+     "display": "olive oil, salt, black pepper",
+     "item": "salt",
+     "unit": "to taste",
+     "qty": null,
+     "scalable": false
+    },
+    {
+     "display": "olive oil, salt, black pepper",
+     "item": "black pepper",
+     "unit": "to taste",
+     "qty": null,
+     "scalable": false
+    }
+   ]
+  },
+  {
+   "slug": "chickpea-vegetable-minestrone-soup",
+   "baseServings": 4,
+   "items": [
+    {
+     "display": "1 onion, diced",
+     "item": "onion",
+     "unit": "onion",
+     "qty": 1,
+     "scalable": true
+    },
+    {
+     "display": "2 carrots, diced",
+     "item": "carrot",
+     "unit": "g",
+     "qty": 180,
+     "scalable": true
+    },
+    {
+     "display": "¼ cabbage, shredded (a few handfuls)",
+     "item": "cabbage",
+     "unit": "g",
+     "qty": 250,
+     "scalable": true
+    },
+    {
+     "display": "3 cloves garlic, sliced",
+     "item": "garlic",
+     "unit": "clove",
+     "qty": 3,
+     "scalable": true
+    },
+    {
+     "display": "1 can chopped tomatoes (~400 g)",
+     "item": "canned chopped tomato",
+     "unit": "tin",
+     "qty": 1,
+     "scalable": true
+    },
+    {
+     "display": "1 can chickpeas, drained",
+     "item": "canned chickpeas",
+     "unit": "tin",
+     "qty": 1,
+     "scalable": true
+    },
+    {
+     "display": "2 handfuls frozen peas",
+     "item": "frozen peas",
+     "unit": "g",
+     "qty": 160,
+     "scalable": true
+    },
+    {
+     "display": "2 handfuls spinach (fresh or frozen)",
+     "item": "spinach",
+     "unit": "g",
+     "qty": 60,
+     "scalable": true
+    },
+    {
+     "display": "~1 L water",
+     "item": "water",
+     "unit": "ml",
+     "qty": 1000,
+     "scalable": true
+    },
+    {
+     "display": "150 g pasta (fusilli or penne), cooked separately",
+     "item": "pasta",
+     "unit": "g",
+     "qty": 150,
+     "scalable": true
+    },
+    {
+     "display": "½ lemon (or a splash of red wine vinegar)",
+     "item": "lemon",
+     "unit": "lemon",
+     "qty": 0.5,
+     "scalable": true
+    },
+    {
+     "display": "Extra-virgin olive oil",
+     "item": "olive oil",
+     "unit": "to taste",
+     "qty": null,
+     "scalable": false
+    },
+    {
+     "display": "chilli flakes",
+     "item": "chilli flakes",
+     "unit": "to taste",
+     "qty": null,
+     "scalable": false
+    },
+    {
+     "display": "fine sea salt",
+     "item": "sea salt",
+     "unit": "to taste",
+     "qty": null,
+     "scalable": false
+    },
+    {
+     "display": "black pepper",
+     "item": "black pepper",
+     "unit": "to taste",
+     "qty": null,
+     "scalable": false
+    }
+   ]
+  },
+  {
+   "slug": "crispy-smoked-paprika-tofu-garlicky-greens",
+   "baseServings": 2,
+   "items": [
+    {
+     "display": "1 block firm tofu (~280–400g)",
+     "item": "firm tofu",
+     "qty": 340,
+     "unit": "g",
+     "scalable": true
+    },
+    {
+     "display": "Rapeseed oil, for shallow-frying",
+     "item": "rapeseed oil",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    },
+    {
+     "display": "A small handful pumpkin seeds",
+     "item": "pumpkin seeds",
+     "qty": 40,
+     "unit": "g",
+     "scalable": true
+    },
+    {
+     "display": "1 tsp smoked (or sweet) paprika",
+     "item": "smoked paprika",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    },
+    {
+     "display": "1 tsp garlic granules",
+     "item": "garlic granules",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    },
+    {
+     "display": "1 bunch kale, stems stripped, torn",
+     "item": "kale",
+     "qty": 200,
+     "unit": "g",
+     "scalable": true
+    },
+    {
+     "display": "2 big handfuls spinach",
+     "item": "spinach",
+     "qty": 120,
+     "unit": "g",
+     "scalable": true
+    },
+    {
+     "display": "3 cloves garlic, sliced",
+     "item": "garlic",
+     "qty": 3,
+     "unit": "clove",
+     "scalable": true
+    },
+    {
+     "display": "A good pinch chilli flakes",
+     "item": "chilli flakes",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    },
+    {
+     "display": "Extra-virgin olive oil",
+     "item": "olive oil",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    },
+    {
+     "display": "½ lemon",
+     "item": "lemon",
+     "qty": 0.5,
+     "unit": "lemon",
+     "scalable": true
+    },
+    {
+     "display": "Fine sea salt and black pepper",
+     "item": "salt",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    },
+    {
+     "display": "Fine sea salt and black pepper",
+     "item": "black pepper",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    }
+   ]
+  },
+  {
+   "slug": "crunchy-cabbage-carrot-slaw-cumin-chickpeas",
+   "baseServings": 2,
+   "items": [
+    {
+     "display": "¼ small cabbage, finely shredded (a few big handfuls)",
+     "item": "cabbage",
+     "qty": 120,
+     "unit": "g",
+     "scalable": true
+    },
+    {
+     "display": "1 large carrot, grated or cut into thin matchsticks",
+     "item": "carrot",
+     "qty": 150,
+     "unit": "g",
+     "scalable": true
+    },
+    {
+     "display": "½ onion, thinly sliced",
+     "item": "onion",
+     "qty": 0.5,
+     "unit": "onion",
+     "scalable": true
+    },
+    {
+     "display": "1 can chickpeas, drained and rinsed",
+     "item": "chickpeas",
+     "qty": 1,
+     "unit": "tin",
+     "scalable": true
+    },
+    {
+     "display": "½ lemon, juiced",
+     "item": "lemon",
+     "qty": 0.5,
+     "unit": "lemon",
+     "scalable": true
+    },
+    {
+     "display": "1 tbsp red wine vinegar",
+     "item": "red wine vinegar",
+     "qty": 15,
+     "unit": "ml",
+     "scalable": false
+    },
+    {
+     "display": "2 tbsp extra-virgin olive oil",
+     "item": "olive oil",
+     "qty": 30,
+     "unit": "ml",
+     "scalable": false
+    },
+    {
+     "display": "1 tsp ground cumin",
+     "item": "cumin",
+     "qty": 1,
+     "unit": "tsp",
+     "scalable": false
+    },
+    {
+     "display": "A pinch of chilli flakes",
+     "item": "chilli flakes",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    },
+    {
+     "display": "Fine sea salt, black pepper",
+     "item": "salt",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    },
+    {
+     "display": "Fine sea salt, black pepper",
+     "item": "black pepper",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    }
+   ]
+  },
+  {
+   "slug": "cumin-pepper-carrot-chickpea-stir-fry",
+   "baseServings": 2,
+   "items": [
+    {
+     "display": "1 bell pepper, cut into strips",
+     "item": "bell pepper",
+     "qty": 1,
+     "unit": "whole",
+     "scalable": true
+    },
+    {
+     "display": "2 medium carrots, cut into thin matchsticks",
+     "item": "carrot",
+     "qty": 2,
+     "unit": "whole",
+     "scalable": true
+    },
+    {
+     "display": "1 can chickpeas, drained and patted dry",
+     "item": "chickpeas",
+     "qty": 1,
+     "unit": "tin",
+     "scalable": true
+    },
+    {
+     "display": "2 cloves garlic, sliced",
+     "item": "garlic",
+     "qty": 2,
+     "unit": "clove",
+     "scalable": true
+    },
+    {
+     "display": "½ onion, sliced",
+     "item": "onion",
+     "qty": 0.5,
+     "unit": "onion",
+     "scalable": true
+    },
+    {
+     "display": "1½ tsp ground cumin",
+     "item": "ground cumin",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    },
+    {
+     "display": "A good pinch of chilli flakes",
+     "item": "chilli flakes",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    },
+    {
+     "display": "Rapeseed oil",
+     "item": "rapeseed oil",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    },
+    {
+     "display": "1 tbsp red wine vinegar",
+     "item": "red wine vinegar",
+     "qty": 15,
+     "unit": "ml",
+     "scalable": true
+    },
+    {
+     "display": "Fine sea salt, black pepper",
+     "item": "salt",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    },
+    {
+     "display": "Fine sea salt, black pepper",
+     "item": "black pepper",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    }
+   ]
+  },
+  {
+   "slug": "frizzled-cabbage-chickpea-pasta",
+   "baseServings": 2,
+   "items": [
+    {
+     "display": "150 g pasta (fusilli or penne)",
+     "item": "pasta",
+     "qty": 150,
+     "unit": "g",
+     "scalable": true
+    },
+    {
+     "display": "¼ cabbage, shredded (a few big handfuls)",
+     "item": "cabbage",
+     "qty": 250,
+     "unit": "g",
+     "scalable": true
+    },
+    {
+     "display": "1 can chickpeas, drained and patted dry",
+     "item": "canned chickpeas",
+     "qty": 1,
+     "unit": "tin",
+     "scalable": true
+    },
+    {
+     "display": "1 onion, sliced",
+     "item": "onion",
+     "qty": 1,
+     "unit": "onion",
+     "scalable": true
+    },
+    {
+     "display": "2 cloves garlic, sliced",
+     "item": "garlic",
+     "qty": 2,
+     "unit": "clove",
+     "scalable": true
+    },
+    {
+     "display": "1 tsp ground cumin",
+     "item": "cumin",
+     "qty": 1,
+     "unit": "tsp",
+     "scalable": false
+    },
+    {
+     "display": "A pinch of chilli flakes",
+     "item": "chilli flakes",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    },
+    {
+     "display": "½ lemon",
+     "item": "lemon",
+     "qty": 0.5,
+     "unit": "lemon",
+     "scalable": true
+    },
+    {
+     "display": "Extra-virgin olive oil, fine sea salt",
+     "item": "olive oil",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    },
+    {
+     "display": "Extra-virgin olive oil, fine sea salt",
+     "item": "salt",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    }
+   ]
+  },
+  {
+   "slug": "frozen-pea-egg-lemon-bright",
+   "baseServings": 2,
+   "items": [
+    {
+     "display": "150g frozen peas (about 2 generous handfuls)",
+     "item": "frozen peas",
+     "qty": 150,
+     "unit": "g",
+     "scalable": true
+    },
+    {
+     "display": "3–4 eggs, beaten with a pinch of salt",
+     "item": "eggs",
+     "qty": 3.5,
+     "unit": "egg",
+     "scalable": true
+    },
+    {
+     "display": "1 clove garlic, smashed flat with the side of the knife (no chopping)",
+     "item": "garlic",
+     "qty": 1,
+     "unit": "clove",
+     "scalable": true
+    },
+    {
+     "display": "Extra-virgin olive oil",
+     "item": "olive oil",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    },
+    {
+     "display": "½ lemon (a little zest if you have it, plus the juice)",
+     "item": "lemon",
+     "qty": 0.5,
+     "unit": "lemon",
+     "scalable": true
+    },
+    {
+     "display": "A pinch of chilli flakes",
+     "item": "chilli flakes",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    },
+    {
+     "display": "Fine sea salt, black pepper",
+     "item": "salt",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    },
+    {
+     "display": "Fine sea salt, black pepper",
+     "item": "black pepper",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    }
+   ]
+  },
+  {
+   "slug": "garlicky-mushrooms-spinach-runny-eggs",
+   "baseServings": 2,
+   "items": [
+    {
+     "display": "2–3 handfuls mushrooms, sliced thick",
+     "item": "mushrooms",
+     "qty": 200,
+     "unit": "g",
+     "scalable": true
+    },
+    {
+     "display": "2 cloves garlic, sliced",
+     "item": "garlic",
+     "qty": 2,
+     "unit": "clove",
+     "scalable": true
+    },
+    {
+     "display": "2 handfuls spinach (fresh or frozen)",
+     "item": "spinach",
+     "qty": 60,
+     "unit": "g",
+     "scalable": true
+    },
+    {
+     "display": "2–3 eggs",
+     "item": "eggs",
+     "qty": 2.5,
+     "unit": "egg",
+     "scalable": true
+    },
+    {
+     "display": "Extra-virgin olive oil",
+     "item": "olive oil",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    },
+    {
+     "display": "A pinch of chilli flakes",
+     "item": "chilli flakes",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    },
+    {
+     "display": "Fine sea salt, black pepper",
+     "item": "salt",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    },
+    {
+     "display": "Fine sea salt, black pepper",
+     "item": "black pepper",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    },
+    {
+     "display": "A squeeze of fresh lemon",
+     "item": "lemon",
+     "qty": 0.5,
+     "unit": "lemon",
+     "scalable": true
+    }
+   ]
+  },
+  {
+   "slug": "golden-lentil-turmeric-oats",
+   "baseServings": 2,
+   "items": [
+    {
+     "display": "80 g red split lentils, rinsed",
+     "item": "red split lentils",
+     "qty": 80,
+     "unit": "g",
+     "scalable": true
+    },
+    {
+     "display": "40 g (~½ cup) rolled oats",
+     "item": "rolled oats",
+     "qty": 40,
+     "unit": "g",
+     "scalable": true
+    },
+    {
+     "display": "½ onion, finely diced",
+     "item": "onion",
+     "qty": 0.5,
+     "unit": "onion",
+     "scalable": true
+    },
+    {
+     "display": "2 cloves garlic, finely chopped",
+     "item": "garlic",
+     "qty": 2,
+     "unit": "clove",
+     "scalable": true
+    },
+    {
+     "display": "¾ tsp ground turmeric",
+     "item": "turmeric",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    },
+    {
+     "display": "1 tsp ground cumin",
+     "item": "cumin",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    },
+    {
+     "display": "½ tsp ground ginger",
+     "item": "ginger",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    },
+    {
+     "display": "A pinch of chilli flakes (plus more to finish)",
+     "item": "chilli flakes",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    },
+    {
+     "display": "2 big handfuls spinach",
+     "item": "spinach",
+     "qty": 60,
+     "unit": "g",
+     "scalable": true
+    },
+    {
+     "display": "~600 ml water",
+     "item": "water",
+     "qty": 600,
+     "unit": "ml",
+     "scalable": true
+    },
+    {
+     "display": "½ lemon",
+     "item": "lemon",
+     "qty": 0.5,
+     "unit": "lemon",
+     "scalable": true
+    },
+    {
+     "display": "1 tbsp rapeseed oil",
+     "item": "rapeseed oil",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    },
+    {
+     "display": "Fine sea salt, black pepper",
+     "item": "salt",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    },
+    {
+     "display": "Fine sea salt, black pepper",
+     "item": "pepper",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    }
+   ]
+  },
+  {
+   "slug": "groundnut-peanut-red-lentil-stew",
+   "baseServings": 2,
+   "items": [
+    {
+     "display": "150g red split lentils, rinsed",
+     "item": "red split lentils",
+     "qty": 150,
+     "unit": "g",
+     "scalable": true
+    },
+    {
+     "display": "1 heaped tbsp peanut butter",
+     "item": "peanut butter",
+     "qty": 18,
+     "unit": "g",
+     "scalable": true
+    },
+    {
+     "display": "1 onion, finely chopped",
+     "item": "onion",
+     "qty": 1,
+     "unit": "onion",
+     "scalable": true
+    },
+    {
+     "display": "3 cloves garlic, sliced",
+     "item": "garlic",
+     "qty": 3,
+     "unit": "clove",
+     "scalable": true
+    },
+    {
+     "display": "½ tin chopped tomatoes (about 200g)",
+     "item": "chopped tomatoes",
+     "qty": 0.5,
+     "unit": "tin",
+     "scalable": true
+    },
+    {
+     "display": "1½ tsp curry powder",
+     "item": "curry powder",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    },
+    {
+     "display": "1 tsp smoked or sweet paprika",
+     "item": "paprika",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    },
+    {
+     "display": "1 tsp ground cumin",
+     "item": "cumin",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    },
+    {
+     "display": "½ tsp ground ginger",
+     "item": "ginger",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    },
+    {
+     "display": "Chilli flakes, to taste",
+     "item": "chilli flakes",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    },
+    {
+     "display": "2 big handfuls spinach and/or kale (kale stems removed), roughly chopped",
+     "item": "spinach and kale",
+     "qty": 60,
+     "unit": "g",
+     "scalable": true
+    },
+    {
+     "display": "Rapeseed oil",
+     "item": "rapeseed oil",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    },
+    {
+     "display": "~600ml water, plus more if needed",
+     "item": "water",
+     "qty": 600,
+     "unit": "ml",
+     "scalable": true
+    },
+    {
+     "display": "Fine sea salt",
+     "item": "salt",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    }
+   ]
+  },
+  {
+   "slug": "jammy-eggs-tomato-spinach-salad",
+   "baseServings": 2,
+   "items": [
+    {
+     "display": "2–3 eggs",
+     "item": "eggs",
+     "qty": 2.5,
+     "unit": "egg",
+     "scalable": true
+    },
+    {
+     "display": "1 large tomato, chopped (or a handful of cherry / tinned tomatoes)",
+     "item": "tomato",
+     "qty": 250,
+     "unit": "g",
+     "scalable": true
+    },
+    {
+     "display": "2 big handfuls spinach (fresh; tear if leaves are large)",
+     "item": "spinach",
+     "qty": 60,
+     "unit": "g",
+     "scalable": true
+    },
+    {
+     "display": "¼ onion, very thinly sliced",
+     "item": "onion",
+     "qty": 0.25,
+     "unit": "onion",
+     "scalable": true
+    },
+    {
+     "display": "1 tbsp red wine vinegar",
+     "item": "red wine vinegar",
+     "qty": 15,
+     "unit": "ml",
+     "scalable": true
+    },
+    {
+     "display": "½ lemon",
+     "item": "lemon",
+     "qty": 0.5,
+     "unit": "lemon",
+     "scalable": true
+    },
+    {
+     "display": "A pinch of chilli flakes",
+     "item": "chilli flakes",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    },
+    {
+     "display": "Extra-virgin olive oil",
+     "item": "olive oil",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    },
+    {
+     "display": "fine sea salt",
+     "item": "salt",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    },
+    {
+     "display": "black pepper",
+     "item": "black pepper",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    }
+   ]
+  },
+  {
+   "slug": "kale-mushroom-saute",
+   "baseServings": 2,
+   "items": [
+    {
+     "display": "1 bunch kale, stems stripped, torn",
+     "item": "kale",
+     "qty": 200,
+     "unit": "g",
+     "scalable": true
+    },
+    {
+     "display": "A few handfuls mushrooms, sliced",
+     "item": "mushrooms",
+     "qty": 200,
+     "unit": "g",
+     "scalable": true
+    },
+    {
+     "display": "2 cloves garlic, sliced",
+     "item": "garlic",
+     "qty": 2,
+     "unit": "clove",
+     "scalable": true
+    },
+    {
+     "display": "Olive oil, salt",
+     "item": "olive oil",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    },
+    {
+     "display": "Olive oil, salt",
+     "item": "salt",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    },
+    {
+     "display": "Optional: chilli flakes, a squeeze of lemon",
+     "item": "chilli flakes",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    },
+    {
+     "display": "Optional: chilli flakes, a squeeze of lemon",
+     "item": "lemon",
+     "qty": 0.5,
+     "unit": "lemon",
+     "scalable": true
+    }
+   ]
+  },
+  {
+   "slug": "lemon-dressed-chickpea-raw-veg-bowl",
+   "baseServings": 2,
+   "items": [
+    {
+     "display": "1 can chickpeas, drained and rinsed",
+     "item": "canned chickpeas",
+     "qty": 1,
+     "unit": "tin",
+     "scalable": true
+    },
+    {
+     "display": "1 tomato, diced (or a handful of cherry / tinned tomatoes)",
+     "item": "tomato",
+     "qty": 170,
+     "unit": "g",
+     "scalable": true
+    },
+    {
+     "display": "1 bell pepper, diced",
+     "item": "bell pepper",
+     "qty": 170,
+     "unit": "g",
+     "scalable": true
+    },
+    {
+     "display": "1 carrot, coarsely grated",
+     "item": "carrot",
+     "qty": 70,
+     "unit": "g",
+     "scalable": true
+    },
+    {
+     "display": "½ onion, thinly sliced",
+     "item": "onion",
+     "qty": 0.5,
+     "unit": "onion",
+     "scalable": true
+    },
+    {
+     "display": "½ lemon, juiced",
+     "item": "lemon",
+     "qty": 0.5,
+     "unit": "lemon",
+     "scalable": true
+    },
+    {
+     "display": "1 tbsp red wine vinegar",
+     "item": "red wine vinegar",
+     "qty": 1,
+     "unit": "tbsp",
+     "scalable": true
+    },
+    {
+     "display": "½ tsp ground cumin",
+     "item": "cumin",
+     "qty": 0.5,
+     "unit": "tsp",
+     "scalable": false
+    },
+    {
+     "display": "A pinch of chilli flakes",
+     "item": "chilli flakes",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    },
+    {
+     "display": "Extra-virgin olive oil, fine sea salt, black pepper",
+     "item": "olive oil",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    },
+    {
+     "display": "Extra-virgin olive oil, fine sea salt, black pepper",
+     "item": "salt",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    },
+    {
+     "display": "Extra-virgin olive oil, fine sea salt, black pepper",
+     "item": "black pepper",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    }
+   ]
+  },
+  {
+   "slug": "lemony-smashed-chickpea-jammy-egg-bowl",
+   "baseServings": 2,
+   "items": [
+    {
+     "display": "2 eggs",
+     "item": "eggs",
+     "qty": 2,
+     "unit": "egg",
+     "scalable": true
+    },
+    {
+     "display": "1 can chickpeas, drained",
+     "item": "chickpeas",
+     "qty": 1,
+     "unit": "tin",
+     "scalable": true
+    },
+    {
+     "display": "2 handfuls spinach (fresh)",
+     "item": "spinach",
+     "qty": 60,
+     "unit": "g",
+     "scalable": true
+    },
+    {
+     "display": "¼ onion, very finely diced",
+     "item": "onion",
+     "qty": 0.25,
+     "unit": "onion",
+     "scalable": true
+    },
+    {
+     "display": "1 lemon",
+     "item": "lemon",
+     "qty": 1,
+     "unit": "lemon",
+     "scalable": true
+    },
+    {
+     "display": "Extra-virgin olive oil",
+     "item": "olive oil",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    },
+    {
+     "display": "A pinch of chilli flakes",
+     "item": "chilli flakes",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    },
+    {
+     "display": "Fine sea salt, black pepper",
+     "item": "salt",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    },
+    {
+     "display": "Fine sea salt, black pepper",
+     "item": "pepper",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    },
+    {
+     "display": "Water (to boil the eggs)",
+     "item": "water",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    }
+   ]
+  },
+  {
+   "slug": "mackerel-oat-fishcakes-smoky-paprika",
+   "baseServings": 2,
+   "items": [
+    {
+     "display": "2 tins mackerel (~125g each), drained well",
+     "item": "mackerel",
+     "qty": 2,
+     "unit": "tin",
+     "scalable": true
+    },
+    {
+     "display": "1 egg, beaten",
+     "item": "egg",
+     "qty": 1,
+     "unit": "egg",
+     "scalable": true
+    },
+    {
+     "display": "½ onion, very finely diced",
+     "item": "onion",
+     "qty": 0.5,
+     "unit": "onion",
+     "scalable": true
+    },
+    {
+     "display": "½ tsp garlic granules",
+     "item": "garlic",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    },
+    {
+     "display": "1 tsp smoked (or sweet) paprika",
+     "item": "paprika",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    },
+    {
+     "display": "40g (~½ cup) rolled oats",
+     "item": "rolled oats",
+     "qty": 40,
+     "unit": "g",
+     "scalable": true
+    },
+    {
+     "display": "A handful (~75g) frozen peas",
+     "item": "peas",
+     "qty": 75,
+     "unit": "g",
+     "scalable": true
+    },
+    {
+     "display": "½ lemon",
+     "item": "lemon",
+     "qty": 0.5,
+     "unit": "lemon",
+     "scalable": true
+    },
+    {
+     "display": "Rapeseed/canola oil, for frying",
+     "item": "canola oil",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    },
+    {
+     "display": "Fine sea salt",
+     "item": "salt",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    },
+    {
+     "display": "black pepper",
+     "item": "black pepper",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    }
+   ]
+  },
+  {
+   "slug": "pasta-e-ceci",
+   "baseServings": 2,
+   "items": [
+    {
+     "display": "150g pasta (fusilli or penne — short shapes fit the pot)",
+     "item": "pasta",
+     "qty": 150,
+     "unit": "g",
+     "scalable": true
+    },
+    {
+     "display": "1 can chickpeas, drained",
+     "item": "canned chickpeas",
+     "qty": 1,
+     "unit": "tin",
+     "scalable": true
+    },
+    {
+     "display": "½ tin chopped tomatoes (about 200g)",
+     "item": "canned chopped tomatoes",
+     "qty": 0.5,
+     "unit": "tin",
+     "scalable": true
+    },
+    {
+     "display": "1 small onion, finely chopped",
+     "item": "onion",
+     "qty": 1,
+     "unit": "onion",
+     "scalable": true
+    },
+    {
+     "display": "2 cloves garlic, sliced",
+     "item": "garlic",
+     "qty": 2,
+     "unit": "clove",
+     "scalable": true
+    },
+    {
+     "display": "Olive oil",
+     "item": "olive oil",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    },
+    {
+     "display": "Chilli flakes",
+     "item": "chilli flakes",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    },
+    {
+     "display": "~500ml water, plus more if needed",
+     "item": "water",
+     "qty": 500,
+     "unit": "ml",
+     "scalable": true
+    },
+    {
+     "display": "Salt",
+     "item": "salt",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    },
+    {
+     "display": "black pepper",
+     "item": "black pepper",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    },
+    {
+     "display": "Optional (still core): 2 handfuls spinach, stirred in at the end for a green",
+     "item": "spinach",
+     "qty": 60,
+     "unit": "g",
+     "scalable": true
+    }
+   ]
+  },
+  {
+   "slug": "peanut-tofu-cabbage-pak-choi",
+   "baseServings": 2,
+   "items": [
+    {
+     "display": "1 block firm tofu (~280g), patted very dry, cut into 2cm cubes",
+     "item": "firm tofu",
+     "qty": 280,
+     "unit": "g",
+     "scalable": true
+    },
+    {
+     "display": "2 heaped tbsp peanut butter",
+     "item": "peanut butter",
+     "qty": 36,
+     "unit": "g",
+     "scalable": true
+    },
+    {
+     "display": "2 cloves garlic, crushed or finely grated",
+     "item": "garlic",
+     "qty": 2,
+     "unit": "clove",
+     "scalable": true
+    },
+    {
+     "display": "½ tsp ground ginger",
+     "item": "ground ginger",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    },
+    {
+     "display": "A good pinch of chilli flakes",
+     "item": "chilli flakes",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    },
+    {
+     "display": "Juice of ½ lemon (plus a wedge to finish)",
+     "item": "lemon",
+     "qty": 0.5,
+     "unit": "lemon",
+     "scalable": true
+    },
+    {
+     "display": "Rapeseed oil",
+     "item": "rapeseed oil",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    },
+    {
+     "display": "¼ small cabbage, shredded",
+     "item": "cabbage",
+     "qty": 100,
+     "unit": "g",
+     "scalable": true
+    },
+    {
+     "display": "2 heads pak choi, stems and leaves separated, stems sliced",
+     "item": "pak choi",
+     "qty": 2,
+     "unit": "whole",
+     "scalable": true
+    },
+    {
+     "display": "1 carrot, cut into thin matchsticks",
+     "item": "carrot",
+     "qty": 1,
+     "unit": "whole",
+     "scalable": true
+    },
+    {
+     "display": "A handful of pumpkin seeds",
+     "item": "pumpkin seeds",
+     "qty": 30,
+     "unit": "g",
+     "scalable": true
+    },
+    {
+     "display": "Fine sea salt",
+     "item": "salt",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    },
+    {
+     "display": "Water",
+     "item": "water",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    }
+   ]
+  },
+  {
+   "slug": "peppery-mushroom-chickpea-stew",
+   "baseServings": 2,
+   "items": [
+    {
+     "display": "A few big handfuls mushrooms, sliced thick",
+     "item": "mushrooms",
+     "qty": 240,
+     "unit": "g",
+     "scalable": true
+    },
+    {
+     "display": "1 onion, diced",
+     "item": "onion",
+     "qty": 1,
+     "unit": "onion",
+     "scalable": true
+    },
+    {
+     "display": "3 cloves garlic, sliced",
+     "item": "garlic",
+     "qty": 3,
+     "unit": "clove",
+     "scalable": true
+    },
+    {
+     "display": "1 can chickpeas, drained (keep the liquid)",
+     "item": "canned chickpeas",
+     "qty": 1,
+     "unit": "tin",
+     "scalable": true
+    },
+    {
+     "display": "1 can chopped tomatoes (~400g)",
+     "item": "tinned chopped tomatoes",
+     "qty": 1,
+     "unit": "tin",
+     "scalable": true
+    },
+    {
+     "display": "A pinch of chilli flakes",
+     "item": "chilli flakes",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    },
+    {
+     "display": "Plenty of black pepper (½ tsp or more, coarsely ground)",
+     "item": "black pepper",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    },
+    {
+     "display": "Extra-virgin olive oil, fine sea salt",
+     "item": "olive oil",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    },
+    {
+     "display": "Extra-virgin olive oil, fine sea salt",
+     "item": "salt",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    },
+    {
+     "display": "A splash of water",
+     "item": "water",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    }
+   ]
+  },
+  {
+   "slug": "red-lentil-ragu-pasta",
+   "baseServings": 2,
+   "items": [
+    {
+     "display": "120 g pasta (fusilli or penne)",
+     "item": "pasta",
+     "qty": 120,
+     "unit": "g",
+     "scalable": true
+    },
+    {
+     "display": "100 g red split lentils, rinsed",
+     "item": "red split lentils",
+     "qty": 100,
+     "unit": "g",
+     "scalable": true
+    },
+    {
+     "display": "1 onion, finely chopped",
+     "item": "onion",
+     "qty": 1,
+     "unit": "onion",
+     "scalable": true
+    },
+    {
+     "display": "1 carrot, finely diced",
+     "item": "carrot",
+     "qty": 1,
+     "unit": "whole",
+     "scalable": true
+    },
+    {
+     "display": "3 cloves garlic, minced",
+     "item": "garlic",
+     "qty": 3,
+     "unit": "clove",
+     "scalable": true
+    },
+    {
+     "display": "1 tin chopped tomatoes (400 g)",
+     "item": "tomatoes",
+     "qty": 1,
+     "unit": "tin",
+     "scalable": true
+    },
+    {
+     "display": "1 tsp dried oregano",
+     "item": "oregano",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    },
+    {
+     "display": "A pinch of chilli flakes",
+     "item": "chilli flakes",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    },
+    {
+     "display": "1 tbsp red wine vinegar",
+     "item": "red wine vinegar",
+     "qty": 1,
+     "unit": "tbsp",
+     "scalable": true
+    },
+    {
+     "display": "~400 ml water, plus more if needed",
+     "item": "water",
+     "qty": 400,
+     "unit": "ml",
+     "scalable": true
+    },
+    {
+     "display": "Extra-virgin olive oil, fine sea salt, black pepper",
+     "item": "olive oil",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    },
+    {
+     "display": "Extra-virgin olive oil, fine sea salt, black pepper",
+     "item": "salt",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    },
+    {
+     "display": "Extra-virgin olive oil, fine sea salt, black pepper",
+     "item": "black pepper",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    }
+   ]
+  },
+  {
+   "slug": "sardine-avocado-lemon-smash-toast",
+   "baseServings": 2,
+   "items": [
+    {
+     "display": "2 slices seeded wholemeal bread",
+     "item": "wholemeal bread",
+     "unit": "slice",
+     "scalable": true,
+     "qty": 2
+    },
+    {
+     "display": "1 tin sardines in oil (~120g), drained",
+     "item": "sardines",
+     "unit": "tin",
+     "scalable": true,
+     "qty": 1
+    },
+    {
+     "display": "1 ripe avocado",
+     "item": "avocado",
+     "unit": "avocado",
+     "scalable": true,
+     "qty": 1
+    },
+    {
+     "display": "1 clove garlic, halved",
+     "item": "garlic",
+     "unit": "clove",
+     "scalable": true,
+     "qty": 1
+    },
+    {
+     "display": "½ lemon",
+     "item": "lemon",
+     "unit": "lemon",
+     "scalable": true,
+     "qty": 0.5
+    },
+    {
+     "display": "¼ onion, very thinly sliced",
+     "item": "onion",
+     "unit": "onion",
+     "scalable": true,
+     "qty": 0.25
+    },
+    {
+     "display": "1 tsp red wine vinegar",
+     "item": "red wine vinegar",
+     "unit": "ml",
+     "scalable": true,
+     "qty": 5
+    },
+    {
+     "display": "Chilli flakes, to taste",
+     "item": "chilli flakes",
+     "unit": "to taste",
+     "scalable": false
+    },
+    {
+     "display": "1 tbsp pumpkin seeds",
+     "item": "pumpkin seeds",
+     "unit": "g",
+     "scalable": true,
+     "qty": 10
+    },
+    {
+     "display": "Extra-virgin olive oil",
+     "item": "olive oil",
+     "unit": "to taste",
+     "scalable": false
+    },
+    {
+     "display": "Fine sea salt, black pepper",
+     "item": "salt",
+     "unit": "to taste",
+     "scalable": false
+    },
+    {
+     "display": "Fine sea salt, black pepper",
+     "item": "black pepper",
+     "unit": "to taste",
+     "scalable": false
+    }
+   ]
+  },
+  {
+   "slug": "sardine-orange-red-onion-salad-over-spinach",
+   "baseServings": 2,
+   "items": [
+    {
+     "display": "1 tin sardines (in oil or water), drained",
+     "item": "sardines",
+     "qty": 1,
+     "unit": "tin",
+     "scalable": true
+    },
+    {
+     "display": "1 orange",
+     "item": "orange",
+     "qty": 1,
+     "unit": "orange",
+     "scalable": true
+    },
+    {
+     "display": "¼ red onion, very thinly sliced",
+     "item": "red onion",
+     "qty": 0.25,
+     "unit": "onion",
+     "scalable": true
+    },
+    {
+     "display": "2 big handfuls spinach (fresh; tear if leaves are large)",
+     "item": "spinach",
+     "qty": 60,
+     "unit": "g",
+     "scalable": true
+    },
+    {
+     "display": "1 tbsp red wine vinegar",
+     "item": "red wine vinegar",
+     "qty": 15,
+     "unit": "ml",
+     "scalable": true
+    },
+    {
+     "display": "A pinch of chilli flakes",
+     "item": "chilli flakes",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    },
+    {
+     "display": "Extra-virgin olive oil, fine sea salt, black pepper",
+     "item": "olive oil",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    },
+    {
+     "display": "Extra-virgin olive oil, fine sea salt, black pepper",
+     "item": "salt",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    },
+    {
+     "display": "Extra-virgin olive oil, fine sea salt, black pepper",
+     "item": "black pepper",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    }
+   ]
+  },
+  {
+   "slug": "savoury-cumin-oats-peas-egg",
+   "baseServings": 2,
+   "items": [
+    {
+     "display": "1 tbsp rapeseed oil",
+     "item": "rapeseed oil",
+     "qty": 1,
+     "unit": "tbsp",
+     "scalable": false
+    },
+    {
+     "display": "½ small onion, finely diced",
+     "item": "onion",
+     "qty": 0.5,
+     "unit": "onion",
+     "scalable": true
+    },
+    {
+     "display": "1 clove garlic, finely chopped",
+     "item": "garlic",
+     "qty": 1,
+     "unit": "clove",
+     "scalable": true
+    },
+    {
+     "display": "1 tsp ground cumin",
+     "item": "ground cumin",
+     "qty": 1,
+     "unit": "tsp",
+     "scalable": false
+    },
+    {
+     "display": "A pinch of chilli flakes (plus more to finish)",
+     "item": "chilli flakes",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    },
+    {
+     "display": "50g (½ cup) rolled oats",
+     "item": "rolled oats",
+     "qty": 50,
+     "unit": "g",
+     "scalable": true
+    },
+    {
+     "display": "A handful (~50g) frozen peas",
+     "item": "frozen peas",
+     "qty": 50,
+     "unit": "g",
+     "scalable": true
+    },
+    {
+     "display": "~350ml water",
+     "item": "water",
+     "qty": 350,
+     "unit": "ml",
+     "scalable": true
+    },
+    {
+     "display": "1–2 eggs",
+     "item": "egg",
+     "qty": 1.5,
+     "unit": "egg",
+     "scalable": true
+    },
+    {
+     "display": "A squeeze of fresh lemon",
+     "item": "lemon",
+     "qty": 0.5,
+     "unit": "lemon",
+     "scalable": true
+    },
+    {
+     "display": "Fine sea salt, black pepper",
+     "item": "salt",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    },
+    {
+     "display": "Fine sea salt, black pepper",
+     "item": "black pepper",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    }
+   ]
+  },
+  {
+   "slug": "smoky-cumin-chickpea-chilli",
+   "baseServings": 2,
+   "items": [
+    {
+     "display": "1 can chickpeas, drained",
+     "item": "canned chickpeas",
+     "qty": 1,
+     "unit": "tin",
+     "scalable": true
+    },
+    {
+     "display": "1 onion, diced",
+     "item": "onion",
+     "qty": 1,
+     "unit": "onion",
+     "scalable": true
+    },
+    {
+     "display": "1 bell pepper, diced",
+     "item": "bell pepper",
+     "qty": 180,
+     "unit": "g",
+     "scalable": true
+    },
+    {
+     "display": "1 can chopped tomatoes (~400g)",
+     "item": "canned chopped tomatoes",
+     "qty": 1,
+     "unit": "tin",
+     "scalable": true
+    },
+    {
+     "display": "3 cloves garlic, sliced",
+     "item": "garlic",
+     "qty": 3,
+     "unit": "clove",
+     "scalable": true
+    },
+    {
+     "display": "1½ tsp ground cumin",
+     "item": "ground cumin",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    },
+    {
+     "display": "chilli flakes, to taste",
+     "item": "chilli flakes",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    },
+    {
+     "display": "Extra-virgin olive oil",
+     "item": "olive oil",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    },
+    {
+     "display": "1 tsp red wine vinegar",
+     "item": "red wine vinegar",
+     "qty": 5,
+     "unit": "ml",
+     "scalable": true
+    },
+    {
+     "display": "Fine sea salt, black pepper",
+     "item": "salt",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    },
+    {
+     "display": "Fine sea salt, black pepper",
+     "item": "black pepper",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    }
+   ]
+  },
+  {
+   "slug": "smoky-hummus-toast-frizzled-egg-chilli-oil",
+   "baseServings": 2,
+   "items": [
+    {
+     "display": "2 slices wholemeal / seeded bread",
+     "item": "bread",
+     "qty": 2,
+     "unit": "slice",
+     "scalable": true
+    },
+    {
+     "display": "4 tbsp hummus (a thick layer)",
+     "item": "hummus",
+     "qty": 4,
+     "unit": "tbsp",
+     "scalable": true
+    },
+    {
+     "display": "2 eggs",
+     "item": "egg",
+     "qty": 2,
+     "unit": "egg",
+     "scalable": true
+    },
+    {
+     "display": "Extra-virgin olive oil (a generous 2–3 tbsp — the egg frizzles in it)",
+     "item": "olive oil",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    },
+    {
+     "display": "½ tsp smoked paprika",
+     "item": "smoked paprika",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    },
+    {
+     "display": "A pinch of chilli flakes",
+     "item": "chilli flakes",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    },
+    {
+     "display": "A squeeze of fresh lemon",
+     "item": "lemon",
+     "qty": 0.5,
+     "unit": "lemon",
+     "scalable": true
+    },
+    {
+     "display": "Fine sea salt, black pepper",
+     "item": "salt",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    },
+    {
+     "display": "Fine sea salt, black pepper",
+     "item": "black pepper",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    }
+   ]
+  },
+  {
+   "slug": "spiced-red-lentil-soup-harira-style",
+   "baseServings": 3,
+   "items": [
+    {
+     "display": "150 g red split lentils, rinsed",
+     "item": "lentils",
+     "qty": 150,
+     "unit": "g",
+     "scalable": true
+    },
+    {
+     "display": "1 onion, diced",
+     "item": "onion",
+     "qty": 1,
+     "unit": "onion",
+     "scalable": true
+    },
+    {
+     "display": "2 carrots, diced small (~1 cm)",
+     "item": "carrot",
+     "qty": 120,
+     "unit": "g",
+     "scalable": true
+    },
+    {
+     "display": "3 cloves garlic, sliced",
+     "item": "garlic",
+     "qty": 3,
+     "unit": "clove",
+     "scalable": true
+    },
+    {
+     "display": "1 can chopped tomatoes (~400 g)",
+     "item": "tomato",
+     "qty": 1,
+     "unit": "tin",
+     "scalable": true
+    },
+    {
+     "display": "1 tsp ground cumin",
+     "item": "cumin",
+     "qty": 1,
+     "unit": "tsp",
+     "scalable": false
+    },
+    {
+     "display": "1 tsp ground coriander",
+     "item": "coriander",
+     "qty": 1,
+     "unit": "tsp",
+     "scalable": false
+    },
+    {
+     "display": "¼ tsp ground cinnamon",
+     "item": "cinnamon",
+     "qty": 0.25,
+     "unit": "tsp",
+     "scalable": false
+    },
+    {
+     "display": "A pinch of chilli flakes",
+     "item": "chilli flakes",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    },
+    {
+     "display": "~1.2 L water",
+     "item": "water",
+     "qty": 1200,
+     "unit": "ml",
+     "scalable": true
+    },
+    {
+     "display": "½ lemon",
+     "item": "lemon",
+     "qty": 0.5,
+     "unit": "lemon",
+     "scalable": true
+    },
+    {
+     "display": "Extra-virgin olive oil",
+     "item": "olive oil",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    },
+    {
+     "display": "Fine sea salt, black pepper",
+     "item": "salt",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    },
+    {
+     "display": "Fine sea salt, black pepper",
+     "item": "pepper",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    }
+   ]
+  },
+  {
+   "slug": "spinach-tomato-chickpeas",
+   "baseServings": 2,
+   "items": [
+    {
+     "display": "1 can chickpeas, drained",
+     "item": "canned chickpeas",
+     "qty": 1,
+     "unit": "tin",
+     "scalable": true
+    },
+    {
+     "display": "2 handfuls spinach (fresh or frozen)",
+     "item": "spinach",
+     "qty": 60,
+     "unit": "g",
+     "scalable": true
+    },
+    {
+     "display": "1 tomato, chopped (or a few tinned / cherry tomatoes)",
+     "item": "tomato",
+     "qty": 1,
+     "unit": "tomato",
+     "scalable": true
+    },
+    {
+     "display": "2 cloves garlic, sliced",
+     "item": "garlic",
+     "qty": 2,
+     "unit": "clove",
+     "scalable": true
+    },
+    {
+     "display": "Olive oil, salt",
+     "item": "olive oil",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    },
+    {
+     "display": "Olive oil, salt",
+     "item": "salt",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    },
+    {
+     "display": "Optional: chilli flakes, cumin, a squeeze of lemon",
+     "item": "chilli flakes",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    },
+    {
+     "display": "Optional: chilli flakes, cumin, a squeeze of lemon",
+     "item": "cumin",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    },
+    {
+     "display": "Optional: chilli flakes, cumin, a squeeze of lemon",
+     "item": "lemon",
+     "qty": 0.5,
+     "unit": "lemon",
+     "scalable": true
+    }
+   ]
+  },
+  {
+   "slug": "stovetop-frittata-cake",
+   "baseServings": 2,
+   "items": [
+    {
+     "display": "6 eggs",
+     "item": "egg",
+     "qty": 6,
+     "unit": "egg",
+     "scalable": true
+    },
+    {
+     "display": "1 onion, finely sliced",
+     "item": "onion",
+     "qty": 1,
+     "unit": "onion",
+     "scalable": true
+    },
+    {
+     "display": "1 bell pepper, diced",
+     "item": "bell pepper",
+     "qty": 1,
+     "unit": "whole",
+     "scalable": true
+    },
+    {
+     "display": "2 large handfuls spinach (fresh, roughly chopped; or frozen, thawed and squeezed dry)",
+     "item": "spinach",
+     "qty": 60,
+     "unit": "g",
+     "scalable": true
+    },
+    {
+     "display": "2 cloves garlic, minced",
+     "item": "garlic",
+     "qty": 2,
+     "unit": "clove",
+     "scalable": true
+    },
+    {
+     "display": "Extra-virgin olive oil",
+     "item": "olive oil",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    },
+    {
+     "display": "A pinch of chilli flakes",
+     "item": "chilli flakes",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    },
+    {
+     "display": "Fine sea salt, black pepper",
+     "item": "salt",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    },
+    {
+     "display": "Fine sea salt, black pepper",
+     "item": "black pepper",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    }
+   ]
+  },
+  {
+   "slug": "sweet-sour-braised-cabbage-chickpeas",
+   "baseServings": 2,
+   "items": [
+    {
+     "display": "¼ cabbage, shredded (a few big handfuls)",
+     "item": "cabbage",
+     "qty": 300,
+     "unit": "g",
+     "scalable": true
+    },
+    {
+     "display": "1 carrot, grated or thinly sliced",
+     "item": "carrot",
+     "qty": 100,
+     "unit": "g",
+     "scalable": true
+    },
+    {
+     "display": "1 onion, sliced",
+     "item": "onion",
+     "qty": 1,
+     "unit": "onion",
+     "scalable": true
+    },
+    {
+     "display": "3 cloves garlic, sliced",
+     "item": "garlic",
+     "qty": 3,
+     "unit": "clove",
+     "scalable": true
+    },
+    {
+     "display": "1 can chickpeas, drained",
+     "item": "canned chickpeas",
+     "qty": 1,
+     "unit": "tin",
+     "scalable": true
+    },
+    {
+     "display": "1–2 tbsp red wine vinegar",
+     "item": "red wine vinegar",
+     "qty": 22.5,
+     "unit": "ml",
+     "scalable": true
+    },
+    {
+     "display": "A good pinch of chilli flakes",
+     "item": "chilli flakes",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    },
+    {
+     "display": "Extra-virgin olive oil",
+     "item": "olive oil",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    },
+    {
+     "display": "Fine sea salt, black pepper",
+     "item": "salt",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    },
+    {
+     "display": "Fine sea salt, black pepper",
+     "item": "black pepper",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    }
+   ]
+  },
+  {
+   "slug": "tarka-dal-turmeric-red-lentil",
+   "baseServings": 2,
+   "items": [
+    {
+     "display": "150g red split lentils",
+     "item": "red split lentils",
+     "qty": 150,
+     "unit": "g",
+     "scalable": true
+    },
+    {
+     "display": "1 onion, finely diced",
+     "item": "onion",
+     "qty": 1,
+     "unit": "onion",
+     "scalable": true
+    },
+    {
+     "display": "3 cloves garlic, thinly sliced",
+     "item": "garlic",
+     "qty": 3,
+     "unit": "clove",
+     "scalable": true
+    },
+    {
+     "display": "1 tsp ground turmeric",
+     "item": "ground turmeric",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    },
+    {
+     "display": "1½ tsp ground cumin (split: 1 tsp for the pot, ½ tsp for the tarka)",
+     "item": "ground cumin",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    },
+    {
+     "display": "1 tsp ground coriander",
+     "item": "ground coriander",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    },
+    {
+     "display": "½ tsp ground ginger",
+     "item": "ground ginger",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    },
+    {
+     "display": "chilli flakes, to taste",
+     "item": "chilli flakes",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    },
+    {
+     "display": "Extra-virgin olive oil",
+     "item": "olive oil",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    },
+    {
+     "display": "½ lemon",
+     "item": "lemon",
+     "qty": 0.5,
+     "unit": "lemon",
+     "scalable": true
+    },
+    {
+     "display": "1 bay leaf",
+     "item": "bay leaf",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    },
+    {
+     "display": "Fine sea salt, black pepper",
+     "item": "salt",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    },
+    {
+     "display": "Fine sea salt, black pepper",
+     "item": "black pepper",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    }
+   ]
+  },
+  {
+   "slug": "tinned-mackerel-curry",
+   "baseServings": 2,
+   "items": [
+    {
+     "display": "1–2 tins mackerel (~125g each), drained",
+     "item": "mackerel",
+     "qty": 1.5,
+     "unit": "tin",
+     "scalable": true
+    },
+    {
+     "display": "1 onion, finely chopped",
+     "item": "onion",
+     "qty": 1,
+     "unit": "onion",
+     "scalable": true
+    },
+    {
+     "display": "3 cloves garlic, sliced",
+     "item": "garlic",
+     "qty": 3,
+     "unit": "clove",
+     "scalable": true
+    },
+    {
+     "display": "1 can chopped tomatoes (~400g)",
+     "item": "tinned chopped tomatoes",
+     "qty": 1,
+     "unit": "tin",
+     "scalable": true
+    },
+    {
+     "display": "1 tsp curry powder",
+     "item": "curry powder",
+     "qty": 1,
+     "unit": "tsp",
+     "scalable": false
+    },
+    {
+     "display": "½ tsp ground turmeric",
+     "item": "ground turmeric",
+     "qty": 0.5,
+     "unit": "tsp",
+     "scalable": false
+    },
+    {
+     "display": "½ tsp ground ginger",
+     "item": "ground ginger",
+     "qty": 0.5,
+     "unit": "tsp",
+     "scalable": false
+    },
+    {
+     "display": "1 tsp ground coriander",
+     "item": "ground coriander",
+     "qty": 1,
+     "unit": "tsp",
+     "scalable": false
+    },
+    {
+     "display": "½ tsp ground cumin",
+     "item": "ground cumin",
+     "qty": 0.5,
+     "unit": "tsp",
+     "scalable": false
+    },
+    {
+     "display": "chilli flakes, to taste",
+     "item": "chilli flakes",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    },
+    {
+     "display": "2 handfuls spinach",
+     "item": "spinach",
+     "qty": 60,
+     "unit": "g",
+     "scalable": true
+    },
+    {
+     "display": "Rapeseed/canola oil",
+     "item": "rapeseed oil",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    },
+    {
+     "display": "½ lemon",
+     "item": "lemon",
+     "qty": 0.5,
+     "unit": "lemon",
+     "scalable": true
+    },
+    {
+     "display": "Fine sea salt, black pepper",
+     "item": "salt",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    },
+    {
+     "display": "Fine sea salt, black pepper",
+     "item": "black pepper",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    }
+   ]
+  },
+  {
+   "slug": "tofu-tikka-masala",
+   "baseServings": 2,
+   "items": [
+    {
+     "display": "1 block firm tofu (~280–400g), patted dry and cut into 2cm cubes",
+     "item": "firm tofu",
+     "qty": 340,
+     "unit": "g",
+     "scalable": true
+    },
+    {
+     "display": "1 onion, finely diced",
+     "item": "onion",
+     "qty": 1,
+     "unit": "onion",
+     "scalable": true
+    },
+    {
+     "display": "3 cloves garlic, minced",
+     "item": "garlic",
+     "qty": 3,
+     "unit": "clove",
+     "scalable": true
+    },
+    {
+     "display": "1 can chopped tomatoes (~400g)",
+     "item": "tomatoes",
+     "qty": 1,
+     "unit": "tin",
+     "scalable": true
+    },
+    {
+     "display": "1 tbsp curry powder",
+     "item": "curry powder",
+     "qty": 1,
+     "unit": "tbsp",
+     "scalable": false
+    },
+    {
+     "display": "1 tsp smoked/sweet paprika",
+     "item": "paprika",
+     "qty": 1,
+     "unit": "tsp",
+     "scalable": false
+    },
+    {
+     "display": "½ tsp ground turmeric",
+     "item": "turmeric",
+     "qty": 0.5,
+     "unit": "tsp",
+     "scalable": false
+    },
+    {
+     "display": "½ tsp ground ginger",
+     "item": "ginger",
+     "qty": 0.5,
+     "unit": "tsp",
+     "scalable": false
+    },
+    {
+     "display": "½ tsp ground coriander",
+     "item": "coriander",
+     "qty": 0.5,
+     "unit": "tsp",
+     "scalable": false
+    },
+    {
+     "display": "½ tsp ground cumin",
+     "item": "cumin",
+     "qty": 0.5,
+     "unit": "tsp",
+     "scalable": false
+    },
+    {
+     "display": "A pinch of chilli flakes",
+     "item": "chilli flakes",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    },
+    {
+     "display": "3–4 tbsp Greek yoghurt",
+     "item": "Greek yoghurt",
+     "qty": 3.5,
+     "unit": "tbsp",
+     "scalable": true
+    },
+    {
+     "display": "A good squeeze of fresh lemon",
+     "item": "lemon",
+     "qty": 0.5,
+     "unit": "lemon",
+     "scalable": true
+    },
+    {
+     "display": "2 handfuls spinach",
+     "item": "spinach",
+     "qty": 60,
+     "unit": "g",
+     "scalable": true
+    },
+    {
+     "display": "Rapeseed/canola oil, fine sea salt, black pepper",
+     "item": "canola oil",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    },
+    {
+     "display": "Rapeseed/canola oil, fine sea salt, black pepper",
+     "item": "sea salt",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    },
+    {
+     "display": "Rapeseed/canola oil, fine sea salt, black pepper",
+     "item": "black pepper",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    }
+   ]
+  },
+  {
+   "slug": "tomato-and-egg",
+   "baseServings": 2,
+   "items": [
+    {
+     "display": "3 eggs",
+     "item": "egg",
+     "qty": 3,
+     "unit": "egg",
+     "scalable": true
+    },
+    {
+     "display": "3 ripe tomatoes, chopped (or ~½ tin chopped tomatoes)",
+     "item": "tomatoes",
+     "qty": 450,
+     "unit": "g",
+     "scalable": true
+    },
+    {
+     "display": "½ onion, finely diced",
+     "item": "onion",
+     "qty": 0.5,
+     "unit": "onion",
+     "scalable": true
+    },
+    {
+     "display": "2 cloves garlic, minced",
+     "item": "garlic",
+     "qty": 2,
+     "unit": "clove",
+     "scalable": true
+    },
+    {
+     "display": "Extra-virgin olive oil",
+     "item": "olive oil",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    },
+    {
+     "display": "Fine sea salt",
+     "item": "salt",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    },
+    {
+     "display": "black pepper",
+     "item": "black pepper",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    }
+   ]
+  },
+  {
+   "slug": "tomato-egg-drop-soup",
+   "baseServings": 2,
+   "items": [
+    {
+     "display": "2–3 eggs, beaten",
+     "item": "eggs",
+     "qty": 2.5,
+     "unit": "egg",
+     "scalable": true
+    },
+    {
+     "display": "2 ripe tomatoes, chopped (or ½ tin chopped tomatoes)",
+     "item": "tomatoes",
+     "qty": 2,
+     "unit": "whole",
+     "scalable": true
+    },
+    {
+     "display": "½ onion, finely diced",
+     "item": "onion",
+     "qty": 0.5,
+     "unit": "onion",
+     "scalable": true
+    },
+    {
+     "display": "2 cloves garlic, minced",
+     "item": "garlic",
+     "qty": 2,
+     "unit": "clove",
+     "scalable": true
+    },
+    {
+     "display": "a handful frozen peas",
+     "item": "peas",
+     "qty": 80,
+     "unit": "g",
+     "scalable": true
+    },
+    {
+     "display": "½ lemon",
+     "item": "lemon",
+     "qty": 0.5,
+     "unit": "lemon",
+     "scalable": true
+    },
+    {
+     "display": "a pinch of chilli flakes (optional)",
+     "item": "chilli flakes",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    },
+    {
+     "display": "~500ml water (boiling, to speed it up)",
+     "item": "water",
+     "qty": 500,
+     "unit": "ml",
+     "scalable": true
+    },
+    {
+     "display": "Extra-virgin olive oil",
+     "item": "olive oil",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    },
+    {
+     "display": "Fine sea salt, black pepper",
+     "item": "salt",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    },
+    {
+     "display": "Fine sea salt, black pepper",
+     "item": "pepper",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    }
+   ]
+  },
+  {
+   "slug": "turmeric-tofu-scramble-seeded-toast",
+   "baseServings": 2,
+   "items": [
+    {
+     "display": "~200g firm tofu (about ½ block), drained",
+     "item": "tofu",
+     "qty": 200,
+     "unit": "g",
+     "scalable": true
+    },
+    {
+     "display": "1 tbsp extra-virgin olive oil (plus a splash more if needed)",
+     "item": "olive oil",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    },
+    {
+     "display": "½ tsp ground turmeric",
+     "item": "turmeric",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    },
+    {
+     "display": "½ tsp garlic granules",
+     "item": "garlic",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    },
+    {
+     "display": "1 handful mushrooms (~100g), sliced",
+     "item": "mushrooms",
+     "qty": 100,
+     "unit": "g",
+     "scalable": true
+    },
+    {
+     "display": "1 tomato, chopped",
+     "item": "tomato",
+     "qty": 1,
+     "unit": "tomato",
+     "scalable": true
+    },
+    {
+     "display": "2 handfuls spinach (~50g)",
+     "item": "spinach",
+     "qty": 50,
+     "unit": "g",
+     "scalable": true
+    },
+    {
+     "display": "2 slices wholemeal/seeded bread",
+     "item": "bread",
+     "qty": 2,
+     "unit": "slice",
+     "scalable": true
+    },
+    {
+     "display": "A pinch of chilli flakes",
+     "item": "chilli",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    },
+    {
+     "display": "A squeeze of fresh lemon",
+     "item": "lemon",
+     "qty": 0.5,
+     "unit": "lemon",
+     "scalable": true
+    },
+    {
+     "display": "Fine sea salt, black pepper",
+     "item": "salt",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    },
+    {
+     "display": "Fine sea salt, black pepper",
+     "item": "pepper",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    }
+   ]
+  },
+  {
+   "slug": "warm-berry-compote-yoghurt-bowl",
+   "baseServings": 2,
+   "items": [
+    {
+     "display": "150–200g Greek yoghurt",
+     "item": "greek yoghurt",
+     "qty": 200,
+     "unit": "g",
+     "scalable": true
+    },
+    {
+     "display": "1 ripe banana",
+     "item": "banana",
+     "qty": 1,
+     "unit": "banana",
+     "scalable": true
+    },
+    {
+     "display": "A large handful (~75g) frozen mixed berries",
+     "item": "frozen mixed berries",
+     "qty": 75,
+     "unit": "g",
+     "scalable": true
+    },
+    {
+     "display": "3 tbsp (~30g) rolled oats",
+     "item": "rolled oats",
+     "qty": 30,
+     "unit": "g",
+     "scalable": true
+    },
+    {
+     "display": "A small handful (~20g) almonds, roughly chopped",
+     "item": "almonds",
+     "qty": 20,
+     "unit": "g",
+     "scalable": true
+    },
+    {
+     "display": "1 tbsp pumpkin seeds",
+     "item": "pumpkin seeds",
+     "qty": 10,
+     "unit": "g",
+     "scalable": true
+    },
+    {
+     "display": "A pinch of ground cinnamon",
+     "item": "ground cinnamon",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    },
+    {
+     "display": "Splash of water",
+     "item": "water",
+     "qty": null,
+     "unit": "ml",
+     "scalable": false
+    },
+    {
+     "display": "pinch of fine sea salt (optional)",
+     "item": "salt",
+     "qty": null,
+     "unit": "to taste",
+     "scalable": false
+    }
+   ]
+  }
+ ]
+}

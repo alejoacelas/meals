@@ -1,19 +1,19 @@
 /* meals — a calm, phone-first kitchen. iOS restraint: few elements, one accent.
-   Light theme only, tuned for clear separation between bars, cards and page. */
+   Warm cookbook palette: cream paper, espresso ink, terracotta accent. */
 :root {
-  --bg: #eef0f3;
-  --surface: #ffffff;
-  --surface-2: #e6e8ec;
-  --text: #1d1d1f;
-  --text-2: #62636a;
-  --hair: rgba(0,0,0,.12);
-  --accent: #1f9d57;
-  --accent-soft: rgba(31,157,87,.14);
-  --great: #2faa4d;
-  --ok: #f0920a;
-  --weak: #e23b30;
-  --shadow: 0 1px 2px rgba(0,0,0,.06), 0 8px 24px rgba(0,0,0,.06);
-  --bar-shadow: 0 -1px 0 rgba(0,0,0,.06), 0 -10px 24px rgba(0,0,0,.05);
+  --bg: #f3ece0;
+  --surface: #fffdf8;
+  --surface-2: #ece2d1;
+  --text: #2c2620;
+  --text-2: #897c6a;
+  --hair: rgba(74,52,28,.14);
+  --accent: #c75f3e;
+  --accent-soft: rgba(199,95,62,.13);
+  --great: #4f9d5b;
+  --ok: #dd9a2b;
+  --weak: #c2452f;
+  --shadow: 0 1px 2px rgba(60,40,20,.06), 0 8px 22px rgba(60,40,20,.08);
+  --bar-shadow: 0 -1px 0 rgba(60,40,20,.07), 0 -10px 24px rgba(60,40,20,.06);
   --r: 18px;
   --r-sm: 12px;
   --bar-blur: saturate(180%) blur(20px);
@@ -141,8 +141,7 @@ a { color: inherit; text-decoration: none; }
   background: var(--surface-2); color: var(--text-2);
 }
 .pill.best { background: var(--accent-soft); color: var(--accent); }
-.pill.veg { background: rgba(52,199,89,.14); color: #2a9d4e; }
-@media (prefers-color-scheme: dark) { .pill.veg { color: #4cd178; } }
+.pill.veg { background: rgba(79,157,91,.16); color: #3f8a4e; }
 .save-btn { font-size: 22px; line-height: 1; color: var(--text-2); padding: 0 2px; }
 .save-btn.on { color: #ff375f; }
 
@@ -279,20 +278,46 @@ a { color: inherit; text-decoration: none; }
 .sheet-actions { margin-top: 18px; }
 .sheet-meta { color: var(--text-2); font-size: 12px; text-align: center; margin: 14px 0 0; }
 
-/* ---------- Ingredients jump bar ---------- */
+/* ---------- Ingredients: swipeable group pager ---------- */
 .jump-bar {
-  display: flex; gap: 8px; overflow-x: auto; padding: 2px 0 10px; margin: 0 -16px 4px;
-  padding-left: 16px; padding-right: 16px; scrollbar-width: none;
-  position: sticky; top: calc(var(--topbar-h) + env(safe-area-inset-top,0px));
-  background: var(--bg); z-index: 5;
+  display: flex; gap: 8px; overflow-x: auto; padding: 4px 16px 12px; margin: 0 -16px;
+  scrollbar-width: none; flex: 0 0 auto;
 }
 .jump-bar::-webkit-scrollbar { display: none; }
 .jump-chip {
   white-space: nowrap; background: var(--surface); border: 1px solid var(--hair);
   border-radius: 999px; padding: 7px 14px; font-size: 14px; font-weight: 600; color: var(--text);
-  box-shadow: var(--shadow);
+  box-shadow: var(--shadow); transition: background .12s, color .12s;
 }
 .jump-chip .jc-count { color: var(--text-2); font-weight: 500; margin-left: 4px; }
+.jump-chip.on { background: var(--accent); color: #fff; border-color: transparent; box-shadow: none; }
+.jump-chip.on .jc-count { color: rgba(255,255,255,.82); }
+
+body.view-ingredients .view {
+  height: 100dvh; padding-bottom: 0; overflow: hidden;
+  display: flex; flex-direction: column;
+}
+.ing-head { flex: 0 0 auto; }
+.ing-head .large-title { margin: 2px 2px 8px; }
+.ing-pager {
+  flex: 1 1 auto; display: flex; overflow-x: auto; overflow-y: hidden;
+  scroll-snap-type: x mandatory; -webkit-overflow-scrolling: touch; scrollbar-width: none;
+  margin: 0 -16px;
+}
+.ing-pager::-webkit-scrollbar { display: none; }
+.ing-panel {
+  flex: 0 0 100%; scroll-snap-align: start; overflow-y: auto; scrollbar-width: none;
+  padding: 2px 16px calc(var(--tabbar-h) + var(--safe-b) + 16px);
+  -webkit-overflow-scrolling: touch;
+}
+.ing-panel::-webkit-scrollbar { display: none; }
+.panel-hint { text-align: center; color: var(--text-2); font-size: 12px; padding: 6px 0 2px; opacity: .7; }
+
+/* ---------- Score shapes (nutrition / effort / taste) ---------- */
+.sc { width: 14px; height: 14px; display: inline-block; vertical-align: -2px; flex: 0 0 auto; }
+.sc.great { fill: var(--great); } .sc.ok { fill: var(--ok); } .sc.weak { fill: var(--weak); }
+.scoreline .sc, .score .sc { width: 16px; height: 16px; vertical-align: -3px; }
+.legend .sc { width: 14px; height: 14px; vertical-align: -3px; margin-right: 4px; }
 
 /* ---------- Score legend ---------- */
 .legend {
@@ -319,5 +344,6 @@ a { color: inherit; text-decoration: none; }
 .stepper .sv { min-width: 30px; text-align: center; font-size: 14px; font-weight: 600; }
 .ci-source { color: var(--text-2); font-size: 12px; margin-top: 1px; }
 .ci-main { flex: 1; min-width: 0; }
+.ci-qty { color: var(--accent); font-weight: 600; font-size: 14px; margin-left: 4px; }
 
 [hidden] { display: none !important; }

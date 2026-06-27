@@ -137,8 +137,7 @@ CATEGORY_ORDER = [
 # category is kept on each ingredient (basket aisle, page tag); these just group
 # the list. Order within a group follows CATEGORY_ORDER above.
 GROUP_OF = {
-    "vegetables": "veg",
-    "fruits": "fruit",
+    "vegetables": "produce", "fruits": "produce",
     "legumes-and-beans": "protein", "other-proteins": "protein",
     "grains-and-starches": "grains", "bread-and-wraps": "grains",
     "nuts-and-seeds": "nuts", "nutrition-powerhouses": "nuts",
@@ -146,9 +145,9 @@ GROUP_OF = {
     "condiments-and-umami": "pantry", "spices-and-dried-herbs": "pantry",
     "seasoning": "pantry",
 }
-GROUP_ORDER = ["veg", "fruit", "protein", "grains", "nuts", "pantry"]
+GROUP_ORDER = ["produce", "protein", "grains", "nuts", "pantry"]
 GROUP_LABELS = {
-    "veg": "Vegetables", "fruit": "Fruit", "protein": "Proteins & beans",
+    "produce": "Fruit & veg", "protein": "Proteins & beans",
     "grains": "Grains & bread", "nuts": "Nuts & seeds",
     "pantry": "Oils, acids & seasoning",
 }
@@ -574,6 +573,26 @@ def main():
             if ov.get("veganVariant"):
                 r["veganVariant"] = ov["veganVariant"]
 
+    # structured quantities (for basket scaling) — map each extracted line to a slug
+    qty_overlay = load_overlay("quantities.json")
+    for r in recipes:
+        qo = qty_overlay.get(r["slug"])
+        if not qo:
+            continue
+        r["baseServings"] = qo.get("baseServings") or 2
+        q = {}
+        for it in qo.get("items", []):
+            slug = match_ingredient(it.get("item", "")) or match_ingredient(it.get("display", ""))
+            if not slug:
+                continue
+            entry = {"qty": it.get("qty"), "unit": it.get("unit", ""),
+                     "scalable": bool(it.get("scalable")), "display": it.get("display", "")}
+            # prefer a scalable, quantified entry if the slug appears twice
+            cur = q.get(slug)
+            if not cur or (entry["scalable"] and entry["qty"] is not None and not (cur["scalable"] and cur["qty"] is not None)):
+                q[slug] = entry
+        r["quantities"] = q
+
     # order ingredients by category, core-first within category
     def ing_sort_key(ing):
         try:
@@ -583,10 +602,13 @@ def main():
         return (ci, 0 if ing["core"] else 1, ing["name"].lower())
     ing_list = sorted(ingredients.values(), key=ing_sort_key)
 
-    # coarse groups for the ingredients view (ing_list is already in fine order)
+    # coarse groups for the ingredients view; core ingredients first within each
+    # group (ing_list is already in fine-category order, so a stable sort keeps it).
     groups = []
     for g in GROUP_ORDER:
-        items = [i["slug"] for i in ing_list if GROUP_OF.get(i["category"]) == g]
+        members = [i for i in ing_list if GROUP_OF.get(i["category"]) == g]
+        members.sort(key=lambda i: 0 if i["core"] else 1)
+        items = [i["slug"] for i in members]
         if items:
             groups.append({"slug": g, "label": GROUP_LABELS[g], "items": items})
 
