@@ -1,7 +1,7 @@
 # Candidates — the recipe catalog
 
-24 untested recipes from the recipe workflow (`../../workflow.md`), each scored
-against the four principles (`../../CLAUDE.md`). They share one rule: the **core
+The untested recipe catalog, each dish scored against the four principles
+(`../../README.md`). They share one rule: the **core
 recipe uses only proven ingredients** — the minimal version cooks from the kit in
 `../../ingredients/proven/` alone. Every *Level it up* lever is a widely-available
 extra, flagged `(not in kit)`, so you can make any dish plainer or fancier on the day.

@@ -19,5 +19,5 @@ powerhouses (flax + chia). Spices were moved to proven as a set, **unreviewed**.
 `nutrition-powerhouses.md`
 
 Each lists the options not promoted, scored on the four principles. Read them with
-the weighting rule in mind (`../../CLAUDE.md`): each category has a dominant
+the weighting rule in mind (`../../README.md`): each category has a dominant
 criterion — don't treat all four principles as equal votes.

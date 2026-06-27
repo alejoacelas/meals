@@ -1,6 +1,6 @@
 # Ingredients — the building blocks
 
-Scored on the four principles (`../CLAUDE.md`), then split like the recipes:
+Scored on the four principles (`../README.md`), then split like the recipes:
 - `candidates/` — the ranked options per category (the full research).
 - `proven/` — the go-tos I've settled on, with why. `proven/README.md` is the
   core kit at a glance.
@@ -19,8 +19,9 @@ Each candidate table is ranked best-first, columns in the order I scan them:
 - **Availability** — UK-anchored, weighted for the West + Asia; 🟢 = nearly any supermarket.
 - **Nutrition** — nutrient density; the standout nutrients.
 
-Don't weight the columns equally — see the weighting rule in `../CLAUDE.md`: each
+Don't weight the columns equally — see the weighting rule in `../README.md`: each
 category has a dominant criterion, and an irrelevant one shouldn't drag an item
 down (spices are judged on taste, not nutrition).
 
-The tables come from the workflow (`../workflow.md`); re-run it to refresh them.
+The tables came from a one-off multi-agent research pass; that plan is archived at
+`~/archive/best/meals/workflow.md` if you ever want to refresh them.
