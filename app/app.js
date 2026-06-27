@@ -14,9 +14,11 @@
   const ANIMAL_WORDS = ["egg", "yoghurt", "yogurt", "sardine", "mackerel", "fish sauce", "honey", "greek"];
 
   // ---- state ----
-  let S = { username: "", diet: null, saved: [], basket: {} };
-  let filters = { meal: "all", best: false, saved: false, q: "" };
+  let S = { username: "", diet: null, saved: [], cooked: [], cookReviews: {}, basket: {} };
+  let filters = { meal: "all", best: false, saved: false, cooked: false, q: "" };
   let remoteTimer = null;
+  let commandPlan = null;
+  let cooking = { slug: null, step: 0, timerId: null, timerUntil: 0 };
 
   const $ = sel => document.querySelector(sel);
   const view = $("#view");
@@ -28,10 +30,19 @@
   function applyProfile(p) {
     S.diet = p.diet || S.diet;
     S.saved = Array.isArray(p.saved) ? p.saved : [];
+    S.cooked = Array.isArray(p.cooked) ? p.cooked : [];
+    S.cookReviews = (p.cookReviews && typeof p.cookReviews === "object") ? p.cookReviews : {};
     S.basket = (p.basket && typeof p.basket === "object") ? p.basket : {};
   }
   function persist() {
-    const p = { diet: S.diet, saved: S.saved, basket: S.basket, updatedAt: Date.now() };
+    const p = {
+      diet: S.diet,
+      saved: S.saved,
+      cooked: S.cooked,
+      cookReviews: S.cookReviews,
+      basket: S.basket,
+      updatedAt: Date.now()
+    };
     try {
       localStorage.setItem(keyFor(S.username), JSON.stringify(p));
       localStorage.setItem("meals:last", JSON.stringify({ username: S.username, diet: S.diet }));
@@ -91,6 +102,7 @@
     return `<span class="pill">🍳 Non-vegan</span>`;
   }
   function timeLabel(r) { return r.totalMin ? `${r.totalMin}m` : (r.summary.time || ""); }
+  function madeBefore(r) { return S.cooked.includes(r.slug); }
 
   // ---------- views ----------
   function recipeCard(r) {
@@ -108,6 +120,7 @@
         <span class="meta-item">⏱ ${esc(timeLabel(r))}</span>
         ${scoreDots(r)}
         ${r.best ? `<span class="pill best">⭐ Best</span>` : ""}
+        ${madeBefore(r) ? `<span class="pill made">✓ Made</span>` : ""}
         ${dietPill(r)}
       </div>
     </a>`;
@@ -119,6 +132,7 @@
     if (filters.meal !== "all") list = list.filter(r => r.meal === filters.meal);
     if (filters.best) list = list.filter(r => r.best);
     if (filters.saved) list = list.filter(r => S.saved.includes(r.slug));
+    if (filters.cooked) list = list.filter(r => madeBefore(r));
     if (filters.q) {
       const q = filters.q.toLowerCase();
       list = list.filter(r => (r.title + " " + r.blurb + " " + r.eats + " " +
@@ -137,6 +151,7 @@
           </div>
           <button class="toggle-chip ${filters.best ? "on" : ""}" data-action="f-best">⭐ Best</button>
           <button class="toggle-chip ${filters.saved ? "on" : ""}" data-action="f-saved">♥ Saved</button>
+          <button class="toggle-chip ${filters.cooked ? "on" : ""}" data-action="f-cooked">✓ Made</button>
         </div>
       </div>
       <p class="result-count">${list.length} recipe${list.length === 1 ? "" : "s"}${isVegan() ? " · vegan" : ""}</p>
@@ -175,11 +190,17 @@
         <div class="glance-row"><div class="k">The gist</div><div class="v">${esc(adaptable && v.steps ? v.steps : r.summary.steps)}</div></div>
         <div class="glance-row"><div class="k">Kit</div><div class="v">${esc(r.equipment)} · serves ${esc(r.serves)}</div></div>
       </div>
-      <div class="action-row">
-        <button class="primary-btn ${inBasket ? "added" : ""}" data-action="add-recipe" data-slug="${r.slug}">
+      <div class="cook-cta">
+        <button class="play-btn" data-action="start-cook" data-slug="${r.slug}">
+          <span class="play-ico">▶</span><span>Start cooking</span>
+        </button>
+        ${madeBefore(r) ? `<p class="made-note">You've made this before.</p>` : ""}
+      </div>
+      <div class="action-row secondary-actions">
+        <button class="ghost-btn ${inBasket ? "added" : ""}" data-action="add-recipe" data-slug="${r.slug}">
           ${inBasket ? "✓ In basket" : "Add to basket"}</button>
         <button class="ghost-btn ${S.saved.includes(r.slug) ? "on" : ""}" data-action="save" data-slug="${r.slug}">
-          ${S.saved.includes(r.slug) ? "♥" : "♡"}</button>
+          ${S.saved.includes(r.slug) ? "♥ Saved" : "♡ Save"}</button>
       </div>
       ${adaptable ? `<div class="variant-note">🌱 Vegan version shown — ${esc(v.note || "swaps below")}.</div>` : ""}
       <p class="why" style="margin:0 4px 16px">${esc(r.blurb)}</p>
@@ -383,6 +404,8 @@
     if (act === "seg") { filters[a.dataset.group] = a.dataset.val; viewRecipes(); return; }
     if (act === "f-best") { filters.best = !filters.best; viewRecipes(); return; }
     if (act === "f-saved") { filters.saved = !filters.saved; viewRecipes(); return; }
+    if (act === "f-cooked") { filters.cooked = !filters.cooked; viewRecipes(); return; }
+    if (act === "start-cook") { openCookMode(a.dataset.slug); return; }
     if (act === "add-recipe") {
       const r = recBySlug[a.dataset.slug];
       recipeInBasket(r) ? removeRecipe(r) : addRecipe(r);
@@ -426,6 +449,308 @@
     route();
   });
   window.addEventListener("hashchange", route);
+
+  $("#voice-fab").addEventListener("click", openVoiceSheet);
+  $("#voice-backdrop").addEventListener("click", closeVoiceSheet);
+  $("#voice-close").addEventListener("click", closeVoiceSheet);
+  $("#voice-listen").addEventListener("click", startDictation);
+  $("#voice-plan").addEventListener("click", () => {
+    commandPlan = buildCommandPlan($("#voice-command").value);
+    renderCommandPlan(commandPlan);
+  });
+  $("#voice-sheet").addEventListener("click", e => {
+    const ex = e.target.closest("[data-command-example]");
+    if (ex) {
+      $("#voice-command").value = ex.dataset.commandExample;
+      $("#voice-command").focus();
+      return;
+    }
+    if (e.target.closest("[data-command-apply]")) {
+      applyCommandPlan();
+    }
+  });
+
+  $("#cook-close").addEventListener("click", closeCookMode);
+  $("#cook-mode").addEventListener("click", e => {
+    const b = e.target.closest("[data-cook]");
+    if (!b) return;
+    const act = b.dataset.cook;
+    if (act === "prev") { cooking.step = Math.max(0, cooking.step - 1); renderCookMode(); }
+    if (act === "next") { cooking.step += 1; renderCookMode(); }
+    if (act === "timer") { startCookTimer(Number(b.dataset.min || 5)); }
+    if (act === "timer-reset") { stopCookTimer(); renderCookMode(); }
+    if (act === "review") { recordCooked(b.dataset.feedback || "made"); }
+    if (act === "close") { closeCookMode(); }
+  });
+
+  // ---------- voice command sheet ----------
+  function openVoiceSheet() {
+    $("#voice-sheet").hidden = false;
+    $("#voice-status").textContent = "";
+    $("#voice-plan-output").hidden = true;
+    commandPlan = null;
+    const input = $("#voice-command");
+    if (!input.value.trim()) input.value = suggestedCommand();
+    setTimeout(() => input.focus(), 80);
+  }
+  function closeVoiceSheet() { $("#voice-sheet").hidden = true; }
+  function suggestedCommand() {
+    const r = currentRecipe();
+    if (r) return "Add the ingredients for this recipe to my basket.";
+    return "Pick three vegan mains, avoid mushrooms, save them, and add what I need to my basket.";
+  }
+  function currentRecipe() {
+    const m = (location.hash || "").match(/^#\/recipe\/(.+)$/);
+    return m ? recBySlug[decodeURIComponent(m[1])] : null;
+  }
+  function startDictation() {
+    const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
+    const status = $("#voice-status");
+    if (!SR) {
+      status.textContent = "Dictation is not available in this browser. Type the request instead.";
+      return;
+    }
+    const rec = new SR();
+    rec.lang = "en-GB";
+    rec.interimResults = false;
+    rec.maxAlternatives = 1;
+    status.textContent = "Listening...";
+    rec.onresult = e => {
+      const text = e.results && e.results[0] && e.results[0][0] ? e.results[0][0].transcript : "";
+      $("#voice-command").value = text;
+      status.textContent = "Got it. Preview the plan before applying.";
+    };
+    rec.onerror = () => { status.textContent = "I could not hear that. Type the request instead."; };
+    rec.onend = () => { if (status.textContent === "Listening...") status.textContent = ""; };
+    rec.start();
+  }
+  function buildCommandPlan(raw) {
+    const text = raw.trim();
+    const lower = text.toLowerCase();
+    if (!text) return { summary: "Say what you want meals to do first.", lines: [], recipes: [], canApply: false };
+    const r = currentRecipe();
+    if (!r && /this recipe|modify|higher.protein|version/.test(lower)) {
+      return {
+        summary: "Open a recipe first, then ask for a modification.",
+        lines: ["Recipe variants need a base recipe so they can stay tied to the catalog."],
+        recipes: [],
+        canApply: false
+      };
+    }
+    if (r && /this recipe|this|shop|basket|ingredient|ingredients/.test(lower)) {
+      return {
+        summary: `Use ${r.title} as the target recipe.`,
+        lines: [
+          /save|shortlist/.test(lower) ? "Save this recipe." : null,
+          /basket|shop|ingredient/.test(lower) ? "Add its ingredients to the basket." : null,
+          /higher.protein|protein|modify|change|version/.test(lower) ?
+            "Draft a modified version in the command layer before saving variants." : null
+        ].filter(Boolean),
+        recipes: [r.slug],
+        save: /save|shortlist/.test(lower),
+        basket: /basket|shop|ingredient/.test(lower),
+        canApply: /save|shortlist|basket|shop|ingredient/.test(lower)
+      };
+    }
+    if (/already have|what i have|from my basket|cook from basket/.test(lower)) {
+      const have = new Set(Object.entries(S.basket).filter(([, v]) => v.have).map(([id]) => id));
+      const count = wantedCount(lower);
+      if (!have.size) {
+        return {
+          summary: "Mark basket items as already owned first, then I can rank recipes by what is ready to cook.",
+          lines: ["Open Basket and tick what you already have."],
+          recipes: [],
+          canApply: false
+        };
+      }
+      const matches = D.recipes.filter(recipeAllowed).map(recipeBasketFit).sort((a, b) =>
+        a.missing.length - b.missing.length || Number(b.recipe.best) - Number(a.recipe.best));
+      const picks = matches.slice(0, count);
+      return {
+        summary: `Best matches from what is marked as already owned.`,
+        lines: picks.map(x => `${x.recipe.title} · missing ${x.missing.length ? x.missing.join(", ") : "nothing"}`),
+        recipes: picks.map(x => x.recipe.slug),
+        save: false,
+        basket: /add|basket|shop|missing/.test(lower),
+        canApply: /add|basket|shop|missing/.test(lower)
+      };
+    }
+
+    const count = wantedCount(lower);
+    const wantsVegan = /vegan|plant/.test(lower);
+    const wantsMain = /dinner|main|mains|week|meal/.test(lower);
+    const avoidMushrooms = /no mushrooms|avoid mushrooms|without mushrooms|no mushroom|avoid mushroom/.test(lower);
+    const shouldSave = /save|shortlist|keep/.test(lower);
+    const shouldBasket = /basket|shop|shopping|ingredient|ingredients|need/.test(lower);
+    let list = D.recipes.filter(recipeAllowed);
+    if (wantsVegan) list = list.filter(r => statusOf(r) !== "animal");
+    if (wantsMain) list = list.filter(r => r.meal === "main");
+    if (avoidMushrooms) list = list.filter(r => !mentionsIngredient(r, "mushroom"));
+    list = list.slice().sort((a, b) => Number(b.best) - Number(a.best) || (a.totalMin || 999) - (b.totalMin || 999));
+    const recipes = list.slice(0, count);
+    const lines = recipes.map(r => `${r.title}${r.best ? " · best pick" : ""}${timeLabel(r) ? ` · ${timeLabel(r)}` : ""}`);
+    return {
+      summary: recipes.length ? `I found ${recipes.length} recipe${recipes.length === 1 ? "" : "s"} that match.` :
+        "I could not find a matching recipe in the current catalog.",
+      lines,
+      recipes: recipes.map(r => r.slug),
+      save: shouldSave,
+      basket: shouldBasket || !shouldSave,
+      canApply: recipes.length > 0
+    };
+  }
+  function mentionsIngredient(r, word) {
+    const hay = `${r.title} ${r.blurb} ${r.ingredients.join(" ")} ${r.uses.join(" ")}`.toLowerCase();
+    return hay.includes(word);
+  }
+  function recipeBasketFit(recipe) {
+    const missing = recipe.uses.map(s => ingBySlug[s]).filter(i => i && ingredientAllowed(i) && !S.basket[i.slug]?.have);
+    return { recipe, missing: missing.map(i => i.name) };
+  }
+  function wantedCount(text) {
+    const m = text.match(/\b(\d+)\b/);
+    if (m) return Math.max(1, Math.min(7, Number(m[1])));
+    const words = { one: 1, two: 2, three: 3, four: 4, five: 5, six: 6, seven: 7 };
+    const k = Object.keys(words).find(w => new RegExp(`\\b${w}\\b`).test(text));
+    return k ? words[k] : 3;
+  }
+  function renderCommandPlan(plan) {
+    const out = $("#voice-plan-output");
+    out.hidden = false;
+    out.innerHTML = `<div class="command-plan">
+      <h3>Preview</h3>
+      <p>${esc(plan.summary)}</p>
+      ${plan.lines.length ? `<ul>${plan.lines.map(x => `<li>${esc(x)}</li>`).join("")}</ul>` : ""}
+      ${plan.canApply ? `<button class="primary-btn" data-command-apply type="button">Apply plan</button>` : ""}
+    </div>`;
+  }
+  function applyCommandPlan() {
+    if (!commandPlan || !commandPlan.canApply) return;
+    commandPlan.recipes.forEach(slug => {
+      const r = recBySlug[slug];
+      if (!r) return;
+      if (commandPlan.save && !S.saved.includes(slug)) S.saved.push(slug);
+      if (commandPlan.basket) addRecipe(r);
+    });
+    persist();
+    updateBasketBadge();
+    $("#voice-status").textContent = "Applied.";
+    closeVoiceSheet();
+    route();
+  }
+
+  // ---------- cook mode ----------
+  function openCookMode(slug) {
+    if (!recBySlug[slug]) return;
+    stopCookTimer();
+    cooking = { slug, step: 0, timerId: null, timerUntil: 0 };
+    $("#cook-mode").hidden = false;
+    document.body.classList.add("cook-open");
+    renderCookMode();
+  }
+  function closeCookMode() {
+    stopCookTimer();
+    $("#cook-mode").hidden = true;
+    document.body.classList.remove("cook-open");
+    route();
+  }
+  function recipeSteps(r) {
+    return r.method && r.method.length ? r.method : [(r.summary && r.summary.steps) || "Cook until done."];
+  }
+  function renderCookMode() {
+    const r = recBySlug[cooking.slug];
+    if (!r) return closeCookMode();
+    const steps = recipeSteps(r);
+    $("#cook-title").textContent = r.title;
+    $("#cook-kicker").textContent = cooking.step >= steps.length ? "Review" : `Step ${cooking.step + 1} of ${steps.length}`;
+    if (cooking.step >= steps.length) {
+      stopCookTimer();
+      renderCookReview(r);
+      return;
+    }
+    const pct = Math.round(((cooking.step + 1) / steps.length) * 100);
+    $("#cook-body").innerHTML = `
+      <div class="cook-progress"><span style="width:${pct}%"></span></div>
+      <section class="cook-step-card">
+        <div class="cook-step-meta">${esc(r.summary.time || timeLabel(r))} · serves ${esc(r.serves)}</div>
+        <p>${esc(steps[cooking.step])}</p>
+      </section>
+      <section class="cook-timer-card">
+        <div>
+          <h3>Timer</h3>
+          <div id="cook-timer-display" class="cook-timer-display">${timerLabel()}</div>
+        </div>
+        <div class="cook-timer-actions">
+          <button data-cook="timer" data-min="5">5m</button>
+          <button data-cook="timer" data-min="10">10m</button>
+          <button data-cook="timer" data-min="15">15m</button>
+          <button data-cook="timer-reset">Reset</button>
+        </div>
+      </section>
+      <div class="cook-nav">
+        <button class="ghost-btn" data-cook="prev" ${cooking.step === 0 ? "disabled" : ""}>Back</button>
+        <button class="primary-btn" data-cook="next">${cooking.step === steps.length - 1 ? "Finish" : "Next"}</button>
+      </div>`;
+    updateTimerDisplay();
+  }
+  function renderCookReview(r) {
+    $("#cook-body").innerHTML = `
+      <section class="cook-review">
+        <div class="review-mark">✓</div>
+        <h3>How did it go?</h3>
+        <p>Mark it made and leave the kind of signal that should shape future picks.</p>
+        <div class="review-actions">
+          <button data-cook="review" data-feedback="rotation">Keep in rotation</button>
+          <button data-cook="review" data-feedback="effort">Too much effort</button>
+          <button data-cook="review" data-feedback="bland">Too bland</button>
+        </div>
+        <button class="link-btn" data-cook="close">Back to recipe</button>
+      </section>`;
+  }
+  function recordCooked(feedback) {
+    const slug = cooking.slug;
+    if (!S.cooked.includes(slug)) S.cooked.push(slug);
+    const prev = S.cookReviews[slug] || {};
+    S.cookReviews[slug] = { count: (prev.count || 0) + 1, lastMade: Date.now(), feedback };
+    persist();
+    $("#cook-body").innerHTML = `
+      <section class="cook-review done">
+        <div class="review-mark">✓</div>
+        <h3>Saved</h3>
+        <p>This recipe now appears under the Made filter.</p>
+        <button class="primary-btn" data-cook="close">Back to recipe</button>
+      </section>`;
+  }
+  function startCookTimer(min) {
+    stopCookTimer();
+    cooking.timerUntil = Date.now() + min * 60 * 1000;
+    cooking.timerId = setInterval(updateTimerDisplay, 500);
+    renderCookMode();
+  }
+  function stopCookTimer() {
+    if (cooking.timerId) clearInterval(cooking.timerId);
+    cooking.timerId = null;
+    cooking.timerUntil = 0;
+  }
+  function timerLabel() {
+    if (!cooking.timerUntil) return "No timer running";
+    const left = Math.max(0, cooking.timerUntil - Date.now());
+    if (left === 0) return "Done";
+    const secs = Math.ceil(left / 1000);
+    const m = Math.floor(secs / 60);
+    const s = String(secs % 60).padStart(2, "0");
+    return `${m}:${s}`;
+  }
+  function updateTimerDisplay() {
+    const el = $("#cook-timer-display");
+    if (!el) return;
+    el.textContent = timerLabel();
+    el.classList.toggle("done", !!cooking.timerUntil && cooking.timerUntil <= Date.now());
+    if (cooking.timerUntil && cooking.timerUntil <= Date.now()) {
+      if (cooking.timerId) clearInterval(cooking.timerId);
+      cooking.timerId = null;
+    }
+  }
 
   // ---------- utils ----------
   function truncate(s, n) { s = s || ""; return s.length > n ? s.slice(0, n - 1).trimEnd() + "…" : s; }

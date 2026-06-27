@@ -20,12 +20,16 @@ works from `file://` too).
 - **Land** → pick **vegan** or **everything**, type a **kitchen name**. The name
   shows top-right always and carries your basket + saved recipes. No password.
 - **Recipes** → search, filter by **breakfast / mains**, or ⭐ **best** (the
-  straight-🟢🟢🟢🟢 picks). Each recipe opens with a one-screen summary; scroll for
-  the full method.
+  straight-🟢🟢🟢🟢 picks), plus **made** once you've cooked something. Each recipe
+  opens with a one-screen summary; tap **▶ Start cooking** for step-by-step cook
+  mode with timers and a quick review at the end.
 - **Ingredients** → the proven kit by category; tap one for tips, swaps, storage,
   and every recipe it's in.
 - **Basket** → add a recipe's shop in one tap, or seed it with the **Core kit**
   (minimal) or **Full list** (a week for two); check off what you already have.
+- **Ask** → the floating mic button opens a command sheet with examples. Today it
+  can preview and apply simple recipe-picking and basket actions locally; the
+  same action shape is ready for a model-backed command endpoint.
 
 Cross-device sync is optional — see [`sync/`](sync/). Without it, saves are
 per-device.
