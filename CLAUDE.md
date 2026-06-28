@@ -4,6 +4,10 @@ Read `README.md` first. It holds the four principles (nutritious · low effort �
 widely available · tasty), the weighting rule, and how the folder is organized.
 This file is just the conventions for editing.
 
+## Related
+- `friends/places` (primary) and `friends/people` — relevant to where this goes
+  next; how they feed into meals is still TBD.
+
 ## Scoring
 - Score every ingredient and recipe against the four principles — never add an
   entry without saying how it does on each. Use 🟢 great · 🟡 ok/mixed · 🔴 weak.
