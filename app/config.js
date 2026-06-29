@@ -8,5 +8,5 @@
 // in app/sync/feedback/ to create public GitHub issues from cook-mode reviews.
 window.MEALS_CONFIG = {
   syncUrl: "",
-  feedbackUrl: "",
+  feedbackUrl: "https://meals-feedback.alejoacelas.workers.dev",
 };
