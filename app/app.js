@@ -5,6 +5,7 @@
   const D = window.MEALS_DATA;
   const CFG = window.MEALS_CONFIG || {};
   const SYNC = (CFG.syncUrl || "").replace(/\/+$/, "");
+  const FEEDBACK = (CFG.feedbackUrl || "").replace(/\/+$/, "");
 
   // ---- lookups ----
   const recBySlug = Object.fromEntries(D.recipes.map(r => [r.slug, r]));
@@ -68,6 +69,17 @@
     try {
       await fetch(SYNC + "/" + encodeURIComponent(S.username.toLowerCase()),
         { method: "PUT", headers: { "Content-Type": "application/json" }, body: JSON.stringify(p) });
+    } catch (e) {}
+  }
+
+  async function remoteFeedback(payload) {
+    if (!FEEDBACK) return;
+    try {
+      await fetch(FEEDBACK + "/feedback", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(payload)
+      });
     } catch (e) {}
   }
 
@@ -832,10 +844,23 @@
   }
   function recordCooked(feedback) {
     const slug = cooking.slug;
+    const recipe = recBySlug[slug];
     if (!S.cooked.includes(slug)) S.cooked.push(slug);
     const prev = S.cookReviews[slug] || {};
     S.cookReviews[slug] = { count: (prev.count || 0) + 1, lastMade: Date.now(), feedback };
     persist();
+    remoteFeedback({
+      type: "cook-review",
+      feedback,
+      kitchen: S.username,
+      diet: S.diet,
+      page: location.href,
+      recipe: recipe ? { slug: recipe.slug, title: recipe.title } : { slug },
+      context: {
+        madeCount: S.cookReviews[slug].count,
+        snapshotDate: D.snapshot && D.snapshot.date
+      }
+    });
     $("#cook-body").innerHTML = `
       <section class="cook-review done">
         <div class="review-mark">✓</div>
