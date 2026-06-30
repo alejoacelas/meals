@@ -31,6 +31,9 @@ works from `file://` too).
 - **Ask** → the floating mic button opens a command sheet with examples. Today it
   can preview and apply simple recipe-picking and basket actions locally; the
   same action shape is ready for a model-backed command endpoint.
+- **Feedback** → the speech-bubble button opens a small sheet for ideas, bugs,
+  missing recipes, or failed Ask commands. When `feedbackUrl` is configured, it
+  files a public GitHub issue with the current app context.
 
 Cross-device sync is optional — see [`sync/`](sync/). Without it, saves are
 per-device.
@@ -77,6 +80,8 @@ The repo is public on GitHub, so the cheapest host is Pages:
   `docs/` path / `gh-pages` branch if you prefer). It's pure static files.
 - For cross-device sync, also deploy the worker in [`sync/`](sync/) and paste its
   URL into `config.js`.
+- For app feedback, deploy [`sync/feedback/`](sync/feedback/) and set
+  `feedbackUrl` in `config.js`.
 
 ## Files
 | File | What |

@@ -42,7 +42,7 @@ a { color: inherit; text-decoration: none; }
   position: fixed; top: 0; left: 0; right: 0; z-index: 30;
   height: calc(var(--topbar-h) + env(safe-area-inset-top, 0px));
   padding-top: env(safe-area-inset-top, 0px);
-  display: grid; grid-template-columns: 44px 1fr auto; align-items: center;
+  display: grid; grid-template-columns: 44px 1fr auto auto; align-items: center;
   gap: 8px; padding-left: 8px; padding-right: 12px;
   background: color-mix(in srgb, var(--bg) 72%, transparent);
   backdrop-filter: var(--bar-blur); -webkit-backdrop-filter: var(--bar-blur);
@@ -53,7 +53,13 @@ a { color: inherit; text-decoration: none; }
   white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
 }
 .back-btn { grid-column: 1; font-size: 30px; line-height: 1; color: var(--accent); padding: 0 4px; justify-self: start; }
-.name-chip { grid-column: 3; }
+.feedback-btn {
+  grid-column: 3; width: 34px; height: 34px; border-radius: 50%; justify-self: end;
+  background: var(--surface-2); color: var(--text-2); display: inline-flex;
+  align-items: center; justify-content: center; font-size: 16px;
+}
+.feedback-btn:active { transform: scale(.96); }
+.name-chip { grid-column: 4; }
 .name-chip {
   display: inline-flex; align-items: center; gap: 5px; justify-self: end;
   background: var(--surface-2); border-radius: 999px; padding: 5px 11px 5px 8px;
@@ -334,6 +340,31 @@ a { color: inherit; text-decoration: none; }
 .command-plan p { margin: 0 0 8px; color: var(--text-2); }
 .command-plan ul { margin: 0 0 12px; padding-left: 18px; }
 .command-plan li { margin: 4px 0; }
+
+/* ---------- Feedback ---------- */
+.feedback-card { padding-bottom: calc(24px + var(--safe-b)); }
+.feedback-intro, .feedback-note {
+  color: var(--text-2); font-size: 14px; margin: -8px 4px 14px;
+}
+.feedback-note { font-size: 12.5px; margin: -2px 4px 12px; }
+.feedback-category {
+  display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px;
+  margin: 0 0 12px;
+}
+.feedback-category button {
+  min-height: 42px; border-radius: var(--r-sm); background: var(--surface);
+  border: 1px solid var(--hair); box-shadow: var(--shadow); padding: 8px 10px;
+  font-size: 14px; font-weight: 650;
+}
+.feedback-category button.on {
+  background: var(--accent-soft); color: var(--accent); border-color: transparent;
+  box-shadow: none;
+}
+.feedback-actions { display: flex; }
+.feedback-status {
+  color: var(--text-2); font-size: 13px; min-height: 18px; margin: 10px 4px 0;
+}
+.feedback-status a { color: var(--accent); font-weight: 650; }
 
 /* ---------- Cook mode ---------- */
 body.cook-open { overflow: hidden; }

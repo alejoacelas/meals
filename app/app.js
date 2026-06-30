@@ -21,6 +21,7 @@
   let remoteTimer = null;
   let commandPlan = null;
   let cooking = { slug: null, step: 0, timerId: null, timerUntil: 0 };
+  let feedbackKind = "idea";
 
   const $ = sel => document.querySelector(sel);
   const view = $("#view");
@@ -73,14 +74,18 @@
   }
 
   async function remoteFeedback(payload) {
-    if (!FEEDBACK) return;
+    if (!FEEDBACK) return { ok: false, local: true };
     try {
-      await fetch(FEEDBACK + "/feedback", {
+      const res = await fetch(FEEDBACK + "/feedback", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(payload)
       });
-    } catch (e) {}
+      if (!res.ok) return { ok: false, status: res.status };
+      return await res.json();
+    } catch (e) {
+      return { ok: false, error: e && e.message ? e.message : "network error" };
+    }
   }
 
   async function login(username, diet) {
@@ -570,6 +575,7 @@
 
   $("#back-btn").addEventListener("click", () => history.length > 1 ? history.back() : (location.hash = "#/recipes"));
   $("#name-chip").addEventListener("click", openSheet);
+  $("#feedback-btn").addEventListener("click", openFeedbackSheet);
   $("#sheet-backdrop").addEventListener("click", closeSheet);
   $("#sheet-diet").addEventListener("click", e => {
     const b = e.target.closest("button"); if (!b) return;
@@ -604,6 +610,17 @@
     }
     if (e.target.closest("[data-command-apply]")) applyCommandPlan();
   });
+
+  $("#feedback-close").addEventListener("click", closeFeedbackSheet);
+  $("#feedback-backdrop").addEventListener("click", closeFeedbackSheet);
+  $("#feedback-category").addEventListener("click", e => {
+    const b = e.target.closest("[data-feedback-kind]");
+    if (!b) return;
+    feedbackKind = b.dataset.feedbackKind;
+    $("#feedback-category").querySelectorAll("button").forEach(x => x.classList.toggle("on", x === b));
+    $("#feedback-message").focus();
+  });
+  $("#feedback-submit").addEventListener("click", submitFeedback);
 
   $("#cook-close").addEventListener("click", closeCookMode);
   $("#cook-mode").addEventListener("click", e => {
@@ -772,6 +789,67 @@
     $("#voice-status").textContent = "Applied.";
     closeVoiceSheet();
     route();
+  }
+
+  // ---------- feedback sheet ----------
+  function openFeedbackSheet() {
+    $("#feedback-sheet").hidden = false;
+    $("#feedback-status").innerHTML = "";
+    $("#feedback-submit").disabled = false;
+    const input = $("#feedback-message");
+    if (!input.value.trim()) input.value = feedbackSuggestion();
+    setTimeout(() => input.focus(), 80);
+  }
+  function closeFeedbackSheet() { $("#feedback-sheet").hidden = true; }
+  function feedbackSuggestion() {
+    const r = currentRecipe();
+    if (r) return `For ${r.title}, I wanted...`;
+    if ((location.hash || "").includes("/basket")) return "In the basket, I wanted...";
+    return "";
+  }
+  async function submitFeedback() {
+    const input = $("#feedback-message");
+    const message = input.value.trim();
+    const status = $("#feedback-status");
+    const button = $("#feedback-submit");
+    if (!message) {
+      status.textContent = "Write a sentence first.";
+      input.focus();
+      return;
+    }
+    button.disabled = true;
+    status.textContent = "Sending...";
+    const result = await remoteFeedback({
+      type: "app-feedback",
+      feedback: feedbackKind,
+      message,
+      kitchen: S.username,
+      diet: S.diet,
+      page: location.href,
+      recipe: currentRecipeSummary(),
+      context: {
+        route: location.hash || "#/recipes",
+        snapshotDate: D.snapshot && D.snapshot.date,
+        recipeCount: D.snapshot && D.snapshot.recipeCount,
+        ingredientCount: D.snapshot && D.snapshot.ingredientCount,
+        viewport: `${window.innerWidth}x${window.innerHeight}`
+      }
+    });
+    if (result && result.ok) {
+      input.value = "";
+      status.innerHTML = `Sent.${result.url ? ` <a href="${esc(result.url)}" target="_blank" rel="noopener">Open issue</a>` : ""}`;
+      setTimeout(closeFeedbackSheet, 900);
+    } else if (result && result.local) {
+      status.textContent = "Feedback is not connected on this build.";
+      button.disabled = false;
+    } else {
+      status.textContent = "Could not send. Try again in a moment.";
+      button.disabled = false;
+    }
+  }
+  function currentRecipeSummary() {
+    const r = currentRecipe();
+    return r ? { slug: r.slug, title: r.title } : null;
   }
 
   // ---------- cook mode ----------

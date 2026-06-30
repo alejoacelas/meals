@@ -36,6 +36,7 @@
   <header class="topbar">
     <button id="back-btn" class="back-btn" hidden aria-label="Back">‹</button>
     <h1 id="topbar-title" class="topbar-title">Recipes</h1>
+    <button id="feedback-btn" class="feedback-btn" aria-label="Leave feedback">💬</button>
     <button id="name-chip" class="name-chip" aria-label="Your kitchen">
       <span class="chip-diet" id="chip-diet">🌱</span>
       <span id="chip-name">—</span>
@@ -110,6 +111,34 @@
       <div id="voice-plan-output" class="voice-plan-output" hidden></div>
     </div>
     <div class="sheet-backdrop" id="voice-backdrop"></div>
+  </div>
+
+  <!-- Feedback sheet -->
+  <div id="feedback-sheet" class="sheet feedback-sheet" hidden>
+    <div class="sheet-card feedback-card">
+      <div class="sheet-grip"></div>
+      <button id="feedback-close" class="sheet-close" aria-label="Close">×</button>
+      <h2>Feedback</h2>
+      <p class="feedback-intro">Tell me what you wanted, what broke, or what would
+        make this easier next time.</p>
+      <div id="feedback-category" class="feedback-category" aria-label="Feedback type">
+        <button class="on" data-feedback-kind="idea" type="button">Idea</button>
+        <button data-feedback-kind="bug" type="button">Bug</button>
+        <button data-feedback-kind="recipe-request" type="button">Missing recipe</button>
+        <button data-feedback-kind="command-failed" type="button">Ask failed</button>
+      </div>
+      <label class="command-field">
+        <span>What did you want meals to do?</span>
+        <textarea id="feedback-message" rows="4" placeholder="Write the request, bug, or missing recipe"></textarea>
+      </label>
+      <p class="feedback-note">This may become a public GitHub issue. Do not include
+        private information.</p>
+      <div class="feedback-actions">
+        <button id="feedback-submit" class="primary-btn" type="button">Send feedback</button>
+      </div>
+      <div id="feedback-status" class="feedback-status" aria-live="polite"></div>
+    </div>
+    <div class="sheet-backdrop" id="feedback-backdrop"></div>
   </div>
 
   <!-- Cook mode -->
