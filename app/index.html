@@ -36,6 +36,7 @@
   <header class="topbar">
     <button id="back-btn" class="back-btn" hidden aria-label="Back">‹</button>
     <h1 id="topbar-title" class="topbar-title">Recipes</h1>
+    <button id="feedback-btn" class="feedback-btn" aria-label="Leave feedback">💬</button>
     <button id="name-chip" class="name-chip" aria-label="Your kitchen">
       <span class="chip-diet" id="chip-diet">🌱</span>
       <span id="chip-name">—</span>
@@ -43,6 +44,11 @@
   </header>
 
   <main id="view" class="view"></main>
+
+  <button id="voice-fab" class="voice-fab" aria-label="Ask meals">
+    <span class="voice-ico">🎙️</span>
+    <span class="voice-label">Ask</span>
+  </button>
 
   <!-- Bottom tab bar -->
   <nav class="tabbar">
@@ -77,6 +83,76 @@
       <p class="sheet-meta" id="sheet-meta"></p>
     </div>
     <div class="sheet-backdrop" id="sheet-backdrop"></div>
+  </div>
+
+  <!-- Voice / command sheet -->
+  <div id="voice-sheet" class="sheet voice-sheet" hidden>
+    <div class="sheet-card voice-card">
+      <div class="sheet-grip"></div>
+      <button id="voice-close" class="sheet-close" aria-label="Close">×</button>
+      <h2>Ask meals</h2>
+      <p class="voice-intro">Tell it what you want. It can pick recipes, change them,
+        save ideas, and add what you need to the basket.</p>
+      <div class="voice-suggestions" aria-label="Voice command ideas">
+        <button data-command-example="Pick three vegan mains, avoid mushrooms, save them, and add what I need to my basket.">Plan dinners</button>
+        <button data-command-example="Make this recipe higher-protein and save the version.">Modify a recipe</button>
+        <button data-command-example="What can I cook from what I already have?">Cook from basket</button>
+        <button data-command-example="Add the ingredients for this recipe to my basket.">Shop for this</button>
+      </div>
+      <label class="command-field">
+        <span>Your request</span>
+        <textarea id="voice-command" rows="3" placeholder="Say or type what you want"></textarea>
+      </label>
+      <div class="voice-actions">
+        <button id="voice-listen" class="ghost-btn" type="button">🎙️ Dictate</button>
+        <button id="voice-plan" class="primary-btn" type="button">Preview plan</button>
+      </div>
+      <div id="voice-status" class="voice-status" aria-live="polite"></div>
+      <div id="voice-plan-output" class="voice-plan-output" hidden></div>
+    </div>
+    <div class="sheet-backdrop" id="voice-backdrop"></div>
+  </div>
+
+  <!-- Feedback sheet -->
+  <div id="feedback-sheet" class="sheet feedback-sheet" hidden>
+    <div class="sheet-card feedback-card">
+      <div class="sheet-grip"></div>
+      <button id="feedback-close" class="sheet-close" aria-label="Close">×</button>
+      <h2>Feedback</h2>
+      <p class="feedback-intro">Tell me what you wanted, what broke, or what would
+        make this easier next time.</p>
+      <div id="feedback-category" class="feedback-category" aria-label="Feedback type">
+        <button class="on" data-feedback-kind="idea" type="button">Idea</button>
+        <button data-feedback-kind="bug" type="button">Bug</button>
+        <button data-feedback-kind="recipe-request" type="button">Missing recipe</button>
+        <button data-feedback-kind="command-failed" type="button">Ask failed</button>
+      </div>
+      <label class="command-field">
+        <span>What did you want meals to do?</span>
+        <textarea id="feedback-message" rows="4" placeholder="Write the request, bug, or missing recipe"></textarea>
+      </label>
+      <p class="feedback-note">This may become a public GitHub issue. Do not include
+        private information.</p>
+      <div class="feedback-actions">
+        <button id="feedback-submit" class="primary-btn" type="button">Send feedback</button>
+      </div>
+      <div id="feedback-status" class="feedback-status" aria-live="polite"></div>
+    </div>
+    <div class="sheet-backdrop" id="feedback-backdrop"></div>
+  </div>
+
+  <!-- Cook mode -->
+  <div id="cook-mode" class="cook-mode" hidden>
+    <div class="cook-shell">
+      <header class="cook-top">
+        <button id="cook-close" class="cook-close" aria-label="Close cook mode">×</button>
+        <div>
+          <div id="cook-kicker" class="cook-kicker">Cook mode</div>
+          <h2 id="cook-title">Recipe</h2>
+        </div>
+      </header>
+      <main id="cook-body" class="cook-body"></main>
+    </div>
   </div>
 
   <script src="config.js"></script>

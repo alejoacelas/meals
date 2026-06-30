@@ -1,4 +1,4 @@
-# meals — working notes for Claude
+# meals — working notes for Codex
 
 Read `README.md` first. It holds the four principles (nutritious · low effort ·
 widely available · tasty), the weighting rule, and how the folder is organized.

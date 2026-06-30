@@ -1,0 +1,10 @@
+name = "meals-feedback"
+main = "worker.js"
+compatibility_date = "2026-06-01"
+
+[vars]
+GITHUB_REPO_OWNER = "alejoacelas"
+GITHUB_REPO_NAME = "meals"
+OPENAI_MODEL = "gpt-4.1-mini"
+TRANSCRIPTION_MODEL = "nvidia/parakeet-tdt-0.6b-v3"
+ALLOWED_ORIGINS = "*"
