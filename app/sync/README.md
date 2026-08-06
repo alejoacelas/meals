@@ -1,3 +1,8 @@
+---
+human_edit_tracking:
+  enabled: true
+  history: []
+---
 # Kitchen sync (optional)
 
 The app works without this — saves just stay on each device. Deploy this one

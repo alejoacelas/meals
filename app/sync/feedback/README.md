@@ -1,3 +1,8 @@
+---
+human_edit_tracking:
+  enabled: true
+  history: []
+---
 # Meals feedback Worker
 
 Creates public GitHub issues from meals app feedback and proxies audio to the
