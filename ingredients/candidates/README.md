@@ -1,3 +1,8 @@
+---
+human_edit_tracking:
+  enabled: true
+  history: []
+---
 # Candidates — ingredient options considered
 
 The ranked, fact-checked options per category — the alternatives I *didn't* pick.

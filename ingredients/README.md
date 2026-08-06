@@ -1,3 +1,8 @@
+---
+human_edit_tracking:
+  enabled: true
+  history: []
+---
 # Ingredients — the building blocks
 
 Scored on the four principles (`../README.md`), then split like the recipes:

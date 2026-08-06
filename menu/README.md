@@ -1,3 +1,8 @@
+---
+human_edit_tracking:
+  enabled: true
+  history: []
+---
 # Menu — the dishes, scored
 
 44 meals, each scored against the four principles (`../CLAUDE.md`) and built so
