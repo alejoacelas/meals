@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 # meals — working notes for Codex
 
 Read `README.md` first. It holds the four principles (nutritious · low effort ·

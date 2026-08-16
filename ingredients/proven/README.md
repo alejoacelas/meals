@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 # Proven — the core kit
 
 The ingredients I've settled on, by flavour role (Salt-Fat-Acid-Heat style). Each

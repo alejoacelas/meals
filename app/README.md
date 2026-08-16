@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 # meals app
 
 A calm, phone-first website for the `meals` catalog: browse recipes, tap an

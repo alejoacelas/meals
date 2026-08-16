@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 # meals — nutritious food, fast, anywhere
 
 A catalog of meals and the ingredients they're built from, chosen so I can eat
