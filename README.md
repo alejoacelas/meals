@@ -70,7 +70,7 @@ even unspiced) and kale & mushroom sauté (in rotation, still iterating).
 ## How I use it
 Shop from `ingredients/shopping-list.md` and cook from the `menu/`; when a dish earns
 its place I mark it ✓. The four principles in this README are the standard everything
-is held to; `CLAUDE.md` holds the conventions for adding entries.
+is held to; `AGENTS.md` holds the conventions for adding entries.
 
 ---
 
